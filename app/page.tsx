@@ -312,7 +312,7 @@ export default function Home() {
               About Nashik Kumbh Mela
             </h2>
             <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
-              Understanding the world's largest peaceful gathering
+              Understanding the world&apos;s largest peaceful gathering
             </p>
           </div>
 
