@@ -207,7 +207,7 @@ export default function TemplesPage() {
 
                     <div className="prose prose-gray max-w-none mb-8">
                       <p className="text-gray-600 leading-relaxed">
-                        The temple complex once housed a court, highlighting its historical significance in local governance. Though weathered by time, the Naroshankara Temple remains a testament to Nashik's rich cultural heritage, offering a glimpse into its storied past. A must-see for any history enthusiast visiting Nashik.                      </p>
+                        The temple complex once housed a court, highlighting its historical significance in local governance. Though weathered by time, the Naroshankara Temple remains a testament to Nashik&apos;s rich cultural heritage, offering a glimpse into its storied past. A must-see for any history enthusiast visiting Nashik.                      </p>
                     </div>
 
                     <div className="border-t border-gray-200 pt-6">
