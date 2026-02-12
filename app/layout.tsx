@@ -35,6 +35,20 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <div className="flex min-h-screen flex-col">
+          {/* Google Analytics */}
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NHG2VLRQ5Z"></script>
+
+<script
+  dangerouslySetInnerHTML={{
+    __html: `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-NHG2VLRQ5Z');
+    `,
+  }}
+/>
+
           <Header />
           <main className="flex-1">{children}</main>
           <Footer />
