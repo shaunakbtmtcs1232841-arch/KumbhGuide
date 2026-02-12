@@ -55,7 +55,7 @@ export default function TemplesPage() {
                 <div className="grid grid-cols-1 lg:grid-cols-5 gap-0">
                   <div className="lg:col-span-2">
                     <img
-                      src="/images/trimbakeshwakmb.jpg"
+                      src="/images/Trimbakeshwakmb.jpg"
                       alt="Trimbakeshwar Temple"
                       className="w-full h-full object-cover"
                     />
