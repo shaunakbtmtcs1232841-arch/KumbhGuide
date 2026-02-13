@@ -64,12 +64,13 @@ export default function Footer() {
     If you have any questions, contact us at:
   </p>
 
-  <a
-    href="mailto:shaunakshukla2110@gmail.com"
-    className="mx-1 h-4 w-4 text-orange-300 hover:text-orange-300 font-medium flex items-center justify-center"
-  >
-    shaunakshukla2110@gmail.com
+  <div className="mt-2 text-center text-sm text-gray-500">
+  Contact us: 
+  <a href="mailto:shaunakshukla2110@gmail.com"
+     className="text-orange-500 hover:text-orange-600 ml-1">
+     shaunakshukla2110@gmail.com
   </a>
+</div>
 </div>
 
     </footer>
