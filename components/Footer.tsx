@@ -59,17 +59,17 @@ export default function Footer() {
         </div>
       
       
-  <h5 className="text-lg font-semibold text-orange-400 mb-2">
+  <h5 className="text-lg font-semibold text-orange-400 mb-2 flex items-center justify-center">
     Contact Us
   </h5>
 
-  <p className="text-gray-800 text-sm">
+  <p className="text-gray-600 text-sm flex items-center justify-center">
     If you have any questions, contact us at:
   </p>
 
   <a
     href="mailto:shaunakshukla2110@gmail.com"
-    className="text-orange-400 hover:text-orange-300 font-medium"
+    className="text-orange-300 hover:text-orange-300 font-medium flex items-center justify-center"
   >
     shaunakshukla2110@gmail.com
   </a>
