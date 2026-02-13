@@ -17,12 +17,6 @@ export default function Privacy() {
         <p>
           By using this website, you agree to our privacy policy.
         </p>
-
-        <p>
-          If you have any questions, contact us at:
-          <br />
-          <b>shaunakshukla2110@gmail.com</b>
-        </p>
       </div>
     </div>
   );

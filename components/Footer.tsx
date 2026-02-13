@@ -58,6 +58,23 @@ export default function Footer() {
           </p>
         </div>
       </div>
+      <div className="mt-8 border-t border-gray-700 pt-6 text-center">
+  <h3 className="text-lg font-semibold text-orange-400 mb-2">
+    Contact Us
+  </h3>
+
+  <p className="text-gray-300 text-sm">
+    If you have any questions, contact us at:
+  </p>
+
+  <a
+    href="mailto:shaunakshukla2110@gmail.com"
+    className="text-orange-400 hover:text-orange-300 font-medium"
+  >
+    shaunakshukla2110@gmail.com
+  </a>
+</div>
+
     </footer>
   );
 }
