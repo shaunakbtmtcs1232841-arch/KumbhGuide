@@ -59,7 +59,7 @@ export default function Footer() {
         </div>
       
       
-  <h5 className="text-lg font-semibold text-orange-400 mb-2 flex items-center justify-center">
+  <h5 className="text-lg font-semibold text-orange-100 mb-2 flex items-center justify-center">
     Contact Us
   </h5>
 
