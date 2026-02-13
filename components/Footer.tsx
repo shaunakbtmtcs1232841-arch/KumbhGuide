@@ -57,11 +57,11 @@ export default function Footer() {
             Made with <Heart className="mx-1 h-4 w-4 text-red-500 fill-current" /> for pilgrims visiting Nashik
           </p>
         </div>
-      </div>
-      <div className="mt-8 border-t border-gray-700 pt-6 text-center">
-  <h3 className="text-lg font-semibold text-orange-400 mb-2">
+      
+      
+  <h5 className="text-lg font-semibold text-orange-400 mb-2">
     Contact Us
-  </h3>
+  </h5>
 
   <p className="text-gray-800 text-sm">
     If you have any questions, contact us at:
