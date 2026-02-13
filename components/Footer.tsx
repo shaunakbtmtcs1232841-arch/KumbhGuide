@@ -60,10 +60,6 @@ export default function Footer() {
       
       
 
-  <p className="mx-1 h-4 w-4 text-gray-600 text-sm flex items-center justify-center">
-    If you have any questions, contact us at:
-  </p>
-
   <div className="mt-2 text-center text-sm text-gray-500">
   Contact us: 
   <a href="mailto:shaunakshukla2110@gmail.com"
