@@ -21,7 +21,7 @@ export default function Privacy() {
         <p>
           If you have any questions, contact us at:
           <br />
-          <b>your-email@gmail.com</b>
+          <b>shaunakshukla2110@gmail.com</b>
         </p>
       </div>
     </div>
