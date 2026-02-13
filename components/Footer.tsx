@@ -63,7 +63,7 @@ export default function Footer() {
     Contact Us
   </h3>
 
-  <p className="text-gray-300 text-sm">
+  <p className="text-gray-800 text-sm">
     If you have any questions, contact us at:
   </p>
 
