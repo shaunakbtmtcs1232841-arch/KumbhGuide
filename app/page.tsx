@@ -658,23 +658,7 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="bg-orange-50 py-8">
-  <div className="max-w-7xl mx-auto text-center">
-
-    <h3 className="text-lg font-semibold text-gray-900 mb-4">
-      Explore More
-    </h3>
-
-    <div className="flex flex-wrap justify-center gap-6 text-orange-600 font-medium">
-      <Link href="/">Home</Link>
-      <Link href="/temples">Sacred Temples</Link>
-      <Link href="/ghats">Holy Ghats</Link>
-      <Link href="/travel">Travel Guide</Link>
-      <Link href="/about">About Kumbh</Link>
-    </div>
-
-  </div>
-</div>
+      
 
 
     </div>
