@@ -657,6 +657,19 @@ export default function Home() {
           </Card>
         </div>
       </section>
+
+      <div className="mt-10 border-t pt-6">
+<p className="font-semibold mb-2">Explore More:</p>
+
+<ul className="space-y-2 text-orange-600">
+<li><Link href="/">Home</Link></li>
+<li><Link href="/temples">Sacred Temples</Link></li>
+<li><Link href="/ghats">Holy Ghats</Link></li>
+<li><Link href="/travel">Travel Guide</Link></li>
+<li><Link href="/about">About Kumbh</Link></li>
+</ul>
+</div>
+
     </div>
   );
 }
