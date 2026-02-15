@@ -658,10 +658,10 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="mt-10 border-t pt-6">
+      <div className="mt-10 border-t pt-6 items-center justify-center">
 <p className="font-semibold mb-2">Explore More:</p>
 
-<ul className="space-y-2 text-orange-600">
+<ul className="space-y-2 text-orange-600 items-center justify-center">
 <li><Link href="/">Home</Link></li>
 <li><Link href="/temples">Sacred Temples</Link></li>
 <li><Link href="/ghats">Holy Ghats</Link></li>
