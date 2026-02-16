@@ -694,7 +694,7 @@ export default function Home() {
 
       <div className="bg-white shadow-lg rounded-xl p-6">
         <h3 className="text-xl font-semibold mb-3 text-orange-600">
-          🚌 Travel & Stay Guide
+          🚌 Travel Guide
         </h3>
         <p className="text-gray-700 mb-3">
           Find bus, railway, airport and accommodation details for pilgrims.
