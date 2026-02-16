@@ -658,7 +658,68 @@ export default function Home() {
         </div>
       </section>
 
-      
+      {/* Quick Pilgrim Guide */}
+<section className="py-16 bg-gradient-to-br from-orange-50 to-white">
+  <div className="max-w-6xl mx-auto px-6">
+
+    <h2 className="text-3xl font-bold text-center mb-10">
+      Quick Guide for Kumbh Pilgrims
+    </h2>
+
+    <div className="grid md:grid-cols-2 gap-8">
+
+      <div className="bg-white shadow-lg rounded-xl p-6">
+        <h3 className="text-xl font-semibold mb-3 text-orange-600">
+          🛕 Must Visit Temples
+        </h3>
+        <p className="text-gray-700 mb-3">
+          Explore sacred temples like Trimbakeshwar Jyotirlinga, Kalaram Temple and many more spiritual places.
+        </p>
+        <Link href="/temples" className="text-orange-600 font-semibold underline">
+          View all temples →
+        </Link>
+      </div>
+
+      <div className="bg-white shadow-lg rounded-xl p-6">
+        <h3 className="text-xl font-semibold mb-3 text-orange-600">
+          🌊 Holy Ghats & Snan
+        </h3>
+        <p className="text-gray-700 mb-3">
+          Know best ghats for holy bath including Ramkund and Godavari river banks.
+        </p>
+        <Link href="/ghats" className="text-orange-600 font-semibold underline">
+          Explore ghats →
+        </Link>
+      </div>
+
+      <div className="bg-white shadow-lg rounded-xl p-6">
+        <h3 className="text-xl font-semibold mb-3 text-orange-600">
+          🚌 Travel & Stay Guide
+        </h3>
+        <p className="text-gray-700 mb-3">
+          Find bus, railway, airport and accommodation details for pilgrims.
+        </p>
+        <Link href="/travel" className="text-orange-600 font-semibold underline">
+          Travel info →
+        </Link>
+      </div>
+
+      <div className="bg-white shadow-lg rounded-xl p-6">
+        <h3 className="text-xl font-semibold mb-3 text-orange-600">
+          📢 Latest Kumbh Updates
+        </h3>
+        <p className="text-gray-700 mb-3">
+          Get latest government announcements and Kumbh news.
+        </p>
+        <Link href="/updates" className="text-orange-600 font-semibold underline">
+          Check updates →
+        </Link>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
 
     </div>
