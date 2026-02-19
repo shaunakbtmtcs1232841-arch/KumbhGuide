@@ -7,24 +7,42 @@ import Footer from '@/components/Footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://kumbhnashikguide.com'),
+
   title: 'Nashik Kumbh Guide | Official Information & Travel Guide',
-  description: 'Comprehensive guide to Nashik-Trimbakeshwar Kumbh Mela. Information about temples, ghats, travel, and updates for pilgrims.',
+  description:
+    'Comprehensive guide to Nashik-Trimbakeshwar Kumbh Mela. Temples, ghats, travel guide, important dates and updates for pilgrims visiting Nashik Kumbh.',
+
+  alternates: {
+    canonical: '/',
+  },
+
   openGraph: {
+    title: 'Nashik Kumbh Guide',
+    description:
+      'Complete Nashik Kumbh Mela travel and information guide for pilgrims.',
+    url: 'https://kumbhnashikguide.com',
+    siteName: 'Nashik Kumbh Guide',
     images: [
       {
-        url: 'https://bolt.new/static/og_default.png',
+        url: 'https://kumbhnashikguide.com/og-image.jpg', 
+        width: 1200,
+        height: 630,
       },
     ],
+    locale: 'en_IN',
+    type: 'website',
   },
+
   twitter: {
     card: 'summary_large_image',
-    images: [
-      {
-        url: 'https://bolt.new/static/og_default.png',
-      },
-    ],
+    title: 'Nashik Kumbh Guide',
+    description:
+      'Official travel and info guide for Nashik Kumbh Mela pilgrims.',
+    images: ['https://kumbhnashikguide.com/og-image.jpg'],
   },
 };
+
 
 export default function RootLayout({
   children,
