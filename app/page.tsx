@@ -720,6 +720,34 @@ export default function Home() {
   </div>
 </section>
 
+{/* ===== BLOG / GUIDE SECTION ===== */}
+<section className="py-16 bg-orange-50">
+  <div className="max-w-6xl mx-auto px-6">
+
+    <h2 className="text-3xl font-bold text-center mb-10">
+      Kumbh Mela Guides & Information
+    </h2>
+
+    <div className="grid md:grid-cols-2 gap-8">
+
+      <Link href="/blog/what-is-kumbh-mela">
+        <div className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition cursor-pointer">
+          <h3 className="text-xl font-bold mb-2">
+            What is Kumbh Mela and Why is it Celebrated?
+          </h3>
+          <p className="text-gray-600 text-sm">
+            Learn the history, significance and spiritual meaning of the
+            sacred Kumbh Mela festival in Nashik.
+          </p>
+          <p className="text-orange-600 font-semibold mt-3">
+            Read Full Article →
+          </p>
+        </div>
+      </Link>
+
+    </div>
+  </div>
+</section>
 
 
     </div>
