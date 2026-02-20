@@ -749,6 +749,51 @@ export default function Home() {
   </div>
 </section>
 
+{/* ===== LATEST KUMBH ARTICLES (SEO BOOST SECTION) ===== */}
+<section className="py-16 bg-gradient-to-b from-orange-50 to-white">
+  <div className="max-w-6xl mx-auto px-6">
+
+    <h2 className="text-3xl md:text-4xl font-bold text-center mb-10">
+      Latest Kumbh Updates & Guides
+    </h2>
+
+    <div className="grid md:grid-cols-2 gap-8">
+
+      {/* ARTICLE 1 */}
+      <Link href="/blog/what-is-kumbh-mela">
+        <div className="bg-white shadow-lg rounded-xl p-6 hover:shadow-2xl transition duration-300 border hover:-translate-y-1 cursor-pointer">
+          <h3 className="text-xl font-bold text-gray-900 mb-2">
+            What is Kumbh Mela and Why is it Celebrated?
+          </h3>
+          <p className="text-gray-600 text-sm mb-3">
+            Know the spiritual meaning, history and importance of the world's largest religious gathering.
+          </p>
+          <span className="text-orange-600 font-semibold">
+            Read Full Article →
+          </span>
+        </div>
+      </Link>
+
+      {/* ARTICLE 2 */}
+      <Link href="/blog/nashik-kumbh-mela-2027-dates">
+        <div className="bg-white shadow-lg rounded-xl p-6 hover:shadow-2xl transition duration-300 border hover:-translate-y-1 cursor-pointer">
+          <h3 className="text-xl font-bold text-gray-900 mb-2">
+            Nashik Kumbh Mela 2027 Dates & Full Schedule
+          </h3>
+          <p className="text-gray-600 text-sm mb-3">
+            Complete list of Amrit Snan dates, major bathing days and full Kumbh Mela 2026-2028 schedule.
+          </p>
+          <span className="text-orange-600 font-semibold">
+            View All Dates →
+          </span>
+        </div>
+      </Link>
+
+    </div>
+
+  </div>
+</section>
+
 
     </div>
   );
