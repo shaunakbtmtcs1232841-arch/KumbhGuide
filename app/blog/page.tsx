@@ -48,7 +48,7 @@ export default function BlogPage() {
           {/* ARTICLE 3 */}
           <div className="py-5">
             <Link
-              href="/blog/best-places-nashik"
+              href="/blog/best-places-to-visit-in-nashik-during-kumbh"
               className="text-lg font-semibold hover:text-orange-600"
             >
               10 Best Places to Visit in Nashik During Kumbh Mela
