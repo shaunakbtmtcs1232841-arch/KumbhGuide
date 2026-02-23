@@ -766,7 +766,7 @@ export default function Home() {
             What is Kumbh Mela and Why is it Celebrated?
           </h3>
           <p className="text-gray-600 text-sm mb-3">
-            Know the spiritual meaning, history and importance of the world's largest religious gathering.
+            Know the spiritual meaning, history and importance of the world&apos;s largest religious gathering.
           </p>
           <span className="text-orange-600 font-semibold">
             Read Full Article →
