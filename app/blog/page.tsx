@@ -1,34 +1,13 @@
-import Link from 'next/link';
+import Link from "next/link";
+
 export default function BlogPage() {
   return (
-    <div className="min-h-screen bg-white py-20 px-6">
-      <h1 className="text-4xl font-bold text-center mb-6">
-        Nashik Kumbh Blog & Updates
-      </h1>
-
-      <p className="text-center text-gray-600 mb-12">
-        Latest news, travel tips and Kumbh updates will be posted here.
-      </p>
-
-      <div className="max-w-4xl mx-auto space-y-6">
-        <div className="border p-6 rounded-xl shadow-sm">
-          <h2 className="text-xl font-semibold">
-            Coming Soon 🚀
-          </h2>
-          <p className="text-gray-600 mt-2">
-            Articles about Nashik temples, ghats, travel tips and Kumbh 2027 updates will appear here.
-          </p>
-        </div>
-      </div>
-      import Link from "next/link";
-
-
     <div className="bg-white min-h-screen">
 
       {/* HERO */}
       <section className="bg-gradient-to-r from-orange-600 to-red-600 text-white py-16 text-center">
         <h1 className="text-4xl md:text-5xl font-bold mb-3">
-          Nashik Kumbh Mela Blog & Updates
+          Nashik Kumbh Mela Blog &amp; Updates
         </h1>
         <p className="text-lg opacity-95">
           Important dates, travel tips, temples, and complete Kumbh guidance
@@ -45,8 +24,7 @@ export default function BlogPage() {
           </h2>
 
           <p className="text-gray-600 mb-4">
-            Complete list of Shahi Snan dates, flag hoisting, and major
-            spiritual events of Nashik-Trimbakeshwar Kumbh Mela.
+            Complete list of Shahi Snan dates, flag hoisting, and major spiritual events of Nashik-Trimbakeshwar Kumbh Mela.
           </p>
 
           <Link
@@ -64,8 +42,7 @@ export default function BlogPage() {
           </h2>
 
           <p className="text-gray-600 mb-4">
-            Understand history, mythology, and spiritual importance of Kumbh
-            Mela — the world's largest religious gathering.
+            Understand history, mythology, and spiritual importance of Kumbh Mela — the world&apos;s largest religious gathering.
           </p>
 
           <Link
@@ -83,8 +60,7 @@ export default function BlogPage() {
           </h2>
 
           <p className="text-gray-600 mb-4">
-            Explore Ramkund, Trimbakeshwar, Panchavati, and other sacred places
-            every pilgrim must visit during Kumbh.
+            Explore Ramkund, Trimbakeshwar, Panchavati, and other sacred places every pilgrim must visit during Kumbh.
           </p>
 
           <Link
@@ -96,9 +72,6 @@ export default function BlogPage() {
         </div>
 
       </section>
-    </div>
-  
-
     </div>
   );
 }
