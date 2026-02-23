@@ -7,6 +7,8 @@ export const metadata: Metadata = {
     "Discover the best places to visit in Nashik during Kumbh Mela including Panchavati, Ramkund, Trimbakeshwar Temple and more.",
 };
 
+export const dynamic = "force-static";
+
 export default function BestPlacesNashik() {
   return (
     <div className="bg-white min-h-screen">
@@ -47,11 +49,8 @@ export default function BestPlacesNashik() {
         <p className="mb-2">
           One of Nashik&apos;s most famous temples dedicated to Lord Rama.
         </p>
-        <a
-          href="https://maps.google.com/?q=Kalaram+Temple+Nashik"
-          target="_blank"
-          className="text-orange-600 font-semibold hover:underline"
-        >
+        <a href="https://maps.google.com/?q=Kalaram+Temple+Nashik" target="_blank" rel="noopener noreferrer"
+          className="text-orange-600 font-semibold hover:underline">
           📍 View on Google Maps
         </a>
 
@@ -59,11 +58,8 @@ export default function BestPlacesNashik() {
         <p className="mb-2">
           Sacred cave associated with Mata Sita visited by thousands of devotees.
         </p>
-        <a
-          href="https://maps.google.com/?q=Sita+Gufa+Nashik"
-          target="_blank"
-          className="text-orange-600 font-semibold hover:underline"
-        >
+        <a href="https://maps.google.com/?q=Sita+Gufa+Nashik" target="_blank" rel="noopener noreferrer"
+          className="text-orange-600 font-semibold hover:underline">
           📍 View on Google Maps
         </a>
 
@@ -71,11 +67,8 @@ export default function BestPlacesNashik() {
         <p className="mb-2">
           Ancient Shiva temple located near Ramkund.
         </p>
-        <a
-          href="https://maps.google.com/?q=Kapaleshwar+Temple+Nashik"
-          target="_blank"
-          className="text-orange-600 font-semibold hover:underline"
-        >
+        <a href="https://maps.google.com/?q=Kapaleshwar+Temple+Nashik" target="_blank" rel="noopener noreferrer"
+          className="text-orange-600 font-semibold hover:underline">
           📍 View on Google Maps
         </a>
 
@@ -83,11 +76,8 @@ export default function BestPlacesNashik() {
         <p className="mb-2">
           Most sacred bathing ghat and main ritual place during Kumbh.
         </p>
-        <a
-          href="https://maps.google.com/?q=Ramkund+Nashik"
-          target="_blank"
-          className="text-orange-600 font-semibold hover:underline"
-        >
+        <a href="https://maps.google.com/?q=Ramkund+Nashik" target="_blank" rel="noopener noreferrer"
+          className="text-orange-600 font-semibold hover:underline">
           📍 View on Google Maps
         </a>
 
@@ -96,11 +86,8 @@ export default function BestPlacesNashik() {
         <p className="mb-2">
           2000-year-old Buddhist caves showing Nashik&apos;s historical richness.
         </p>
-        <a
-          href="https://maps.google.com/?q=Pandavleni+Caves+Nashik"
-          target="_blank"
-          className="text-orange-600 font-semibold hover:underline"
-        >
+        <a href="https://maps.google.com/?q=Pandavleni+Caves+Nashik" target="_blank" rel="noopener noreferrer"
+          className="text-orange-600 font-semibold hover:underline">
           📍 View on Google Maps
         </a>
 
@@ -109,11 +96,8 @@ export default function BestPlacesNashik() {
         <p className="mb-2">
           Peaceful meditation spot with beautiful views of Nashik.
         </p>
-        <a
-          href="https://maps.google.com/?q=Chambarleni+Nashik"
-          target="_blank"
-          className="text-orange-600 font-semibold hover:underline"
-        >
+        <a href="https://maps.google.com/?q=Chambarleni+Nashik" target="_blank" rel="noopener noreferrer"
+          className="text-orange-600 font-semibold hover:underline">
           📍 View on Google Maps
         </a>
 
@@ -122,11 +106,8 @@ export default function BestPlacesNashik() {
         <p className="mb-2">
           One of the 12 Jyotirlingas and must visit for every pilgrim.
         </p>
-        <a
-          href="https://maps.google.com/?q=Trimbakeshwar+Temple"
-          target="_blank"
-          className="text-orange-600 font-semibold hover:underline"
-        >
+        <a href="https://maps.google.com/?q=Trimbakeshwar+Temple" target="_blank" rel="noopener noreferrer"
+          className="text-orange-600 font-semibold hover:underline">
           📍 View on Google Maps
         </a>
 
@@ -135,11 +116,8 @@ export default function BestPlacesNashik() {
         <p className="mb-2">
           Peaceful evening destination after crowded Kumbh days.
         </p>
-        <a
-          href="https://maps.google.com/?q=Gangapur+Dam+Nashik"
-          target="_blank"
-          className="text-orange-600 font-semibold hover:underline"
-        >
+        <a href="https://maps.google.com/?q=Gangapur+Dam+Nashik" target="_blank" rel="noopener noreferrer"
+          className="text-orange-600 font-semibold hover:underline">
           📍 View on Google Maps
         </a>
 
@@ -148,11 +126,8 @@ export default function BestPlacesNashik() {
         <p className="mb-2">
           Origin of the holy Godavari River and sacred trekking site.
         </p>
-        <a
-          href="https://maps.google.com/?q=Brahmagiri+Nashik"
-          target="_blank"
-          className="text-orange-600 font-semibold hover:underline"
-        >
+        <a href="https://maps.google.com/?q=Brahmagiri+Nashik" target="_blank" rel="noopener noreferrer"
+          className="text-orange-600 font-semibold hover:underline">
           📍 View on Google Maps
         </a>
 
@@ -161,11 +136,8 @@ export default function BestPlacesNashik() {
         <p className="mb-2">
           Birthplace of Lord Hanuman and sacred trekking destination.
         </p>
-        <a
-          href="https://maps.google.com/?q=Anjaneri+Nashik"
-          target="_blank"
-          className="text-orange-600 font-semibold hover:underline"
-        >
+        <a href="https://maps.google.com/?q=Anjaneri+Nashik" target="_blank" rel="noopener noreferrer"
+          className="text-orange-600 font-semibold hover:underline">
           📍 View on Google Maps
         </a>
 
@@ -180,12 +152,8 @@ export default function BestPlacesNashik() {
         <div className="bg-orange-50 border border-orange-200 p-6 rounded-lg">
           <h3 className="font-semibold mb-3">Related Articles</h3>
           <ul className="space-y-2 text-orange-700 font-medium">
-            <li>
-              ➜ <Link href="/blog/what-is-kumbh-mela">What is Kumbh Mela?</Link>
-            </li>
-            <li>
-              ➜ <Link href="/blog/nashik-kumbh-mela-2027-dates">Nashik Kumbh Dates</Link>
-            </li>
+            <li>➜ <Link href="/blog/what-is-kumbh-mela">What is Kumbh Mela?</Link></li>
+            <li>➜ <Link href="/blog/nashik-kumbh-mela-2027-dates">Nashik Kumbh Dates</Link></li>
           </ul>
         </div>
 
