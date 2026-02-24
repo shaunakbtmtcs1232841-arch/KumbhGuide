@@ -40,7 +40,7 @@ export default function BestPlacesNashik() {
 
         {/* 1 */}
         <h2 className="text-2xl font-bold mb-4"> Panchavati — Spiritual Heart of Nashik</h2>
-        <img src="/images/panchavati.jpg" alt="Panchavati" className="rounded-xl mb-4 shadow-md"/>
+        <img src="/images/panchavati.jpg" alt="Panchavati" className="w-full h-[350px] object-cover rounded-xl mb-4 shadow-md"/>
 
         <p className="mb-6">
           Panchavati is the most sacred region of Nashik and is deeply connected with the Ramayana.
@@ -48,7 +48,7 @@ export default function BestPlacesNashik() {
         </p>
 
         <h3 className="text-xl font-semibold mt-6 mb-2">Kalaram Temple</h3>
-        <img src="/images/kalaram.jpg" alt="Kalaram Temple Nashik" className="rounded-xl mb-3 shadow"/>
+        <img src="/images/kalaram.jpg" alt="Kalaram Temple Nashik" className="w-full h-[350px] object-cover rounded-xl mb-4 shadow-md"/>
         <p className="mb-2">
           One of Nashik&apos;s most famous temples dedicated to Lord Rama.
         </p>
@@ -58,7 +58,7 @@ export default function BestPlacesNashik() {
         </a>
 
         <h3 className="text-xl font-semibold mt-6 mb-2">Sita Gufa</h3>
-         <img src="/images/sitagufa.jpg" alt="Sita Gufa Nashik" className="rounded-xl mb-3 shadow"/>
+         <img src="/images/sitagufa.jpg" alt="Sita Gufa Nashik" className="w-full h-[350px] object-cover rounded-xl mb-4 shadow-md"/>
         <p className="mb-2">
           Sacred cave associated with Mata Sita visited by thousands of devotees.
         </p>
@@ -68,7 +68,7 @@ export default function BestPlacesNashik() {
         </a>
 
         <h3 className="text-xl font-semibold mt-6 mb-2">Kapaleshwar Temple</h3>
-         <img src="/images/kapaleshwar.jpg" alt="Kapaleshwar Temple Nashik" className="rounded-xl mb-3 shadow"/>
+         <img src="/images/kapaleshwar.jpg" alt="Kapaleshwar Temple Nashik" className="w-full h-[350px] object-cover rounded-xl mb-4 shadow-md"/>
         <p className="mb-2">
           Ancient Shiva temple located near Ramkund.
         </p>
@@ -78,7 +78,7 @@ export default function BestPlacesNashik() {
         </a>
 
         <h3 className="text-xl font-semibold mt-6 mb-2">Ramkund</h3>
-        <img src="/images/ramkund.jpg" alt="Ramkund" className="rounded-xl mb-4 shadow-md"/>
+        <img src="/images/ramkund.jpg" alt="Ramkund" className="w-full h-[350px] object-cover rounded-xl mb-4 shadow-md"/>
         <p className="mb-2">
           Most sacred bathing ghat and main ritual place during Kumbh.
         </p>
@@ -89,7 +89,7 @@ export default function BestPlacesNashik() {
 
         {/* 2 */}
         <h2 className="text-2xl font-bold mt-10 mb-4"> Pandavleni Caves</h2>
-        <img src="/images/pandavleni.jpg" alt="Pandavleni caves Nashik" className="rounded-xl mb-4 shadow-md"/>
+        <img src="/images/pandavleni.jpg" alt="Pandavleni caves Nashik" className="w-full h-[350px] object-cover rounded-xl mb-4 shadow-md"/>
         <p className="mb-2">
           2000-year-old Buddhist caves showing Nashik&apos;s historical richness.
         </p>
@@ -100,7 +100,7 @@ export default function BestPlacesNashik() {
 
         {/* 3 */}
         <h2 className="text-2xl font-bold mt-10 mb-4">Chambarleni Caves</h2>
-        <img src="/images/chambarleni.jpg" alt="Chambarleni Nashik" className="rounded-xl mb-4 shadow-md"/>
+        <img src="/images/chambarleni.jpg" alt="Chambarleni Nashik" className="w-full h-[350px] object-cover rounded-xl mb-4 shadow-md"/>
         <p className="mb-2">
           Peaceful meditation spot with beautiful views of Nashik.
         </p>
@@ -111,7 +111,7 @@ export default function BestPlacesNashik() {
 
         {/* 4 */}
         <h2 className="text-2xl font-bold mt-10 mb-4">Trimbakeshwar Temple</h2>
-        <img src="/images/trimbak.jpg" alt="Trimbakeshwar Temple" className="rounded-xl mb-4 shadow-md"/>
+        <img src="/images/trimbak.jpg" alt="Trimbakeshwar Temple" className="w-full h-[350px] object-cover rounded-xl mb-4 shadow-md"/>
         <p className="mb-2">
           One of the 12 Jyotirlingas and must visit for every pilgrim.
         </p>
@@ -122,7 +122,7 @@ export default function BestPlacesNashik() {
 
         {/* 5 */}
         <h2 className="text-2xl font-bold mt-10 mb-4">Gangapur Dam</h2>
-         <img src="/images/gangapur.jpg" alt="Gangapur dam Nashik" className="rounded-xl mb-4 shadow-md"/>
+         <img src="/images/gangapur.jpg" alt="Gangapur dam Nashik" className="w-full h-[350px] object-cover rounded-xl mb-4 shadow-md""/>
         <p className="mb-2">
           Peaceful evening destination after crowded Kumbh days.
         </p>
@@ -133,7 +133,7 @@ export default function BestPlacesNashik() {
 
         {/* 6 */}
         <h2 className="text-2xl font-bold mt-10 mb-4"> Brahmagiri Hills</h2>
-        <img src="/images/brahmagiri.jpg" alt="Brahmagiri Nashik" className="rounded-xl mb-4 shadow-md"/>
+        <img src="/images/brahmagiri.jpg" alt="Brahmagiri Nashik" className="w-full h-[350px] object-cover rounded-xl mb-4 shadow-md""/>
         <p className="mb-2">
           Origin of the holy Godavari River and sacred trekking site.
         </p>
@@ -144,7 +144,7 @@ export default function BestPlacesNashik() {
 
         {/* 7 */}
         <h2 className="text-2xl font-bold mt-10 mb-4">Anjaneri</h2>
-        <img src="/images/anjanerihills.jpg" alt="Anjaneri Nashik" className="rounded-xl mb-4 shadow-md"/>
+        <img src="/images/anjanerihills.jpg" alt="Anjaneri Nashik" className="w-full h-[350px] object-cover rounded-xl mb-4 shadow-md"/>
         <p className="mb-2">
           Birthplace of Lord Hanuman and sacred trekking destination.
         </p>
