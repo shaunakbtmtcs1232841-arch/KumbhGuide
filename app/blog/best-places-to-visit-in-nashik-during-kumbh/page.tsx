@@ -122,7 +122,7 @@ export default function BestPlacesNashik() {
 
         {/* 5 */}
         <h2 className="text-2xl font-bold mt-10 mb-4">Gangapur Dam</h2>
-         <img src="/images/gangapur.jpg" alt="Gangapur dam Nashik" className="w-full h-[350px] object-cover rounded-xl mb-4 shadow-md""/>
+         <img src="/images/gangapur.jpg" alt="Gangapur dam Nashik" className="w-full h-[350px] object-cover rounded-xl mb-4 shadow-md"/>
         <p className="mb-2">
           Peaceful evening destination after crowded Kumbh days.
         </p>
@@ -133,7 +133,7 @@ export default function BestPlacesNashik() {
 
         {/* 6 */}
         <h2 className="text-2xl font-bold mt-10 mb-4"> Brahmagiri Hills</h2>
-        <img src="/images/brahmagiri.jpg" alt="Brahmagiri Nashik" className="w-full h-[350px] object-cover rounded-xl mb-4 shadow-md""/>
+        <img src="/images/brahmagiri.jpg" alt="Brahmagiri Nashik" className="w-full h-[350px] object-cover rounded-xl mb-4 shadow-md"/>
         <p className="mb-2">
           Origin of the holy Godavari River and sacred trekking site.
         </p>
