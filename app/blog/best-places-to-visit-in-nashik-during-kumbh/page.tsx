@@ -39,7 +39,7 @@ export default function BestPlacesNashik() {
         </p>
 
         {/* 1 */}
-        <h2 className="text-2xl font-bold mb-4">1. Panchavati — Spiritual Heart of Nashik</h2>
+        <h2 className="text-2xl font-bold mb-4"> Panchavati — Spiritual Heart of Nashik</h2>
         <img src="/images/panchavati.jpg" alt="Panchavati" className="rounded-xl mb-4 shadow-md"/>
 
         <p className="mb-6">
@@ -88,7 +88,7 @@ export default function BestPlacesNashik() {
         </a>
 
         {/* 2 */}
-        <h2 className="text-2xl font-bold mt-10 mb-4">2. Pandavleni Caves</h2>
+        <h2 className="text-2xl font-bold mt-10 mb-4"> Pandavleni Caves</h2>
         <img src="/images/pandavleni.jpg" alt="Pandavleni caves Nashik" className="rounded-xl mb-4 shadow-md"/>
         <p className="mb-2">
           2000-year-old Buddhist caves showing Nashik&apos;s historical richness.
@@ -99,7 +99,7 @@ export default function BestPlacesNashik() {
         </a>
 
         {/* 3 */}
-        <h2 className="text-2xl font-bold mt-10 mb-4">3. Chambarleni Caves</h2>
+        <h2 className="text-2xl font-bold mt-10 mb-4">Chambarleni Caves</h2>
         <img src="/images/chambarleni.jpg" alt="Chambarleni Nashik" className="rounded-xl mb-4 shadow-md"/>
         <p className="mb-2">
           Peaceful meditation spot with beautiful views of Nashik.
@@ -110,7 +110,7 @@ export default function BestPlacesNashik() {
         </a>
 
         {/* 4 */}
-        <h2 className="text-2xl font-bold mt-10 mb-4">4. Trimbakeshwar Temple</h2>
+        <h2 className="text-2xl font-bold mt-10 mb-4">Trimbakeshwar Temple</h2>
         <img src="/images/trimbak.jpg" alt="Trimbakeshwar Temple" className="rounded-xl mb-4 shadow-md"/>
         <p className="mb-2">
           One of the 12 Jyotirlingas and must visit for every pilgrim.
@@ -121,7 +121,7 @@ export default function BestPlacesNashik() {
         </a>
 
         {/* 5 */}
-        <h2 className="text-2xl font-bold mt-10 mb-4">5. Gangapur Dam</h2>
+        <h2 className="text-2xl font-bold mt-10 mb-4">Gangapur Dam</h2>
          <img src="/images/gangapur.jpg" alt="Gangapur dam Nashik" className="rounded-xl mb-4 shadow-md"/>
         <p className="mb-2">
           Peaceful evening destination after crowded Kumbh days.
@@ -132,7 +132,7 @@ export default function BestPlacesNashik() {
         </a>
 
         {/* 6 */}
-        <h2 className="text-2xl font-bold mt-10 mb-4">6. Brahmagiri Hills</h2>
+        <h2 className="text-2xl font-bold mt-10 mb-4"> Brahmagiri Hills</h2>
         <img src="/images/brahmagiri.jpg" alt="Brahmagiri Nashik" className="rounded-xl mb-4 shadow-md"/>
         <p className="mb-2">
           Origin of the holy Godavari River and sacred trekking site.
@@ -143,7 +143,7 @@ export default function BestPlacesNashik() {
         </a>
 
         {/* 7 */}
-        <h2 className="text-2xl font-bold mt-10 mb-4">7. Anjaneri</h2>
+        <h2 className="text-2xl font-bold mt-10 mb-4">Anjaneri</h2>
         <img src="/images/anjanerihills.jpg" alt="Anjaneri Nashik" className="rounded-xl mb-4 shadow-md"/>
         <p className="mb-2">
           Birthplace of Lord Hanuman and sacred trekking destination.
