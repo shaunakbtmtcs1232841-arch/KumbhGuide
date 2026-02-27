@@ -63,12 +63,7 @@ export default function GodavariSignificance() {
           Trimbakeshwar in Maharashtra. According to Hindu mythology,
           the river was brought to Earth through the prayers of Sage Gautama.
           It is believed that Lord Shiva released the sacred waters to purify the land.
-        </p>
-
-        <p className="mb-8">
-          The presence of the <Link href="/blog/trimbakeshwar-temple" className="text-orange-600 font-semibold hover:underline">
-          Trimbakeshwar Jyotirlinga</Link> near its origin further enhances
-          its spiritual value.
+          The presence of the Trimbakeshwar Jyotirlinga its spiritual value.
         </p>
 
         {/* Religious Importance */}
