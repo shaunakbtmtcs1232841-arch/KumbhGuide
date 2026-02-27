@@ -58,6 +58,19 @@ export default function BlogPage() {
             </p>
           </div>
 
+          {/* ARTICLE 4 */}
+          <div className="py-5">
+            <Link
+              href="/blog/significance-of-godavari-river"
+              className="text-lg font-semibold hover:text-orange-600"
+            >
+              Significance of Godavari River
+            </Link>
+            <p className="text-sm text-gray-600 mt-1">
+              Understanding why the Godavari is called the “Ganga of the South” and its sacred connection to Nashik Kumbh Mela.
+            </p>
+          </div>
+
         </div>
 
       </section>
