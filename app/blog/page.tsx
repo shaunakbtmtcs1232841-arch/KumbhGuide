@@ -71,6 +71,19 @@ export default function BlogPage() {
             </p>
           </div>
 
+          {/* ARTICLE 5 */}
+          <div className="py-5">
+            <Link
+              href="/blog/top-ghats-nashik"
+              className="text-lg font-semibold hover:text-orange-600"
+            >
+              Top Ghats of Nashik
+            </Link>
+            <p className="text-sm text-gray-600 mt-1">
+            Explore the most sacred bathing ghats of Nashik where millions of pilgrims take holy dips during the Kumbh Mela.            </p>
+          </div>
+
+
         </div>
 
       </section>
