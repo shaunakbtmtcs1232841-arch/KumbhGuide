@@ -19,7 +19,7 @@ export default function SamudraManthanOrigin() {
           Story of Samudra Manthan – Origin of Kumbh Mela
         </h1>
         <p className="max-w-3xl mx-auto text-lg opacity-95">
-          Understanding the mythological story behind the world's largest spiritual gathering.
+          Understanding the mythological story behind the world&apos;s largest spiritual gathering.
         </p>
       </section>
 
@@ -40,7 +40,7 @@ export default function SamudraManthanOrigin() {
 
         <p className="mb-8">
           This legendary event describes how gods (Devas) and demons (Asuras)
-          worked together to obtain the nectar of immortality known as 
+          worked together to obtain the nectar of immortality known as
           <strong> Amrit</strong>.
         </p>
 
@@ -72,7 +72,7 @@ export default function SamudraManthanOrigin() {
         </p>
 
         <p className="mb-8">
-          Lord Vishnu took the form of a giant turtle called 
+          Lord Vishnu took the form of a giant turtle called
           <strong> Kurma Avatar</strong> to support the mountain so it
           would not sink into the ocean.
         </p>
@@ -111,11 +111,13 @@ export default function SamudraManthanOrigin() {
         </ul>
 
         <p className="mb-8">
-          These four sacred places are where the Kumbh Mela is celebrated
-          today. In Nashik, the holy dip takes place in the sacred
-          <Link href="/blog/significance-of-godavari-river"
-          className="text-orange-600 font-semibold hover:underline">
-          {" "}Godavari River
+          These four sacred places are where the Kumbh Mela is celebrated today.
+          In Nashik, the holy dip takes place in the sacred
+          <Link
+            href="/blog/significance-of-godavari-river"
+            className="text-orange-600 font-semibold hover:underline"
+          >
+            {" "}Godavari River
           </Link>.
         </p>
 
@@ -127,9 +129,11 @@ export default function SamudraManthanOrigin() {
         <p className="mb-6">
           Today, millions of pilgrims gather at these sacred places
           to take a holy dip during the auspicious dates of the
-          <Link href="/blog/nashik-kumbh-mela-2027-dates"
-          className="text-orange-600 font-semibold hover:underline">
-          {" "}Kumbh Mela
+          <Link
+            href="/blog/nashik-kumbh-mela-2027-dates"
+            className="text-orange-600 font-semibold hover:underline"
+          >
+            {" "}Kumbh Mela
           </Link>.
         </p>
 
@@ -146,8 +150,8 @@ export default function SamudraManthanOrigin() {
         <p className="mb-10">
           The story of Samudra Manthan beautifully explains the origin
           of the Kumbh Mela. It represents the eternal struggle between
-          good and evil and highlights the spiritual quest for
-          immortality and divine truth.
+          good and evil and highlights humanity&apos;s spiritual quest
+          for immortality and divine truth.
         </p>
 
         {/* RELATED ARTICLES */}
