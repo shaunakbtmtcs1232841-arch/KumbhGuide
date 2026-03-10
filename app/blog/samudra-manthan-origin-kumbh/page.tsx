@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Samudra Manthan and Origin of Kumbh Mela | Mythological Story",
@@ -19,25 +20,30 @@ export default function SamudraManthan() {
           Samudra Manthan and the Origin of Kumbh Mela
         </h1>
         <p className="max-w-3xl mx-auto text-lg opacity-95">
-          The ancient mythological story behind the world's largest spiritual gathering.
+          The ancient mythological story behind the world&apos;s largest spiritual gathering.
         </p>
       </section>
 
       {/* ARTICLE */}
       <article className="max-w-4xl mx-auto px-6 py-12 text-gray-800 leading-relaxed">
 
-        <img
-          src="/images/samudramanthan.jpg"
-          alt="Samudra Manthan mythological churning of ocean"
-          className="w-full h-[260px] md:h-[360px] object-cover rounded-xl mb-6 shadow-md"
-        />
+        <div className="relative w-full h-[260px] md:h-[360px] mb-6">
+          <Image
+            src="/images/samudramanthan.jpg"
+            alt="Samudra Manthan mythological churning of ocean"
+            fill
+            className="object-cover rounded-xl shadow-md"
+          />
+        </div>
 
         <p className="mb-6">
           The story of <strong>Samudra Manthan</strong>, or the churning of the cosmic ocean,
           is one of the most important mythological events described in Hindu scriptures.
-          This divine event is believed to be the origin of the 
-          <Link href="/blog/what-is-kumbh-mela"
-          className="text-orange-600 font-semibold hover:underline">
+          This divine event is believed to be the origin of the
+          <Link
+            href="/blog/what-is-kumbh-mela"
+            className="text-orange-600 font-semibold hover:underline"
+          >
             {" "}Kumbh Mela
           </Link>, the largest religious gathering in the world.
         </p>
@@ -120,8 +126,10 @@ export default function SamudraManthan() {
           These four places became the sacred sites where the
           <strong> Kumbh Mela </strong> is celebrated.
           In Nashik, the sacred bathing rituals take place in the
-          <Link href="/blog/significance-of-godavari-river"
-          className="text-orange-600 font-semibold hover:underline">
+          <Link
+            href="/blog/significance-of-godavari-river"
+            className="text-orange-600 font-semibold hover:underline"
+          >
             {" "}Godavari River
           </Link>.
         </p>
@@ -139,9 +147,11 @@ export default function SamudraManthan() {
         </p>
 
         <p className="mb-8">
-          During the 
-          <Link href="/blog/shahi-snan-importance"
-          className="text-orange-600 font-semibold hover:underline">
+          During the
+          <Link
+            href="/blog/shahi-snan-importance"
+            className="text-orange-600 font-semibold hover:underline"
+          >
             {" "}Shahi Snan
           </Link>, saints, sadhus and devotees take part in the
           sacred bathing rituals.
