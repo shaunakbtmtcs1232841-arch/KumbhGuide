@@ -93,7 +93,7 @@ export default function BlogPage() {
               Story of Samudra Manthan
             </Link>
             <p className="text-sm text-gray-600 mt-1">
-              Learn the mythological story of Samudra Manthan and how it led to the origin of the Kumbh Mela celebrated in Nashik, Prayagraj, Haridwar and Ujjain.
+              Learn the mythological story of Samudra Manthan and how it led to the origin of the Kumbh Mela .
             </p>
           </div>
 
