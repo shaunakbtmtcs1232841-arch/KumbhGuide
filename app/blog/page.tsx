@@ -67,7 +67,7 @@ export default function BlogPage() {
               Significance of Godavari River
             </Link>
             <p className="text-sm text-gray-600 mt-1">
-              Understanding why the Godavari is called the “Ganga of the South” and its sacred connection to Nashik Kumbh Mela.
+              Understanding why the Godavari is called the &quot;Ganga of the South&quot; and its sacred connection to Nashik Kumbh Mela.
             </p>
           </div>
 
@@ -80,7 +80,8 @@ export default function BlogPage() {
               Top Ghats of Nashik
             </Link>
             <p className="text-sm text-gray-600 mt-1">
-            Explore the most sacred bathing ghats of Nashik where millions of pilgrims take holy dips during the Kumbh Mela.            </p>
+              Explore the most sacred bathing ghats of Nashik where millions of pilgrims take holy dips during the Kumbh Mela.
+            </p>
           </div>
 
           {/* ARTICLE 6 */}
@@ -92,10 +93,9 @@ export default function BlogPage() {
               Story of Samudra Manthan
             </Link>
             <p className="text-sm text-gray-600 mt-1">
-              Learn the mythological story of Samudra Manthan and how it led to the origin of the Kumbh Mela celebrated in Nashik, Prayagraj, Haridwar and Ujjain."
+              Learn the mythological story of Samudra Manthan and how it led to the origin of the Kumbh Mela celebrated in Nashik, Prayagraj, Haridwar and Ujjain.
             </p>
           </div>
-
 
         </div>
 
