@@ -2,24 +2,24 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Samudra Manthan Story – Origin of Kumbh Mela Explained",
+  title: "Samudra Manthan and Origin of Kumbh Mela | Mythological Story",
   description:
-    "Learn the mythological story of Samudra Manthan and how it led to the origin of the Kumbh Mela celebrated in Nashik, Prayagraj, Haridwar and Ujjain.",
+    "Learn the mythological story of Samudra Manthan and how it led to the origin of the Kumbh Mela at Nashik, Haridwar, Prayagraj and Ujjain.",
 };
 
 export const dynamic = "force-static";
 
-export default function SamudraManthanOrigin() {
+export default function SamudraManthan() {
   return (
     <div className="bg-white min-h-screen">
 
       {/* HERO */}
       <section className="bg-gradient-to-r from-orange-600 to-red-600 py-16 text-center text-white">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">
-          Story of Samudra Manthan – Origin of Kumbh Mela
+          Samudra Manthan and the Origin of Kumbh Mela
         </h1>
         <p className="max-w-3xl mx-auto text-lg opacity-95">
-          Understanding the mythological story behind the world&apos;s largest spiritual gathering.
+          The ancient mythological story behind the world's largest spiritual gathering.
         </p>
       </section>
 
@@ -28,20 +28,24 @@ export default function SamudraManthanOrigin() {
 
         <img
           src="/images/samudramanthan.jpg"
-          alt="Samudra Manthan Story"
+          alt="Samudra Manthan mythological churning of ocean"
           className="w-full h-[260px] md:h-[360px] object-cover rounded-xl mb-6 shadow-md"
         />
 
         <p className="mb-6">
-          The Kumbh Mela is one of the largest spiritual gatherings in the world.
-          Its origin is deeply connected with the ancient Hindu mythological story
-          known as the <strong>Samudra Manthan</strong>, or the churning of the cosmic ocean.
+          The story of <strong>Samudra Manthan</strong>, or the churning of the cosmic ocean,
+          is one of the most important mythological events described in Hindu scriptures.
+          This divine event is believed to be the origin of the 
+          <Link href="/blog/what-is-kumbh-mela"
+          className="text-orange-600 font-semibold hover:underline">
+            {" "}Kumbh Mela
+          </Link>, the largest religious gathering in the world.
         </p>
 
         <p className="mb-8">
-          This legendary event describes how gods (Devas) and demons (Asuras)
-          worked together to obtain the nectar of immortality known as
-          <strong> Amrit</strong>.
+          According to Hindu mythology, the gods (Devas) and demons (Asuras)
+          worked together to churn the ocean of milk in search of the nectar
+          of immortality known as <strong>Amrit</strong>.
         </p>
 
         {/* Why Samudra Manthan Happened */}
@@ -50,96 +54,97 @@ export default function SamudraManthanOrigin() {
         </h2>
 
         <p className="mb-6">
-          According to Hindu scriptures, the Devas once lost their strength
-          after being cursed by Sage Durvasa. Without their divine powers,
-          they were defeated by the Asuras.
+          The Devas had lost their strength and power due to a curse from
+          Sage Durvasa. To regain their power, Lord Vishnu advised them
+          to churn the cosmic ocean and obtain the Amrit,
+          which would grant immortality.
         </p>
 
         <p className="mb-8">
-          To regain their power, Lord Vishnu advised them to churn the
-          cosmic ocean (Kshira Sagara) to obtain the nectar of immortality.
+          Since the task was extremely difficult, the Devas formed an
+          alliance with the Asuras to perform the churning.
         </p>
 
-        {/* How Ocean Was Churned */}
+        {/* The Churning Process */}
         <h2 className="text-2xl font-bold mt-10 mb-4">
           How the Ocean Was Churned
         </h2>
 
         <p className="mb-6">
-          The gods and demons used the great mountain <strong>Mandara</strong>
-          as the churning rod and the divine serpent <strong>Vasuki</strong>
-          as the rope.
+          Mount Mandara was used as the churning rod and the serpent
+          Vasuki was used as the rope. The gods and demons pulled the
+          serpent from both sides to churn the ocean.
         </p>
 
         <p className="mb-8">
-          Lord Vishnu took the form of a giant turtle called
-          <strong> Kurma Avatar</strong> to support the mountain so it
-          would not sink into the ocean.
+          During this process, many divine objects and beings emerged,
+          including the goddess Lakshmi, the moon, celestial jewels,
+          and the deadly poison Halahala which was later consumed
+          by Lord Shiva.
         </p>
 
-        {/* Emergence of Amrit */}
+        {/* Appearance of Amrit */}
         <h2 className="text-2xl font-bold mt-10 mb-4">
-          Emergence of the Nectar of Immortality
+          The Appearance of the Amrit Kumbh
         </h2>
 
         <p className="mb-6">
-          During the churning of the ocean, many divine treasures appeared,
-          including Goddess Lakshmi, the celestial horse Uchchaihshravas,
-          and the divine physician Dhanvantari carrying the pot of Amrit.
+          Eventually, the divine physician Dhanvantari emerged from
+          the ocean carrying a pot (Kumbh) filled with the nectar of
+          immortality.
         </p>
 
         <p className="mb-8">
-          The moment the pot of nectar appeared, a conflict began between
-          the Devas and Asuras over who would obtain immortality.
+          A fierce struggle broke out between the Devas and Asuras to
+          possess the Amrit.
         </p>
 
-        {/* Birth of Kumbh */}
+        {/* How Kumbh Mela Started */}
         <h2 className="text-2xl font-bold mt-10 mb-4">
-          How This Led to Kumbh Mela
+          How This Led to the Kumbh Mela
         </h2>
 
         <p className="mb-6">
-          According to mythology, while carrying the pot of nectar,
-          drops of Amrit fell at four locations on Earth.
+          According to mythology, during the struggle for the nectar,
+          drops of Amrit fell at four places on Earth:
         </p>
 
         <ul className="list-disc pl-6 space-y-3 mb-8">
           <li>Prayagraj (Allahabad)</li>
           <li>Haridwar</li>
           <li>Ujjain</li>
-          <li>Nashik (Trimbakeshwar)</li>
+          <li>Nashik</li>
         </ul>
 
         <p className="mb-8">
-          These four sacred places are where the Kumbh Mela is celebrated today.
-          In Nashik, the holy dip takes place in the sacred
-          <Link
-            href="/blog/significance-of-godavari-river"
-            className="text-orange-600 font-semibold hover:underline"
-          >
+          These four places became the sacred sites where the
+          <strong> Kumbh Mela </strong> is celebrated.
+          In Nashik, the sacred bathing rituals take place in the
+          <Link href="/blog/significance-of-godavari-river"
+          className="text-orange-600 font-semibold hover:underline">
             {" "}Godavari River
           </Link>.
         </p>
 
-        {/* Kumbh Today */}
+        {/* Spiritual Significance */}
         <h2 className="text-2xl font-bold mt-10 mb-4">
-          Kumbh Mela Today
+          Spiritual Significance Today
         </h2>
 
         <p className="mb-6">
-          Today, millions of pilgrims gather at these sacred places
-          to take a holy dip during the auspicious dates of the
-          <Link
-            href="/blog/nashik-kumbh-mela-2027-dates"
-            className="text-orange-600 font-semibold hover:underline"
-          >
-            {" "}Kumbh Mela
-          </Link>.
+          The Kumbh Mela symbolizes the eternal quest for purity,
+          knowledge, and spiritual liberation. Millions of pilgrims
+          gather to take a holy dip believing it cleanses sins
+          and grants divine blessings.
         </p>
 
         <p className="mb-8">
-          The ritual bath is believed to purify the soul and free
-          devotees from the cycle of birth and death.
+          During the 
+          <Link href="/blog/shahi-snan-importance"
+          className="text-orange-600 font-semibold hover:underline">
+            {" "}Shahi Snan
+          </Link>, saints, sadhus and devotees take part in the
+          sacred bathing rituals.
         </p>
 
         {/* Conclusion */}
@@ -148,19 +153,20 @@ export default function SamudraManthanOrigin() {
         </h2>
 
         <p className="mb-10">
-          The story of Samudra Manthan beautifully explains the origin
-          of the Kumbh Mela. It represents the eternal struggle between
-          good and evil and highlights humanity&apos;s spiritual quest
-          for immortality and divine truth.
+          The story of Samudra Manthan beautifully explains the
+          mythological origin of the Kumbh Mela. It reminds devotees
+          that spiritual effort and devotion lead to divine rewards,
+          just like the churning of the ocean produced the nectar
+          of immortality.
         </p>
 
-        {/* RELATED ARTICLES */}
+        {/* RELATED */}
         <div className="bg-orange-50 border border-orange-200 p-6 rounded-lg">
           <h3 className="font-semibold mb-3">Related Articles</h3>
           <ul className="space-y-2 text-orange-700 font-medium">
             <li>➜ <Link href="/blog/what-is-kumbh-mela">What is Kumbh Mela?</Link></li>
-            <li>➜ <Link href="/blog/shahi-snan-importance">Shahi Snan Importance</Link></li>
-            <li>➜ <Link href="/blog/best-places-nashik">Best Places to Visit in Nashik</Link></li>
+            <li>➜ <Link href="/blog/shahi-snan-importance">Importance of Shahi Snan</Link></li>
+            <li>➜ <Link href="/blog/significance-of-godavari-river">Godavari River Significance</Link></li>
           </ul>
         </div>
 
