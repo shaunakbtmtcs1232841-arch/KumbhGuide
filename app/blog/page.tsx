@@ -83,6 +83,19 @@ export default function BlogPage() {
             Explore the most sacred bathing ghats of Nashik where millions of pilgrims take holy dips during the Kumbh Mela.            </p>
           </div>
 
+          {/* ARTICLE 6 */}
+          <div className="py-5">
+            <Link
+              href="/blog/samudra-manthan-origin-kumbh"
+              className="text-lg font-semibold hover:text-orange-600"
+            >
+              Story of Samudra Manthan
+            </Link>
+            <p className="text-sm text-gray-600 mt-1">
+              Learn the mythological story of Samudra Manthan and how it led to the origin of the Kumbh Mela celebrated in Nashik, Prayagraj, Haridwar and Ujjain."
+            </p>
+          </div>
+
 
         </div>
 
