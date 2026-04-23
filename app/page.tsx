@@ -761,6 +761,22 @@ export default function Home() {
         </div>
       </Link>
 
+       {/* 🔥 NEW ARTICLE (IMPORTANT) */}
+  <Link href="/blog/nashik-kumbh-mela-2027-development-plan">
+    <div className="bg-white shadow-lg rounded-xl p-6 hover:shadow-2xl transition duration-300 border hover:-translate-y-1 cursor-pointer">
+      <h3 className="text-xl font-bold text-gray-900 mb-2">
+        ₹25,000 Crore Development Plan for Nashik Kumbh Mela 2027
+      </h3>
+      <p className="text-gray-600 text-sm mb-3">
+        Full breakdown of government budget, roads, railway, airport upgrades and infrastructure projects.
+      </p>
+      <span className="text-orange-600 font-semibold">
+        Read Latest Update →
+      </span>
+    </div>
+  </Link>
+
+
     </div>
 
   </div>
