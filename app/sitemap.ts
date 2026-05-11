@@ -47,6 +47,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
     },
     {
+      url: "https://kumbhnashikguide.com/blog/where-to-stay-nashik-kumbh-mela",
+      lastModified: new Date(),
+    },
+    {
       url: "https://kumbhnashikguide.com/blog/nashik-kumbh-mela-2027-development-plan",
       lastModified: new Date(),
     },

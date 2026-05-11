@@ -165,7 +165,7 @@ export default function BestPlacesNashik() {
           <h3 className="font-semibold mb-3">Related Articles</h3>
           <ul className="space-y-2 text-orange-700 font-medium">
             <li>➜ <Link href="/blog/what-is-kumbh-mela">What is Kumbh Mela?</Link></li>
-            <li>➜ <Link href="/blog/nashik-kumbh-mela-2027-dates">Nashik Kumbh Datess</Link></li>
+            <li>➜ <Link href="/blog/nashik-kumbh-mela-2027-dates">Nashik Kumbh Dates</Link></li>
           </ul>
         </div>
 
@@ -173,4 +173,3 @@ export default function BestPlacesNashik() {
     </div>
   );
 }
-//best place 
