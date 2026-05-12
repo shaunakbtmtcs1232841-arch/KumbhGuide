@@ -213,6 +213,17 @@ export default function Page() {
         </li>
 
         <li>
+          <Link href="/blog/significance-of-godavari-river" className="text-blue-600 underline">
+            Why Godavari River holds immense spiritual importance during Kumbh Mela ? 
+          </Link>
+        </li>
+        <li>
+          <Link href="/blog/samudra-manthan-origin-kumbh" className="text-blue-600 underline">
+            the origin story of Kumbh Mela
+          </Link>
+        </li>
+
+        <li>
           <Link
             href="/blog/where-to-stay-nashik-kumbh-mela"
             className="text-blue-600 underline"

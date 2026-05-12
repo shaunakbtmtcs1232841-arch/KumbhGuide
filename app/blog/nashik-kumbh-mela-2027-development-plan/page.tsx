@@ -113,6 +113,16 @@ export default function Page() {
             Nashik Kumbh Mela 2027 Dates
           </Link>
         </li>
+         <li>
+          <Link href="/blog/significance-of-godavari-river" className="text-blue-600 underline">
+            Why Godavari River holds immense spiritual importance during Kumbh Mela ? 
+          </Link>
+        </li>
+        <li>
+          <Link href="/blog/samudra-manthan-origin-kumbh" className="text-blue-600 underline">
+            the origin story of Kumbh Mela
+          </Link>
+        </li>
         <li>
           <Link href="/blog/top-ghats-nashik" className="text-blue-600 underline">
             Top Ghats in Nashik

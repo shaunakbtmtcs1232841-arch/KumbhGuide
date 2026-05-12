@@ -776,6 +776,20 @@ export default function Home() {
     </div>
   </Link>
 
+   <Link href="/blog/samudra-manthan-origin-kumbh">
+    <div className="bg-white shadow-lg rounded-xl p-6 hover:shadow-2xl transition duration-300 border hover:-translate-y-1 cursor-pointer">
+      <h3 className="text-xl font-bold text-gray-900 mb-2">
+        the origin story of Kumbh Mela
+      </h3>
+      <p className="text-gray-600 text-sm mb-3">
+        Learn more about the spiritual background of the festival in our guide on{" "}
+      </p>
+      <span className="text-orange-600 font-semibold">
+        Read History →
+      </span>
+    </div>
+  </Link>
+
 
     </div>
 
