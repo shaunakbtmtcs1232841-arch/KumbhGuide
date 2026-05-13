@@ -125,6 +125,14 @@ export default function NashikKumbhDates() {
             <li>
               ➜ <Link href="/blog/what-is-kumbh-mela">What is Kumbh Mela and Why is it Celebrated?</Link>
             </li>
+            <li>
+  <Link
+    href="/blog/nashik-kumbh-mela-railway-guide"
+    className="text-blue-600 underline"
+  >
+    Nashik Kumbh Mela Railway Travel Guide
+  </Link>
+</li>
           </ul>
         </div>
 

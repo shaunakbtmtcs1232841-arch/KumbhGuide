@@ -212,6 +212,15 @@ export default function Page() {
           </Link>
         </li>
 
+<li>
+  
+  <Link
+    href="/blog/nashik-kumbh-mela-railway-guide"
+    className="text-blue-600 underline"
+  >
+    complete railway travel guide for Nashik Kumbh Mela
+  </Link>.
+</li>
         <li>
           <Link href="/blog/significance-of-godavari-river" className="text-blue-600 underline">
             Why Godavari River holds immense spiritual importance during Kumbh Mela ? 

@@ -157,6 +157,15 @@ export default function Page() {
           </Link>
         </li>
 
+<li>
+  <Link
+    href="/blog/nashik-kumbh-mela-railway-guide"
+    className="text-blue-600 underline"
+  >
+    Nashik Kumbh Mela Railway Travel Guide
+  </Link>
+</li> 
+
         <li>
           <Link
             href="/blog/best-places-to-visit-in-nashik-during-kumbh"
