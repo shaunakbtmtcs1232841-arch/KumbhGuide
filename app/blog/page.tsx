@@ -45,6 +45,18 @@ export default function BlogPage() {
             </p>
           </div>
 
+          <div className="py-5">
+            <Link
+              href="/blog/nashik-kumbh-mela-railway-travel-guide"
+              className="text-lg font-semibold hover:text-orange-600"
+            >
+              Planning to travel to Nashik Kumbh Mela 2027 by train? 
+            </Link>
+            <p className="text-sm text-gray-600 mt-1">
+              This complete railway guide explains the nearest railway stations and important travel tips for pilgrims and visitors.
+            </p>
+          </div>
+
           {/* ARTICLE 3 */}
           <div className="py-5">
             <Link
