@@ -761,6 +761,24 @@ export default function Home() {
         </div>
       </Link>
 
+      <Link href="/blog/nashik-kumbh-mela-railway-guide">
+  <div className="bg-white shadow-lg rounded-xl p-6 hover:shadow-2xl transition duration-300 border hover:-translate-y-1 cursor-pointer">
+    
+    <h3 className="text-xl font-bold text-gray-900 mb-2">
+      Nashik Kumbh Mela 2027 Railway Travel Guide
+    </h3>
+
+    <p className="text-gray-600 text-sm mb-3">
+      Complete railway travel guide including train routes, Nashik Road station information, booking tips, and transportation details for pilgrims.
+    </p>
+
+    <span className="text-orange-600 font-semibold">
+      Read Railway Guide →
+    </span>
+
+  </div>
+</Link>
+
        {/* 🔥 NEW ARTICLE (IMPORTANT) */}
   <Link href="/blog/nashik-kumbh-mela-2027-development-plan">
     <div className="bg-white shadow-lg rounded-xl p-6 hover:shadow-2xl transition duration-300 border hover:-translate-y-1 cursor-pointer">
