@@ -55,9 +55,7 @@ export default function Page() {
       </ul>
 
       {/* TRAIN ROUTES */}
-      <h2 className="text-2xl font-semibold mb-4">
-        Major Train Routes to Nashik
-      </h2>
+      
 <h2 className="text-2xl font-semibold mb-4">
   Popular Trains to Nashik
 </h2>
@@ -105,6 +103,10 @@ export default function Page() {
     </tbody>
   </table>
 </div>
+
+<h2 className="text-2xl font-semibold mb-4">
+        Major Train Routes to Nashik
+      </h2>
       <p className="mb-4">
         Nashik is connected by direct and long-distance trains from many important Indian cities.
       </p>
