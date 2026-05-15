@@ -788,7 +788,7 @@ export default function Home() {
 
     <p className="text-gray-600 text-sm mb-3">
      explains highway routes, bus transportation services, official booking platforms, nearby city connectivity, and useful travel tips for pilgrims and visitors.
-
+    </p>
     <span className="text-orange-600 font-semibold">
       Read Guide →
     </span>
@@ -814,7 +814,7 @@ export default function Home() {
    <Link href="/blog/samudra-manthan-origin-kumbh">
     <div className="bg-white shadow-lg rounded-xl p-6 hover:shadow-2xl transition duration-300 border hover:-translate-y-1 cursor-pointer">
       <h3 className="text-xl font-bold text-gray-900 mb-2">
-        the origin story of Kumbh Mela
+        The origin story of Kumbh Mela
       </h3>
       <p className="text-gray-600 text-sm mb-3">
         Learn more about the spiritual background of the festival in our guide on{" "}
