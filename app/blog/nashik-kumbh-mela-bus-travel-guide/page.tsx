@@ -6,7 +6,7 @@ export const metadata = {
     "Complete road and bus travel guide for Nashik Kumbh Mela 2027 including highway routes, bus transportation, official booking websites, nearby city connectivity, and important travel tips.",
   alternates: {
     canonical:
-      "https://kumbhnashikguide.com/blog/nashik-kumbh-mela-road-bus-travel-guide",
+      "https://kumbhnashikguide.com/blog/nashik-kumbh-mela-bus-travel-guide",
   },
 };
 
