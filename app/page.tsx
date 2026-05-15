@@ -779,6 +779,23 @@ export default function Home() {
   </div>
 </Link>
 
+<Link href="/blog/nashik-kumbh-mela-bus-travel-guide">
+  <div className="bg-white shadow-lg rounded-xl p-6 hover:shadow-2xl transition duration-300 border hover:-translate-y-1 cursor-pointer">
+    
+    <h3 className="text-xl font-bold text-gray-900 mb-2">
+      Planning to travel to Nashik Kumbh Mela 2027 by road or bus?
+    </h3>
+
+    <p className="text-gray-600 text-sm mb-3">
+     explains highway routes, bus transportation services, official booking platforms, nearby city connectivity, and useful travel tips for pilgrims and visitors.
+
+    <span className="text-orange-600 font-semibold">
+      Read Guide →
+    </span>
+
+  </div>
+</Link>
+
        {/* 🔥 NEW ARTICLE (IMPORTANT) */}
   <Link href="/blog/nashik-kumbh-mela-2027-development-plan">
     <div className="bg-white shadow-lg rounded-xl p-6 hover:shadow-2xl transition duration-300 border hover:-translate-y-1 cursor-pointer">
