@@ -35,6 +35,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
     },
     {
+  url: "https://kumbhnashikguide.com/updates/crowd-management-security-preparations-kumbh-2027",
+  lastModified: new Date(),
+},
+    {
       url: "https://kumbhnashikguide.com/blog/top-ghats-nashik",
       lastModified: new Date(),
     },
