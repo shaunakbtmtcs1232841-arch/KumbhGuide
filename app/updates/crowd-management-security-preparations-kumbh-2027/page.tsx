@@ -24,7 +24,7 @@ export default function Page() {
       </p>
 
       <img
-        src="/images/kumbh-update.jpg"
+        src="/images/update.jpg"
         alt="Crowd management and security planning for Nashik Kumbh Mela"
         className="w-full h-[260px] md:h-[360px] object-cover rounded-xl mb-8"
       />
