@@ -67,6 +67,30 @@ export default function UpdatesPage() {
 
   </div>
 
+<Link href="/updates/clean-godavari-project-kumbh-2027">
+
+  <div className="bg-white rounded-2xl shadow-lg p-6 border hover:shadow-2xl transition duration-300 hover:-translate-y-1 cursor-pointer h-full">
+
+    <p className="text-sm text-orange-600 font-semibold mb-2">
+      Infrastructure Update
+    </p>
+
+    <h3 className="text-2xl font-bold mb-3">
+      ₹1,600 Crore Clean Godavari Project Intensified Ahead of Nashik Kumbh Mela 2027
+    </h3>
+
+    <p className="text-gray-600 mb-5">
+      Nashik Municipal Corporation is accelerating sewage treatment, sanitation, pumping station, and river cleanup infrastructure projects ahead of Kumbh Mela 2027.
+    </p>
+
+    <span className="text-orange-600 font-semibold">
+      Read Full Update →
+    </span>
+
+  </div>
+
+</Link>
+
 </Link>
 
           <Link href="/updates/crowd-management-security-preparations-kumbh-2027">
