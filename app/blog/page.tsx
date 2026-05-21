@@ -109,6 +109,18 @@ export default function BlogPage() {
             </p>
           </div>
 
+          <div className="py-5">
+            <Link
+              href="/blog/top-10-places-to-visit-nashik-kumbh-mela-2027"
+              className="text-lg font-semibold hover:text-orange-600"
+            >
+              Top 10 Places to Visit During Nashik Kumbh Mela 2027
+            </Link>
+            <p className="text-sm text-gray-600 mt-1">
+              Explore the most sacred bathing ghats of Nashik where millions of pilgrims take holy dips during the Kumbh Mela.Nashik Kumbh Mela 2027 is expected to attract millions of pilgrims and tourists from across India and around the world.
+            </p>
+          </div>
+
           {/* ARTICLE 6 */}
           <div className="py-5">
             <Link
