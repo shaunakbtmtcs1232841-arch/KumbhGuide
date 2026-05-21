@@ -24,8 +24,8 @@ export default function Home() {
 
   {/* HERO IMAGE */}
   <Image
-    src="/images/hero-kumbh.jpg"
-    alt="Nashik Kumbh Mela"
+    src="/images/kumbha.png"
+    alt="Nashik Kumbh Melaa"
     fill
     priority
     className="object-cover"
