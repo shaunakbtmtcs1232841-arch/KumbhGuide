@@ -15,8 +15,51 @@ export default function Home() {
   img: "/images/ramkund.jpg"
 });
 
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "When is Nashik Kumbh Mela 2027?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nashik Kumbh Mela 2027 major bathing dates begin from August 2027 and continue through important religious occasions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where does Nashik Kumbh Mela take place?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nashik Kumbh Mela takes place mainly at Ramkund, Godavari River ghats, Panchavati, and Trimbakeshwar."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I reach Nashik Kumbh Mela?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pilgrims can reach Nashik via railway, road transport, buses, and nearby airports including Nashik Airport and Mumbai Airport."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the important bathing dates for Nashik Kumbh Mela 2027?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Major Amrit Snan dates include August 2, August 31, and September 11 of 2027."
+      }
+    }
+  ]
+};
+
   return (
     <div className="relative bg-gradient-to-b from-orange-50 via-white to-red-50">
+      <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+/>
       {/* Hero Section with Image Space */}
       <section className="relative overflow-hidden">
         {/* Image Placeholder - Replace with actual Kumbh image */}
