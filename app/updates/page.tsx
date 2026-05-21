@@ -27,100 +27,101 @@ export default function UpdatesPage() {
       </div>
 
       {/* LATEST UPDATES */}
-      <div className="mb-16">
+      {/* LATEST UPDATES */}
+<div className="mb-20">
 
-        <div className="flex items-center justify-between mb-8">
+  <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-10">
 
-          <h2 className="text-3xl font-bold">
-            Latest Updates
-          </h2>
+    <h2 className="text-3xl md:text-4xl font-bold">
+      Latest Kumbh Updates
+    </h2>
 
-          <span className="text-sm bg-orange-100 text-orange-700 px-4 py-2 rounded-full font-semibold">
-            Updated Regularly
-          </span>
-
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-
-          {/* UPDATE CARD 1 */}
-
-          <Link href="/blog/nashik-kumbh-mela-2027-development-plan">
-
-  <div className="bg-white rounded-2xl shadow-lg p-6 border hover:shadow-2xl transition duration-300 hover:-translate-y-1 cursor-pointer h-full">
-
-    <p className="text-sm text-orange-600 font-semibold mb-2">
-      Infrastructure Update
-    </p>
-
-    <h3 className="text-2xl font-bold mb-3">
-      Nashik Kumbh Mela 2027 Development Plan: ₹25,000 Crore Projects Explained
-    </h3>
-
-    <p className="text-gray-600 mb-5">
-      Major infrastructure upgrades including roads, railway stations, airport development, ghats, sanitation systems, and transportation improvements are planned ahead of Nashik Kumbh Mela 2027.
-    </p>
-
-    <span className="text-orange-600 font-semibold">
-      Read Full Update →
+    <span className="text-sm bg-orange-100 text-orange-700 px-4 py-2 rounded-full font-semibold w-fit">
+      Updated Regularly
     </span>
 
   </div>
 
-<Link href="/updates/clean-godavari-project-kumbh-2027">
+  <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
 
-  <div className="bg-white rounded-2xl shadow-lg p-6 border hover:shadow-2xl transition duration-300 hover:-translate-y-1 cursor-pointer h-full">
+    {/* UPDATE 1 */}
+    <Link href="/blog/nashik-kumbh-mela-2027-development-plan">
 
-    <p className="text-sm text-orange-600 font-semibold mb-2">
-      Infrastructure Update
-    </p>
+      <div className="bg-white rounded-2xl shadow-lg p-7 border hover:shadow-2xl transition duration-300 hover:-translate-y-1 cursor-pointer h-full">
 
-    <h3 className="text-2xl font-bold mb-3">
-      ₹1,600 Crore Clean Godavari Project Intensified Ahead of Nashik Kumbh Mela 2027
-    </h3>
+        <p className="text-sm text-orange-600 font-semibold mb-3">
+          Infrastructure Update
+        </p>
 
-    <p className="text-gray-600 mb-5">
-      Nashik Municipal Corporation is accelerating sewage treatment, sanitation, pumping station, and river cleanup infrastructure projects ahead of Kumbh Mela 2027.
-    </p>
+        <h3 className="text-2xl font-bold mb-4 leading-tight">
+          Nashik Kumbh Mela 2027 Development Plan: ₹25,000 Crore Projects Explained
+        </h3>
 
-    <span className="text-orange-600 font-semibold">
-      Read Full Update →
-    </span>
+        <p className="text-gray-600 mb-6 leading-7">
+          Major infrastructure upgrades including roads, railway stations, airport development, ghats, sanitation systems, and transportation improvements are planned ahead of Nashik Kumbh Mela 2027.
+        </p>
 
-  </div>
-
-</Link>
-
-</Link>
-
-          <Link href="/updates/crowd-management-security-preparations-kumbh-2027">
-
-            <div className="bg-white rounded-2xl shadow-lg p-6 border hover:shadow-2xl transition duration-300 hover:-translate-y-1 cursor-pointer h-full">
-
-              <p className="text-sm text-orange-600 font-semibold mb-2">
-                Latest Update
-              </p>
-
-              <h3 className="text-2xl font-bold mb-3">
-                Expected Crowd Management and Security Preparations for Nashik Kumbh Mela 2027
-              </h3>
-
-              <p className="text-gray-600 mb-5">
-                Authorities are expected to strengthen transportation systems, surveillance infrastructure, traffic management, and emergency response planning ahead of Kumbh Mela 2027.
-              </p>
-
-              <span className="text-orange-600 font-semibold">
-                Read Full Update →
-              </span>
-
-            </div>
-
-          </Link>
-
-        </div>
+        <span className="text-orange-600 font-semibold">
+          Read Full Update →
+        </span>
 
       </div>
 
+    </Link>
+
+    {/* UPDATE 2 */}
+    <Link href="/updates/clean-godavari-project-kumbh-2027">
+
+      <div className="bg-white rounded-2xl shadow-lg p-7 border hover:shadow-2xl transition duration-300 hover:-translate-y-1 cursor-pointer h-full">
+
+        <p className="text-sm text-orange-600 font-semibold mb-3">
+          River Cleanup Update
+        </p>
+
+        <h3 className="text-2xl font-bold mb-4 leading-tight">
+          ₹1,600 Crore Clean Godavari Project Intensified Ahead of Nashik Kumbh Mela 2027
+        </h3>
+
+        <p className="text-gray-600 mb-6 leading-7">
+          Nashik Municipal Corporation is accelerating sewage treatment, pumping stations, sanitation systems, and river cleanup infrastructure projects ahead of Kumbh Mela 2027.
+        </p>
+
+        <span className="text-orange-600 font-semibold">
+          Read Full Update →
+        </span>
+
+      </div>
+
+    </Link>
+
+    {/* UPDATE 3 */}
+    <Link href="/updates/crowd-management-security-preparations-kumbh-2027">
+
+      <div className="bg-white rounded-2xl shadow-lg p-7 border hover:shadow-2xl transition duration-300 hover:-translate-y-1 cursor-pointer h-full">
+
+        <p className="text-sm text-orange-600 font-semibold mb-3">
+          Security Update
+        </p>
+
+        <h3 className="text-2xl font-bold mb-4 leading-tight">
+          Crowd Management and Security Preparations for Nashik Kumbh Mela 2027
+        </h3>
+
+        <p className="text-gray-600 mb-6 leading-7">
+          Authorities are expected to strengthen surveillance systems, emergency response planning, crowd movement systems, and transportation management before the festival.
+        </p>
+
+        <span className="text-orange-600 font-semibold">
+          Read Full Update →
+        </span>
+
+      </div>
+
+    </Link>
+
+  </div>
+
+</div>
       {/* IMPORTANT GUIDES */}
       <div className="mb-16">
 
