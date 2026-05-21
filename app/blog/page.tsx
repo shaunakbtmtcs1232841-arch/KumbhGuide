@@ -92,6 +92,7 @@ export default function BlogPage() {
             </Link>
             <p className="text-sm text-gray-600 mt-1">
                Explore the spiritual significance of Ramkund, important bathing rituals, nearby temples, travel tips, and pilgrimage information for Nashik Kumbh Mela 2027.
+            </p>          
           </div>
 
     
