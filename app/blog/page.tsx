@@ -83,21 +83,18 @@ export default function BlogPage() {
             </p>
           </div>
 
-           <div className="bg-white shadow-lg rounded-xl p-6 hover:shadow-2xl transition duration-300 border hover:-translate-y-1 cursor-pointer">
+<div className="py-5">
+            <Link
+              href="/blog/ramkund-nashik-guide-kumbh-mela"
+              className="text-lg font-semibold hover:text-orange-600"
+            >
+              Ramkund Nashik Guide for Kumbh Mela 2027
+            </Link>
+            <p className="text-sm text-gray-600 mt-1">
+               Explore the spiritual significance of Ramkund, important bathing rituals, nearby temples, travel tips, and pilgrimage information for Nashik Kumbh Mela 2027.
+          </div>
 
-    <h3 className="text-xl font-bold text-gray-900 mb-2">
-      Ramkund Nashik Guide for Kumbh Mela 2027
-    </h3>
-
-    <p className="text-gray-600 text-sm mb-3">
-      Explore the spiritual significance of Ramkund, important bathing rituals, nearby temples, travel tips, and pilgrimage information for Nashik Kumbh Mela 2027.
-    </p>
-
-    <span className="text-orange-600 font-semibold">
-      Read Guide →
-    </span>
-
-  </div>
+    
           {/* ARTICLE 5 */}
           <div className="py-5">
             <Link
