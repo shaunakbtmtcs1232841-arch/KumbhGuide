@@ -20,7 +20,19 @@ export default function Home() {
       {/* Hero Section with Image Space */}
       <section className="relative overflow-hidden">
         {/* Image Placeholder - Replace with actual Kumbh image */}
-        <div className="relative h-[60vh] sm:h-[70vh] lg:h-[80vh] bg-gradient-to-br from-orange-500 via-red-500 to-yellow-600 flex items-center justify-center">
+        <div className="relative h-[60vh] sm:h-[70vh] lg:h-[80vh] flex items-center justify-center overflow-hidden">
+
+  {/* HERO IMAGE */}
+  <Image
+    src="/images/hero-kumbh.jpg"
+    alt="Nashik Kumbh Mela"
+    fill
+    priority
+    className="object-cover"
+  />
+
+  {/* DARK OVERLAY */}
+  <div className="absolute inset-0 bg-black/50"></div>
           <div className="absolute inset-0 bg-black/40"></div>
 
           {/* Decorative elements */}
@@ -72,6 +84,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+        
       </section>
 
       {/* Important Dates Section - Most Critical Information */}
@@ -793,6 +806,50 @@ export default function Home() {
     </div>
   </Link>
   
+  <Link href="/blog/ramkund-nashik-guide-kumbh-mela">
+
+  <div className="bg-white shadow-lg rounded-xl p-6 hover:shadow-2xl transition duration-300 border hover:-translate-y-1 cursor-pointer">
+
+    <h3 className="text-xl font-bold text-gray-900 mb-2">
+      Ramkund Nashik Guide for Kumbh Mela 2027
+    </h3>
+
+    <p className="text-gray-600 text-sm mb-3">
+      Explore the spiritual significance of Ramkund, important bathing rituals, nearby temples, travel tips, and pilgrimage information for Nashik Kumbh Mela 2027.
+    </p>
+
+    <span className="text-orange-600 font-semibold">
+      Read Guide →
+    </span>
+
+  </div>
+
+</Link>
+
+<Link href="/updates/clean-godavari-project-kumbh-2027">
+
+  <div className="bg-white shadow-lg rounded-xl p-6 hover:shadow-2xl transition duration-300 border hover:-translate-y-1 cursor-pointer">
+
+    <p className="text-sm text-orange-600 font-semibold mb-2">
+      Infrastructure Update
+    </p>
+
+    <h3 className="text-xl font-bold text-gray-900 mb-2">
+      ₹1,600 Crore Clean Godavari Project Intensified Ahead of Nashik Kumbh Mela 2027
+    </h3>
+
+    <p className="text-gray-600 text-sm mb-3">
+      Nashik Municipal Corporation is accelerating sewage treatment, sanitation systems, pumping stations, and river cleanup projects ahead of Kumbh Mela 2027.
+    </p>
+
+    <span className="text-orange-600 font-semibold">
+      Read Full Update →
+    </span>
+
+  </div>
+
+</Link>
+
 <Link href="/blog/nashik-kumbh-mela-bus-travel-guide">
   <div className="bg-white shadow-lg rounded-xl p-6 hover:shadow-2xl transition duration-300 border hover:-translate-y-1 cursor-pointer">
     
