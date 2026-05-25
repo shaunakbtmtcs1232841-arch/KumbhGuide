@@ -43,7 +43,7 @@ export default function Page() {
       </p>
 
       <img
-        src="/images/nashik-pune-highway.jpg"
+        src="/images/nashik-punehw.png"
         alt="Nashik Pune Highway expansion before Kumbh Mela 2027"
         className="w-full h-[260px] md:h-[420px] object-cover rounded-2xl mb-10"
       />
