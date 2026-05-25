@@ -84,6 +84,19 @@ export default function BlogPage() {
           </div>
 
 <div className="py-5">
+  <Link
+    href="/blog/panchavati-nashik-kumbh-mela-guide"
+    className="text-lg font-semibold hover:text-orange-600"
+  >
+    Panchavati Nashik Guide for Kumbh Mela 2027
+  </Link>
+
+  <p className="text-sm text-gray-600 mt-1">
+    Explore Ramkund, Kalaram Temple, Sita Gufa, Godavari Ghats, spiritual significance, travel tips, and pilgrimage guidance for Panchavati during Nashik Kumbh Mela 2027.
+  </p>
+</div>
+
+<div className="py-5">
             <Link
               href="/blog/ramkund-nashik-guide-kumbh-mela"
               className="text-lg font-semibold hover:text-orange-600"

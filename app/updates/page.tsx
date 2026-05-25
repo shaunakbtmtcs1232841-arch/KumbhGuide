@@ -94,6 +94,30 @@ export default function UpdatesPage() {
 
     </Link>
 
+    <Link href="/updates/nashik-pune-highway-widening-kumbh-2027">
+
+  <div className="bg-white rounded-2xl shadow-lg p-7 border hover:shadow-2xl transition duration-300 hover:-translate-y-1 cursor-pointer h-full">
+
+    <p className="text-sm text-orange-600 font-semibold mb-3">
+      Infrastructure & Traffic Update
+    </p>
+
+    <h3 className="text-2xl font-bold mb-4 leading-tight">
+      Nashik–Pune Highway Expansion and Major Road Projects Ahead of Kumbh Mela 2027
+    </h3>
+
+    <p className="text-gray-600 mb-6 leading-7">
+      Authorities are accelerating Nashik–Pune highway widening, Nashik Ring Road planning, traffic management systems, and transportation infrastructure projects ahead of Simhastha Kumbh Mela 2027.
+    </p>
+
+    <span className="text-orange-600 font-semibold">
+      Read Full Update →
+    </span>
+
+  </div>
+
+</Link>
+
     {/* UPDATE 3 */}
     <Link href="/updates/crowd-management-security-preparations-kumbh-2027">
 
