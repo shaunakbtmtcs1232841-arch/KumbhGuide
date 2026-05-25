@@ -10,6 +10,10 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   metadataBase: new URL('https://kumbhnashikguide.com'),
 
+  other: {
+  "google-adsense-account": "ca-pub-1617134626103059",
+},
+
   title: 'Nashik Kumbh Guide | Official Information & Travel Guide',
   description:
     'Comprehensive guide to Nashik-Trimbakeshwar Kumbh Mela. Temples, ghats, travel guide, important dates and updates for pilgrims visiting Nashik Kumbh.',
