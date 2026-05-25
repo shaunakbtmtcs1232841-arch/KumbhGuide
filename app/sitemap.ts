@@ -19,9 +19,29 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
     },
     {
+  url: "https://kumbhnashikguide.com/blog/panchavati-nashik-kumbh-mela-guide",
+  lastModified: new Date(),
+},
+    {
       url: "https://kumbhnashikguide.com/travel",
       lastModified: new Date(),
     },
+    {
+  url: "https://kumbhnashikguide.com/updates/nashik-pune-highway-widening-kumbh-2027",
+  lastModified: new Date(),
+},
+{
+  url: "https://kumbhnashikguide.com/blog/nashik-kumbh-mela-air-travel-guide",
+  lastModified: new Date(),
+},
+{
+  url: "https://kumbhnashikguide.com/blog/nashik-kumbh-mela-railway-guide",
+  lastModified: new Date(),
+},
+{
+  url: "https://kumbhnashikguide.com/blog/nashik-kumbh-mela-road-bus-travel-guide",
+  lastModified: new Date(),
+},
     {
       url: "https://kumbhnashikguide.com/updates",
       lastModified: new Date(),
@@ -56,6 +76,40 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: "https://kumbhnashikguide.com/blog/top-ghats-nashik",
       lastModified: new Date(),
     },
+    {
+  url: "https://kumbhnashikguide.com/about",
+  lastModified: new Date(),
+},
+
+{
+  url: "https://kumbhnashikguide.com/contact",
+  lastModified: new Date(),
+},
+
+{
+  url: "https://kumbhnashikguide.com/disclaimer",
+  lastModified: new Date(),
+},
+
+{
+  url: "https://kumbhnashikguide.com/privacy",
+  lastModified: new Date(),
+},
+
+{
+  url: "https://kumbhnashikguide.com/blog/nashik-kumbh-mela-railway-travel-guide",
+  lastModified: new Date(),
+},
+
+{
+  url: "https://kumbhnashikguide.com/blog/panchavati-nashik-kumbh-mela-guide",
+  lastModified: new Date(),
+},
+
+{
+  url: "https://kumbhnashikguide.com/updates/nashik-pune-highway-widening-kumbh-2027",
+  lastModified: new Date(),
+},
     {
       url: "https://kumbhnashikguide.com/blog/significance-of-godavari-river",
       lastModified: new Date(),
