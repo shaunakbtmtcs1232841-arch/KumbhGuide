@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import Script from "next/script";
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -53,18 +54,28 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <div className="flex min-h-screen flex-col">
-          {/* Google Analytics */}
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-NHG2VLRQ5Z"></script>
+{/* Google Analytics */}
+<Script
+  src="https://www.googletagmanager.com/gtag/js?id=G-NHG2VLRQ5Z"
+  strategy="afterInteractive"
+/>
 
-<script
-  dangerouslySetInnerHTML={{
-    __html: `
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-NHG2VLRQ5Z');
-    `,
-  }}
+<Script id="google-analytics" strategy="afterInteractive">
+  {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-NHG2VLRQ5Z');
+  `}
+</Script>
+
+{/* Google AdSense */}
+<Script
+  id="google-adsense"
+  async
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1617134626103059"
+  crossOrigin="anonymous"
+  strategy="afterInteractive"
 />
 
           <Header />
