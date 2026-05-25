@@ -40,6 +40,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
 },
 
 {
+  url: "https://kumbhnashikguide.com/blog/top-10-places-to-visit-nashik-kumbh-mela-2027",
+  lastModified: new Date(),
+},
+
+{
   url: "https://kumbhnashikguide.com/updates/clean-godavari-project-kumbh-2027",
   lastModified: new Date(),
 },
