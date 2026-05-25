@@ -817,7 +817,7 @@ const faqSchema = {
         </div>
       </Link>
 
-      <Link href="/blog/nashik-kumbh-mela-railway-guide">
+      <Link href="/blog/nashik-kumbh-mela-railway-travel-guide">
   <div className="bg-white shadow-lg rounded-xl p-6 hover:shadow-2xl transition duration-300 border hover:-translate-y-1 cursor-pointer">
     
     <h3 className="text-xl font-bold text-gray-900 mb-2">
