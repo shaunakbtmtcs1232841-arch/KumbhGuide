@@ -95,7 +95,30 @@ export default function BlogPage() {
     Explore Ramkund, Kalaram Temple, Sita Gufa, Godavari Ghats, spiritual significance, travel tips, and pilgrimage guidance for Panchavati during Nashik Kumbh Mela 2027.
   </p>
 </div>
+<div className="py-5">
+  <Link
+    href="/blog/nashik-kumbh-mela-2027-tithi"
+    className="text-lg font-semibold hover:text-orange-600"
+  >
+    नाशिक कुंभ मेला 2027 तिथि, शाही स्नान तारीख और महत्वपूर्ण कार्यक्रम
+  </Link>
 
+  <p className="text-sm text-gray-600 mt-1">
+    नाशिक कुंभ मेला 2027 की प्रमुख तिथियां, शाही स्नान कार्यक्रम, धार्मिक आयोजन, यात्रा मार्गदर्शन, भीड़ प्रबंधन जानकारी और श्रद्धालुओं के लिए महत्वपूर्ण अपडेट।
+  </p>
+</div>
+<div className="py-5">
+  <Link
+    href="/blog/नाशिक-कुंभमेळा-2027-तारखा-आणि-संपूर्ण-वेळापत्रक"
+    className="text-lg font-semibold hover:text-orange-600"
+  >
+    नाशिक कुंभमेळा 2027 तारखा आणि संपूर्ण वेळापत्रक
+  </Link>
+
+  <p className="text-sm text-gray-600 mt-1">
+    नाशिक कुंभमेळा 2027 मधील प्रमुख शाही स्नान तारखा, धार्मिक कार्यक्रम, यात्रेचे वेळापत्रक, गर्दी व्यवस्थापन माहिती आणि यात्रेकरूंकरिता महत्त्वपूर्ण मार्गदर्शन.
+  </p>
+</div>
 <div className="py-5">
             <Link
               href="/blog/ramkund-nashik-guide-kumbh-mela"
