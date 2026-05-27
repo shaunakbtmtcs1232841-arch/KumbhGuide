@@ -109,6 +109,19 @@ export default function BlogPage() {
 
 <div className="py-5">
   <Link
+    href="/blog/trimbakeshwar-temple-guide-kumbh-mela-2027"
+    className="text-lg font-semibold hover:text-orange-600"
+  >
+    Trimbakeshwar Temple Guide for Nashik Kumbh Mela 2027
+  </Link>
+
+  <p className="text-sm text-gray-600 mt-1">
+    Complete guide to Trimbakeshwar Jyotirlinga including temple history, darshan timings, Kushavarta Kund, Godavari River origin, travel guidance, spiritual significance, and pilgrimage information for Nashik Kumbh Mela 2027.
+  </p>
+</div>
+
+<div className="py-5">
+  <Link
     href="/blog/panchavati-nashik-kumbh-mela-guide"
     className="text-lg font-semibold hover:text-orange-600"
   >

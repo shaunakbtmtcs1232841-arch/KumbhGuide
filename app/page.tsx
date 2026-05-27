@@ -817,6 +817,26 @@ const faqSchema = {
         </div>
       </Link>
 
+<Link href="/blog/trimbakeshwar-temple-guide-kumbh-mela-2027">
+
+  <div className="bg-white shadow-lg rounded-xl p-6 hover:shadow-2xl transition duration-300 border hover:-translate-y-1 cursor-pointer">
+
+    <h3 className="text-xl font-bold text-gray-900 mb-3">
+      Trimbakeshwar Temple Guide for Nashik Kumbh Mela 2027
+    </h3>
+
+    <p className="text-gray-600 text-sm mb-4 leading-6">
+      Explore Trimbakeshwar Jyotirlinga, Kushavarta Kund, temple rituals, darshan timings, travel guidance, and the spiritual importance of Trimbakeshwar during Nashik Kumbh Mela 2027.
+    </p>
+
+    <span className="text-orange-600 font-semibold">
+      Read Full Guide →
+    </span>
+
+  </div>
+
+</Link>
+
       <Link href="/blog/nashik-kumbh-mela-railway-travel-guide">
   <div className="bg-white shadow-lg rounded-xl p-6 hover:shadow-2xl transition duration-300 border hover:-translate-y-1 cursor-pointer">
     
