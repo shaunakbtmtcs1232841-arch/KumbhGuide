@@ -90,6 +90,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
   url: "https://kumbhnashikguide.com/disclaimer",
   lastModified: new Date(),
 },
+{
+  url: "https://kumbhnashikguide.com/blog/trimbakeshwar-temple-guide-kumbh-mela-2027",
+  lastModified: new Date(),
+},
 
 {
   url: "https://kumbhnashikguide.com/privacy",
