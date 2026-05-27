@@ -66,7 +66,7 @@ export default function TrimbakeshwarTempleGuidePage() {
 
       <div className="rounded-2xl overflow-hidden mb-10 shadow-lg">
         <img
-          src="/trimbakeshwar-temple.jpg"
+          src="/trimbakk.png"
           alt="Trimbakeshwar Temple during Nashik Kumbh Mela 2027"
           className="w-full h-[300px] md:h-[500px] object-cover"
         />
