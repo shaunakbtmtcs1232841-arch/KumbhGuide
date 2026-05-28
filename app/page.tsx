@@ -944,9 +944,13 @@ const faqSchema = {
       </span>
     </div>
   </Link>
+  
+
+   
 
 
-   <section className="max-w-6xl mx-auto px-4 py-16">
+    </div>
+<section className="max-w-6xl mx-auto px-4 py-16">
 
   <div className="bg-orange-50 border rounded-3xl p-8 md:p-12">
 
@@ -1013,10 +1017,6 @@ const faqSchema = {
   </div>
 
 </section>
-
-
-    </div>
-
   </div>
 </section>
 
