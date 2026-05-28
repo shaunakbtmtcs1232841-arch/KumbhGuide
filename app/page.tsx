@@ -825,7 +825,7 @@ const faqSchema = {
       Trimbakeshwar Temple Guide for Nashik Kumbh Mela 2027
     </h3>
 
-    <p className="text-gray-600 text-sm mb-4 leading-6">
+    <p className="text-gray-600 text-sm mb-3">
       Explore Trimbakeshwar Jyotirlinga, Kushavarta Kund, temple rituals, darshan timings, travel guidance, and the spiritual importance of Trimbakeshwar during Nashik Kumbh Mela 2027.
     </p>
 
