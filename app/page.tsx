@@ -945,7 +945,74 @@ const faqSchema = {
     </div>
   </Link>
 
-   
+
+   <section className="max-w-6xl mx-auto px-4 py-16">
+
+  <div className="bg-orange-50 border rounded-3xl p-8 md:p-12">
+
+    <div className="max-w-3xl">
+
+      <p className="text-orange-600 font-semibold mb-3">
+        Trusted Pilgrimage Information
+      </p>
+
+      <h2 className="text-3xl md:text-4xl font-bold mb-6">
+        Why Trust Nashik Kumbh Guide?
+      </h2>
+
+      <p className="text-gray-700 leading-8 mb-8">
+        Nashik Kumbh Guide is an independent informational platform created to help pilgrims, devotees, and travelers visiting Nashik Kumbh Mela 2027. Our goal is to provide useful pilgrimage guidance, temple information, travel resources, transportation updates, and spiritually relevant content based on publicly available references, official updates, and regional travel information.
+      </p>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+
+        <div className="bg-white rounded-2xl p-5 border">
+          <h3 className="font-bold text-lg mb-2">
+            Pilgrimage-Focused Information
+          </h3>
+
+          <p className="text-gray-600 leading-7 text-sm">
+            Detailed guides related to temples, ghats, rituals, travel routes, accommodation, and Kumbh Mela preparations.
+          </p>
+        </div>
+
+        <div className="bg-white rounded-2xl p-5 border">
+          <h3 className="font-bold text-lg mb-2">
+            Regularly Updated Content
+          </h3>
+
+          <p className="text-gray-600 leading-7 text-sm">
+            Ongoing updates related to Nashik Kumbh Mela infrastructure, transportation, crowd management, and pilgrimage planning.
+          </p>
+        </div>
+
+        <div className="bg-white rounded-2xl p-5 border">
+          <h3 className="font-bold text-lg mb-2">
+            Spiritual & Travel Guidance
+          </h3>
+
+          <p className="text-gray-600 leading-7 text-sm">
+            Helpful information for devotees visiting Trimbakeshwar, Ramkund, Panchavati, and other important spiritual destinations.
+          </p>
+        </div>
+
+        <div className="bg-white rounded-2xl p-5 border">
+          <h3 className="font-bold text-lg mb-2">
+            User-Friendly Experience
+          </h3>
+
+          <p className="text-gray-600 leading-7 text-sm">
+            Structured articles, internal linking, mobile-friendly design, and accessible pilgrimage resources for visitors.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
 
 
     </div>
