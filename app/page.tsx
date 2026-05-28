@@ -837,6 +837,30 @@ const faqSchema = {
 
 </Link>
 
+<Link href="/updates/clean-godavari-project-kumbh-2027">
+
+  <div className="bg-white shadow-lg rounded-xl p-6 hover:shadow-2xl transition duration-300 border hover:-translate-y-1 cursor-pointer">
+
+    <p className="text-sm text-orange-600 font-semibold mb-2">
+      Infrastructure Update
+    </p>
+
+    <h3 className="text-xl font-bold text-gray-900 mb-2">
+      ₹1,600 Crore Clean Godavari Project Intensified Ahead of Nashik Kumbh Mela 2027
+    </h3>
+
+    <p className="text-gray-600 text-sm mb-3">
+      Nashik Municipal Corporation is accelerating sewage treatment, sanitation systems, pumping stations, and river cleanup projects ahead of Kumbh Mela 2027.
+    </p>
+
+    <span className="text-orange-600 font-semibold">
+      Read Full Update →
+    </span>
+
+  </div>
+
+</Link>
+
       <Link href="/blog/nashik-kumbh-mela-railway-travel-guide">
   <div className="bg-white shadow-lg rounded-xl p-6 hover:shadow-2xl transition duration-300 border hover:-translate-y-1 cursor-pointer">
     
@@ -889,29 +913,7 @@ const faqSchema = {
 
 </Link>
 
-<Link href="/updates/clean-godavari-project-kumbh-2027">
 
-  <div className="bg-white shadow-lg rounded-xl p-6 hover:shadow-2xl transition duration-300 border hover:-translate-y-1 cursor-pointer">
-
-    <p className="text-sm text-orange-600 font-semibold mb-2">
-      Infrastructure Update
-    </p>
-
-    <h3 className="text-xl font-bold text-gray-900 mb-2">
-      ₹1,600 Crore Clean Godavari Project Intensified Ahead of Nashik Kumbh Mela 2027
-    </h3>
-
-    <p className="text-gray-600 text-sm mb-3">
-      Nashik Municipal Corporation is accelerating sewage treatment, sanitation systems, pumping stations, and river cleanup projects ahead of Kumbh Mela 2027.
-    </p>
-
-    <span className="text-orange-600 font-semibold">
-      Read Full Update →
-    </span>
-
-  </div>
-
-</Link>
 
 <Link href="/blog/nashik-kumbh-mela-bus-travel-guide">
   <div className="bg-white shadow-lg rounded-xl p-6 hover:shadow-2xl transition duration-300 border hover:-translate-y-1 cursor-pointer">
