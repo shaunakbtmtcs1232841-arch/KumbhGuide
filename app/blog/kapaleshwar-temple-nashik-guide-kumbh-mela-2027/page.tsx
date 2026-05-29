@@ -65,7 +65,7 @@ export default function KapaleshwarTempleGuidePage() {
 
       <div className="rounded-2xl overflow-hidden shadow-lg mb-10">
         <img
-          src="/kapaleshwar-temple.jpg"
+          src="/images/kapalesh.png"
           alt="Kapaleshwar Temple Nashik"
           className="w-full h-[300px] md:h-[500px] object-cover"
         />
