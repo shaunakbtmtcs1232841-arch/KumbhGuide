@@ -65,7 +65,7 @@ export default function KushavartaKundGuidePage() {
 
       <div className="rounded-2xl overflow-hidden shadow-lg mb-10">
         <img
-          src="/kushavarta-kund.jpg"
+          src="/images/kushvartaa.png"
           alt="Kushavarta Kund Trimbakeshwar"
           className="w-full h-[300px] md:h-[500px] object-cover"
         />
