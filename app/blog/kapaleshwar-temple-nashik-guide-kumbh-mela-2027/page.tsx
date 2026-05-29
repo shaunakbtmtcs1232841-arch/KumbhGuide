@@ -80,7 +80,7 @@ export default function KapaleshwarTempleGuidePage() {
         <ul className="space-y-3 text-gray-700">
 
           <li>
-            📍 Location: Panchavati, Nashik, Maharashtra
+            📍 Location: Panchavati, Nashik, Maharashtra .
           </li>
 
           <li>
