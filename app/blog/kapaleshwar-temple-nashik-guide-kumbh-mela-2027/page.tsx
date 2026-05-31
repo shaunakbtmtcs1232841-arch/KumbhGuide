@@ -1,7 +1,7 @@
 import Link from "next/link";
-import { Metadata } from "next";
+import Image from "next/image";
 
-export const metadata: Metadata = {
+export const metadata = {
   title:
     "Kapaleshwar Temple Nashik Guide for Kumbh Mela 2027 | History, Nandi Mystery & Darshan",
 
@@ -64,11 +64,13 @@ export default function KapaleshwarTempleGuidePage() {
       </p>
 
       <div className="rounded-2xl overflow-hidden shadow-lg mb-10">
-        <img
-          src="/images/kapalesh.png"
-          alt="Kapaleshwar Temple Nashik"
-          className="w-full h-[300px] md:h-[500px] object-cover"
-        />
+        <Image
+  src="/images/kapalesh.png"
+  alt="Kapaleshwar Temple Nashik"
+  width={1200}
+  height={600}
+  className="w-full h-[300px] md:h-[500px] object-cover"
+/>
       </div>
 
       <div className="bg-orange-50 border rounded-2xl p-6 mb-10">
