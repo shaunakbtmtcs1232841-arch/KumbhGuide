@@ -1,4 +1,4 @@
-import "./globals.css";
+import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import Header from '@/components/Header';
@@ -79,6 +79,25 @@ export default function RootLayout({
   async
   src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1617134626103059"
   crossOrigin="anonymous"
+  strategy="afterInteractive"
+/>
+<Script id="google-translate-init" strategy="afterInteractive">
+  {`
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement(
+        {
+          pageLanguage: 'en',
+          includedLanguages: 'en,hi,mr',
+          layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+        },
+        'google_translate_element'
+      );
+    }
+  `}
+</Script>
+
+<Script
+  src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
   strategy="afterInteractive"
 />
 

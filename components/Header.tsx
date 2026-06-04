@@ -95,6 +95,10 @@ export default function Header() {
               );
             })}
           </div>
+          <div
+  id="google_translate_element"
+  className="hidden md:block ml-4"
+></div>
 
           <button
             type="button"
