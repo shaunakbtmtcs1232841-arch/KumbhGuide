@@ -253,22 +253,6 @@ answer:
                 </CardContent>
               </Card>
 
-              {/* Fourth Amrit Snan */}
-              {/* <Card className="border-2 border-orange-200 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"> */}
-                {/* <CardContent className="p-5 sm:p-6"> */}
-                  {/* <div className="flex items-center mb-3"> */}
-                    {/* <div className="bg-orange-100 rounded-full p-3 mr-3"> */}
-                      {/* <Sparkles className="h-6 w-6 text-orange-600" /> */}
-                    {/* </div> */}
-                    {/* <div> */}
-                      {/* <p className="text-xs sm:text-sm text-orange-600 font-semibold">Fourth Amrit Snan</p> */}
-                      {/* <p className="text-lg sm:text-xl font-bold text-gray-900">October 11 & 15, 2027</p> */}
-                    {/* </div> */}
-                  {/* </div> */}
-                  {/* <p className="text-sm text-gray-700 mb  -2">Ashwin Shudh Ekadashi & Purnima</p> */}
-                  {/* <p className="text-xs sm:text-sm text-gray-600 bg-orange-50 p-3 rounded-lg">Two auspicious dates</p> */}
-                {/* </CardContent> */}
-              {/* </Card> */}
             </div>
 
             {/* Complete Timeline Table */}
