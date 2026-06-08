@@ -25,7 +25,7 @@ export default function ContactPage() {
           <div className="flex items-center justify-center gap-3">
             <Mail className="text-orange-600" />
             <span className="text-lg font-medium">
-              shaunakshukla2110@gmail.com
+              kumbhnashikguide@gmail.com
             </span>
           </div>
 

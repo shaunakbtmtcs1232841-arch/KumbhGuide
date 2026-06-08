@@ -81,9 +81,9 @@ export default function Footer() {
 
   <div className="mt-2 text-center text-sm text-gray-500">
   Contact us: 
-  <a href="mailto:shaunakshukla2110@gmail.com"
+  <a href="mailto:kumbhnashikguide@gmail.com"
      className="text-orange-500 hover:text-orange-600 ml-1">
-     shaunakshukla2110@gmail.com
+     kumbhnashikguide@gmail.com
   </a>
 </div>
 </div>
