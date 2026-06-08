@@ -1,6 +1,4 @@
-// HoroscopePage.tsx — Daily Horoscope, June 8 2026
-// Matches Nashik Kumbh Guide site's orange/saffron theme
-// Square card grid layout — Tailwind CSS only, no extra deps
+
 
 const rashis = [
   {

@@ -629,6 +629,108 @@ answer:
   </div>
 </section>
 
+{/* ===== EXPLORE NASHIK KUMBH MELA SECTION ===== */}
+
+<section className="py-16 sm:py-20 bg-gradient-to-b from-orange-50 to-white">
+  <div className="max-w-7xl mx-auto px-4">
+
+<div className="text-center mb-12">
+  <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
+    Explore Nashik Kumbh Mela
+  </h2>
+
+  <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+    Discover the traditions, sacred rituals, pilgrimage sites, and spiritual experiences that make Nashik Kumbh Mela one of the most important religious gatherings in the world.
+  </p>
+</div>
+
+<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+  <Link href="/blog/shahi-snan-amrit-snan-guide-nashik-kumbh-mela-2027">
+    <Card className="h-full hover:shadow-xl transition-all duration-300 cursor-pointer">
+      <CardContent className="p-6">
+        <h3 className="text-xl font-bold mb-3">
+          Shahi Snan & Amrit Snan Guide
+        </h3>
+        <p className="text-gray-600">
+          Learn about the most sacred bathing rituals of Kumbh Mela, their significance, traditions, and importance for pilgrims.
+        </p>
+      </CardContent>
+    </Card>
+  </Link>
+
+  <Link href="/blog/akharas-in-kumbh-mela-guide-nashik-kumbh-mela-2027">
+    <Card className="h-full hover:shadow-xl transition-all duration-300 cursor-pointer">
+      <CardContent className="p-6">
+        <h3 className="text-xl font-bold mb-3">
+          Akharas & Naga Sadhus
+        </h3>
+        <p className="text-gray-600">
+          Explore the history, traditions, and role of Akharas and Naga Sadhus during Nashik Kumbh Mela.
+        </p>
+      </CardContent>
+    </Card>
+  </Link>
+
+  <Link href="/blog/ramkund-nashik-guide-kumbh-mela">
+    <Card className="h-full hover:shadow-xl transition-all duration-300 cursor-pointer">
+      <CardContent className="p-6">
+        <h3 className="text-xl font-bold mb-3">
+          Ramkund Guide
+        </h3>
+        <p className="text-gray-600">
+          Discover the spiritual significance of Ramkund, the most important bathing ghat during Nashik Kumbh Mela.
+        </p>
+      </CardContent>
+    </Card>
+  </Link>
+
+  <Link href="/blog/panchavati-nashik-kumbh-mela-guide">
+    <Card className="h-full hover:shadow-xl transition-all duration-300 cursor-pointer">
+      <CardContent className="p-6">
+        <h3 className="text-xl font-bold mb-3">
+          Panchavati Guide
+        </h3>
+        <p className="text-gray-600">
+          Explore the sacred land associated with Lord Rama and one of Nashik's most important pilgrimage destinations.
+        </p>
+      </CardContent>
+    </Card>
+  </Link>
+
+  <Link href="/blog/trimbakeshwar-temple-guide-kumbh-mela-2027">
+    <Card className="h-full hover:shadow-xl transition-all duration-300 cursor-pointer">
+      <CardContent className="p-6">
+        <h3 className="text-xl font-bold mb-3">
+          Trimbakeshwar Guide
+        </h3>
+        <p className="text-gray-600">
+          Learn about one of the twelve Jyotirlingas and its deep connection with Nashik Kumbh Mela.
+        </p>
+      </CardContent>
+    </Card>
+  </Link>
+
+  <Link href="/ghats">
+    <Card className="h-full hover:shadow-xl transition-all duration-300 cursor-pointer">
+      <CardContent className="p-6">
+        <h3 className="text-xl font-bold mb-3">
+          Godavari River & Ghats
+        </h3>
+        <p className="text-gray-600">
+          Explore the sacred Godavari River, Ramkund, Kushavarta Kund, and other important ghats of Nashik.
+        </p>
+      </CardContent>
+    </Card>
+  </Link>
+
+</div>
+
+
+  </div>
+</section>
+
+
 
       {/* Sacred Sites - Visual Guide */}
       <section className="py-12 sm:py-16 lg:py-20 bg-gradient-to-br from-orange-50 via-red-50 to-yellow-50">
