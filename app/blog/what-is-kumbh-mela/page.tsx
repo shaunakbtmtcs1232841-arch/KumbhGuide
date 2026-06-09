@@ -220,6 +220,79 @@ the spiritual significance of this sacred bathing ritual.
           considered a symbol of India’s rich cultural and spiritual heritage.
         </p>
 
+<h2 className="text-2xl font-bold mb-4">
+Frequently Asked Questions (FAQs)
+</h2>
+
+<div className="space-y-6 mb-8">
+
+  <div>
+    <h3 className="font-semibold text-lg">
+      What is Kumbh Mela?
+    </h3>
+    <p>
+      Kumbh Mela is the world's largest Hindu pilgrimage gathering where
+      millions of devotees take a holy dip in sacred rivers to seek
+      spiritual purification and blessings.
+    </p>
+  </div>
+
+  <div>
+    <h3 className="font-semibold text-lg">
+      Why is Kumbh Mela celebrated?
+    </h3>
+    <p>
+      Kumbh Mela is celebrated to commemorate the mythological story of
+      Samudra Manthan and the appearance of the Amrit Kalash, the pot of
+      immortality.
+    </p>
+  </div>
+
+  <div>
+    <h3 className="font-semibold text-lg">
+      Why is Nashik important for Kumbh Mela?
+    </h3>
+    <p>
+      Nashik is one of the four sacred locations where drops of Amrit are
+      believed to have fallen. The festival is associated with the holy
+      Godavari River and Trimbakeshwar.
+    </p>
+  </div>
+
+  <div>
+    <h3 className="font-semibold text-lg">
+      Which river is associated with Nashik Kumbh Mela?
+    </h3>
+    <p>
+      The Godavari River is the sacred river associated with Nashik Kumbh
+      Mela. Important bathing rituals take place at Ramkund and nearby
+      ghats.
+    </p>
+  </div>
+
+  <div>
+    <h3 className="font-semibold text-lg">
+      What is Shahi Snan?
+    </h3>
+    <p>
+      Shahi Snan, also known as the Royal Bath, is one of the most sacred
+      rituals of Kumbh Mela where Akharas and saints take ceremonial holy
+      dips in the river.
+    </p>
+  </div>
+
+  <div>
+    <h3 className="font-semibold text-lg">
+      When is the next Nashik Kumbh Mela?
+    </h3>
+    <p>
+      Nashik Kumbh Mela 2027 is expected to attract millions of pilgrims,
+      saints, and visitors from across India and the world.
+    </p>
+  </div>
+
+</div>
+
         <h2 className="text-2xl font-bold mb-4">Conclusion</h2>
         <p className="mb-6">
           Kumbh Mela is not just a festival but a powerful spiritual experience.
@@ -243,6 +316,12 @@ the spiritual significance of this sacred bathing ritual.
             </li>
             <li>
               ➜ <Link href="/about">About Nashik Kumbh Mela</Link>
+            </li>
+             <li>
+              ➜ <Link href="/nashik-kumbh-mela-2027-dates">Nashik Kumbh Mela 2027 Dates</Link>
+            </li>
+             <li>
+              ➜ <Link href="/akharas-in-kumbh-mela-guide-nashik-kumbh-mela-2027">Akharas Guide</Link>
             </li>
           </ul>
         </div>
