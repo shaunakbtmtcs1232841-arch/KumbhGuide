@@ -3,14 +3,15 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title:
+ title:
 "What is Kumbh Mela? History, Significance & Why It Is Celebrated | Nashik Kumbh Guide",
-  description:
-"Learn what Kumbh Mela is, why it is celebrated, its history, spiritual significance, mythological origin, Shahi Snan, Amrit Snan, and the importance of Nashik Kumbh Mela 2027.",
-keywords:  
-"What is Kumbh Mela, Kumbh Mela, Kumbh Mela meaning, Kumbh Mela history, why Kumbh Mela is celebrated, importance of Kumbh Mela, significance of Kumbh Mela, Nashik Kumbh Mela, Nashik Kumbh Mela 2027, Kumbh Mela guide, Kumbh festival, Kumbh Mela information, Godavari River Kumbh Mela, Shahi Snan, Amrit Snan, Akharas, Naga Sadhus, Kumbh pilgrimage, Hindu pilgrimage festival, Kumbh Mela in Nashik",
-};
 
+description:
+"Learn what Kumbh Mela is, why it is celebrated, its history, mythological origin, spiritual significance, Shahi Snan, Amrit Snan, and the importance of Nashik Kumbh Mela 2027.",
+
+keywords:
+"What is Kumbh Mela, Kumbh Mela, Kumbh Mela meaning, Kumbh Mela history, why Kumbh Mela is celebrated, importance of Kumbh Mela, significance of Kumbh Mela, Nashik Kumbh Mela, Nashik Kumbh Mela 2027, Kumbh Mela guide, Godavari River Kumbh Mela, Shahi Snan, Amrit Snan, Akharas, Naga Sadhus"
+}
 export default function ArticlePage() {
   return (
     <div className="bg-white min-h-screen">
@@ -25,7 +26,6 @@ export default function ArticlePage() {
         </p>
       </section>
 
-{/* FEATURED IMAGE */}
 <div className="max-w-5xl mx-auto px-6 py-10">
   <Image
     src="/images/godavari_fixed.png"
@@ -219,6 +219,36 @@ the spiritual significance of this sacred bathing ritual.
           gather peacefully to seek blessings and spiritual purification. It is
           considered a symbol of India’s rich cultural and spiritual heritage.
         </p>
+
+<h2 className="text-2xl font-bold mb-4">
+Interesting Facts About Kumbh Mela
+</h2>
+
+<ul className="list-disc pl-6 mb-6 space-y-3">
+  <li>
+    Kumbh Mela is considered the world's largest peaceful religious gathering.
+  </li>
+
+  <li>
+    Millions of pilgrims, saints, and visitors participate during each Kumbh cycle.
+  </li>
+
+  <li>
+    The festival rotates between Prayagraj, Haridwar, Ujjain, and Nashik.
+  </li>
+
+  <li>
+    Kumbh Mela was inscribed by UNESCO on the Representative List of the Intangible Cultural Heritage of Humanity.
+  </li>
+
+  <li>
+    The Nashik Kumbh Mela is associated with the sacred Godavari River and Trimbakeshwar Jyotirlinga.
+  </li>
+
+  <li>
+    Shahi Snan and Amrit Snan are among the most important rituals performed during Kumbh Mela.
+  </li>
+</ul>
 
 <h2 className="text-2xl font-bold mb-4">
 Frequently Asked Questions (FAQs)
