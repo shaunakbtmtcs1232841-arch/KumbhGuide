@@ -30,8 +30,8 @@ export default function ArticlePage() {
   <Image
     src="/images/godavari_fixed.png"
     alt="Pilgrims taking a holy dip in the Godavari River during Nashik Kumbh Mela"
-    width={1200}
-    height={675}
+    width={1000}
+    height={575}
     className="rounded-xl shadow-lg w-full h-auto"
     priority
   />
