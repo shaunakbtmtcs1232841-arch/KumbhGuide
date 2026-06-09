@@ -23,6 +23,8 @@ export default function AboutPage() {
       </section>
 
       <section className="py-16 bg-white">
+
+        
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <div className="prose prose-lg max-w-none">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">
@@ -42,6 +44,31 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+<section className="py-16 bg-orange-50">
+  <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+    <h2 className="text-3xl font-bold text-gray-900 mb-6">
+      Why is Kumbh Mela Celebrated?
+    </h2>
+
+```
+<p className="text-gray-600 leading-relaxed mb-6">
+  Kumbh Mela is celebrated to commemorate the ancient Hindu legend of
+  Samudra Manthan, the cosmic churning of the ocean. According to Hindu
+  scriptures, gods and demons worked together to obtain Amrit, the nectar
+  of immortality. During the struggle for the sacred pot of nectar, drops
+  are believed to have fallen at Prayagraj, Haridwar, Ujjain, and Nashik.
+</p>
+
+<p className="text-gray-600 leading-relaxed mb-6">
+  The festival symbolizes faith, devotion, spiritual purification, and the
+  eternal quest for enlightenment. Millions of devotees participate in
+  Kumbh Mela to take a holy dip in sacred rivers, seek blessings from
+  saints, and strengthen their spiritual connection.
+</p>
+```
+
+  </div>
+</section>
 
       <section className="py-16 bg-gray-50">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -215,6 +242,65 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+<section className="py-16 bg-gray-50">
+  <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+    <h2 className="text-3xl font-bold text-gray-900 mb-6">
+      Shahi Snan, Amrit Snan & Akharas
+    </h2>
+
+```
+<p className="text-gray-600 leading-relaxed mb-6">
+  One of the most important traditions of Kumbh Mela is the sacred bathing
+  ritual known as Shahi Snan, often referred to as the Royal Bath. In
+  recent years, the term Amrit Snan has gained prominence to emphasize the
+  spiritual significance of the ritual.
+</p>
+
+<p className="text-gray-600 leading-relaxed mb-6">
+  The bathing processions are led by Akharas, ancient monastic
+  organizations that preserve Hindu spiritual traditions. Naga Sadhus,
+  known for their strict ascetic practices and devotion, are among the most
+  recognizable participants during these processions.
+</p>
+
+<p className="text-gray-600 leading-relaxed">
+  The presence of Akharas, saints, and Naga Sadhus makes Kumbh Mela a
+  unique spiritual gathering unlike any other religious event in the world.
+</p>
+```
+
+  </div>
+</section>
+
+<section className="py-16 bg-white">
+  <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+    <h2 className="text-3xl font-bold text-gray-900 mb-6">
+      Nashik Kumbh Mela 2027
+    </h2>
+
+```
+<p className="text-gray-600 leading-relaxed mb-6">
+  Nashik Kumbh Mela 2027 is expected to attract millions of pilgrims,
+  saints, devotees, and visitors from across India and around the world.
+  The festival will be centered around the sacred Godavari River, Ramkund,
+  Panchavati, and Trimbakeshwar.
+</p>
+
+<p className="text-gray-600 leading-relaxed mb-6">
+  Major highlights include sacred bathing dates, Shahi Snan processions,
+  spiritual discourses, religious ceremonies, cultural programs, and
+  large-scale pilgrimage activities.
+</p>
+
+<p className="text-gray-600 leading-relaxed">
+  Visitors planning to attend Nashik Kumbh Mela should stay updated with
+  official announcements regarding dates, transportation, accommodation,
+  crowd management, and pilgrimage facilities.
+</p>
+```
+
+  </div>
+</section>
 
       <section className="py-16 bg-gradient-to-br from-orange-50 to-white">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">

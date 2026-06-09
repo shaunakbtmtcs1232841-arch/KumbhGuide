@@ -348,10 +348,10 @@ Frequently Asked Questions (FAQs)
               ➜ <Link href="/about">About Nashik Kumbh Mela</Link>
             </li>
              <li>
-              ➜ <Link href="/nashik-kumbh-mela-2027-dates">Nashik Kumbh Mela 2027 Dates</Link>
+              ➜ <Link href="/blog/nashik-kumbh-mela-2027-dates">Nashik Kumbh Mela 2027 Dates</Link>
             </li>
              <li>
-              ➜ <Link href="/akharas-in-kumbh-mela-guide-nashik-kumbh-mela-2027">Akharas Guide</Link>
+              ➜ <Link href="/blog/akharas-in-kumbh-mela-guide-nashik-kumbh-mela-2027">Akharas Guide</Link>
             </li>
           </ul>
         </div>
