@@ -17,7 +17,12 @@ export default function Footer() {
       <Link href="/ghats">Holy Ghats</Link>
       <Link href="/travel">Travel Guide</Link>
       <Link href="/about">About Kumbh</Link>
+      <Link href="/blog">Blog</Link>
+      <Link href="/updates">Updates</Link>
       <Link href="/disclaimer">Disclaimer</Link>
+      <Link href="/editorial-policy">Editorial Policy</Link>
+      <Link href="/privacy">Privacy Policy</Link>
+      
     </div>
 
   </div>
