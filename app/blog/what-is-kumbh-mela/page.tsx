@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title:
@@ -24,6 +25,21 @@ export default function ArticlePage() {
         </p>
       </section>
 
+{/* FEATURED IMAGE */}
+<div className="max-w-5xl mx-auto px-6 py-10">
+  <Image
+    src="/images/godavari_fixed.png"
+    alt="Pilgrims taking a holy dip in the Godavari River during Nashik Kumbh Mela"
+    width={1200}
+    height={675}
+    className="rounded-xl shadow-lg w-full h-auto"
+    priority
+  />
+
+  <p className="text-center text-sm text-gray-500 mt-3">
+    Pilgrims gather on the banks of the Godavari River during Nashik Kumbh Mela for sacred bathing rituals.
+  </p>
+</div>
       {/* ARTICLE */}
       <article className="max-w-4xl mx-auto px-6 py-12 text-gray-800 leading-relaxed">
 
