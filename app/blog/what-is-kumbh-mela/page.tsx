@@ -1,14 +1,17 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "What is Kumbh Mela and Why is it Celebrated? | Nashik Kumbh Guide",
-  description:
-    "Learn what Kumbh Mela is, its history, mythological origin, and why millions celebrate this sacred festival in Nashik. Complete guide for pilgrims and visitors.",
-  keywords:
-    "What is Kumbh Mela, Nashik Kumbh Mela, why Kumbh Mela is celebrated, Kumbh Mela history, Kumbh significance",
-};
+ title:
+"What is Kumbh Mela? History, Significance & Why It Is Celebrated | Nashik Kumbh Guide",
 
+description:
+"Learn what Kumbh Mela is, why it is celebrated, its history, mythological origin, spiritual significance, Shahi Snan, Amrit Snan, and the importance of Nashik Kumbh Mela 2027.",
+
+keywords:
+"What is Kumbh Mela, Kumbh Mela, Kumbh Mela meaning, Kumbh Mela history, why Kumbh Mela is celebrated, importance of Kumbh Mela, significance of Kumbh Mela, Nashik Kumbh Mela, Nashik Kumbh Mela 2027, Kumbh Mela guide, Godavari River Kumbh Mela, Shahi Snan, Amrit Snan, Akharas, Naga Sadhus"
+}
 export default function ArticlePage() {
   return (
     <div className="bg-white min-h-screen">
@@ -23,6 +26,20 @@ export default function ArticlePage() {
         </p>
       </section>
 
+<div className="max-w-5xl mx-auto px-6 py-10">
+  <Image
+    src="/images/godavari_fixed.png"
+    alt="Pilgrims taking a holy dip in the Godavari River during Nashik Kumbh Mela"
+    width={1000}
+    height={575}
+    className="rounded-xl shadow-lg w-full h-auto"
+    priority
+  />
+
+  <p className="text-center text-sm text-gray-500 mt-3">
+    Pilgrims gather on the banks of the Godavari River during Nashik Kumbh Mela for sacred bathing rituals.
+  </p>
+</div>
       {/* ARTICLE */}
       <article className="max-w-4xl mx-auto px-6 py-12 text-gray-800 leading-relaxed">
 
@@ -71,6 +88,33 @@ export default function ArticlePage() {
           <li>Provides spiritual growth and inner peace</li>
         </ul>
 
+<h2 className="text-2xl font-bold mb-4">
+Meaning and Significance of Kumbh Mela
+</h2>
+
+<p className="mb-6">
+The word <strong>Kumbh</strong> means a sacred pot or pitcher, while
+<strong> Mela </strong> means gathering or fair. The term Kumbh Mela is
+derived from the mythological story of the Amrit Kalash, the pot of nectar
+that emerged during Samudra Manthan. According to Hindu beliefs, this nectar
+represented immortality and divine blessings.
+</p>
+
+<p className="mb-6">
+The significance of Kumbh Mela goes far beyond ritual bathing. It is regarded
+as a spiritual gathering where devotees seek purification, self-reflection,
+and a deeper connection with the divine. Millions of pilgrims travel from
+across India and around the world to participate in this sacred event,
+making it one of the largest peaceful gatherings on Earth.
+</p>
+
+<p className="mb-6">
+For many devotees, Kumbh Mela is an opportunity to perform religious rituals,
+listen to spiritual teachings, meet saints and ascetics, and strengthen their
+faith. The festival also serves as a living symbol of India's spiritual,
+cultural, and religious heritage.
+</p>
+
         <h2 className="text-2xl font-bold mb-4">Importance of Nashik Kumbh Mela</h2>
         <p className="mb-6">
           The Nashik-Trimbakeshwar Kumbh Mela is held on the banks of the
@@ -99,6 +143,43 @@ export default function ArticlePage() {
           <li>Every 144 years – Maha Kumbh</li>
         </ul>
 
+<h2 className="text-2xl font-bold mb-4">
+The Four Sacred Locations of Kumbh Mela
+</h2>
+
+<p className="mb-6">
+Kumbh Mela is celebrated at four sacred locations in India. Each location is
+associated with the legend of Amrit and has immense religious significance.
+The festival rotates between these cities according to specific astrological
+alignments.
+</p>
+
+<ul className="list-disc pl-6 mb-6 space-y-2">
+  <li>
+    <strong>Prayagraj</strong> – Located at the confluence of the Ganga,
+    Yamuna, and the mythical Saraswati rivers.
+  </li>
+
+  <li>
+    <strong>Haridwar</strong> – Situated on the banks of the holy Ganga River.
+  </li>
+
+  <li>
+    <strong>Ujjain</strong> – Celebrated on the banks of the sacred Shipra River.
+  </li>
+
+  <li>
+    <strong>Nashik-Trimbakeshwar</strong> – Associated with the Godavari River
+    and one of the most important pilgrimage destinations in Maharashtra.
+  </li>
+</ul>
+
+<p className="mb-6">
+Among these locations, Nashik Kumbh Mela holds a special place due to its
+connection with the Godavari River, Ramkund, Panchavati, Kushavarta Kund,
+and the Trimbakeshwar Jyotirlinga.
+</p>
+
         <h2 className="text-2xl font-bold mb-4">Major Rituals During Kumbh</h2>
         <p className="mb-6">
           The most important ritual is the holy bath known as Shahi Snan or
@@ -107,12 +188,140 @@ export default function ArticlePage() {
           and cultural events throughout the festival.
         </p>
 
+<h2 className="text-2xl font-bold mb-4">
+Akharas, Naga Sadhus, and Shahi Snan
+</h2>
+
+<p className="mb-6">
+One of the most fascinating aspects of Kumbh Mela is the participation of
+Akharas and Naga Sadhus. Akharas are traditional monastic organizations that
+preserve spiritual teachings, religious practices, and ancient traditions.
+Their presence adds a unique spiritual dimension to the festival.
+</p>
+
+<p className="mb-6">
+Naga Sadhus are ascetic monks known for their strict spiritual discipline,
+renunciation, and devotion. They are among the most recognized figures of
+Kumbh Mela and lead ceremonial processions during important bathing days.
+</p>
+
+<p className="mb-6">
+The Shahi Snan, often referred to as the Royal Bath, is one of the most
+important rituals of Kumbh Mela. During this event, Akharas and Naga Sadhus
+participate in grand processions before taking a holy dip in the sacred river.
+In recent years, the term Amrit Snan has also gained prominence to emphasize
+the spiritual significance of this sacred bathing ritual.
+</p>
+
         <h2 className="text-2xl font-bold mb-4">Spiritual and Cultural Significance</h2>
         <p className="mb-6">
           Kumbh Mela represents faith, unity, and devotion. Millions of people
           gather peacefully to seek blessings and spiritual purification. It is
           considered a symbol of India’s rich cultural and spiritual heritage.
         </p>
+
+<h2 className="text-2xl font-bold mb-4">
+Interesting Facts About Kumbh Mela
+</h2>
+
+<ul className="list-disc pl-6 mb-6 space-y-3">
+  <li>
+    Kumbh Mela is considered the world's largest peaceful religious gathering.
+  </li>
+
+  <li>
+    Millions of pilgrims, saints, and visitors participate during each Kumbh cycle.
+  </li>
+
+  <li>
+    The festival rotates between Prayagraj, Haridwar, Ujjain, and Nashik.
+  </li>
+
+  <li>
+    Kumbh Mela was inscribed by UNESCO on the Representative List of the Intangible Cultural Heritage of Humanity.
+  </li>
+
+  <li>
+    The Nashik Kumbh Mela is associated with the sacred Godavari River and Trimbakeshwar Jyotirlinga.
+  </li>
+
+  <li>
+    Shahi Snan and Amrit Snan are among the most important rituals performed during Kumbh Mela.
+  </li>
+</ul>
+
+<h2 className="text-2xl font-bold mb-4">
+Frequently Asked Questions (FAQs)
+</h2>
+
+<div className="space-y-6 mb-8">
+
+  <div>
+    <h3 className="font-semibold text-lg">
+      What is Kumbh Mela?
+    </h3>
+    <p>
+      Kumbh Mela is the world's largest Hindu pilgrimage gathering where
+      millions of devotees take a holy dip in sacred rivers to seek
+      spiritual purification and blessings.
+    </p>
+  </div>
+
+  <div>
+    <h3 className="font-semibold text-lg">
+      Why is Kumbh Mela celebrated?
+    </h3>
+    <p>
+      Kumbh Mela is celebrated to commemorate the mythological story of
+      Samudra Manthan and the appearance of the Amrit Kalash, the pot of
+      immortality.
+    </p>
+  </div>
+
+  <div>
+    <h3 className="font-semibold text-lg">
+      Why is Nashik important for Kumbh Mela?
+    </h3>
+    <p>
+      Nashik is one of the four sacred locations where drops of Amrit are
+      believed to have fallen. The festival is associated with the holy
+      Godavari River and Trimbakeshwar.
+    </p>
+  </div>
+
+  <div>
+    <h3 className="font-semibold text-lg">
+      Which river is associated with Nashik Kumbh Mela?
+    </h3>
+    <p>
+      The Godavari River is the sacred river associated with Nashik Kumbh
+      Mela. Important bathing rituals take place at Ramkund and nearby
+      ghats.
+    </p>
+  </div>
+
+  <div>
+    <h3 className="font-semibold text-lg">
+      What is Shahi Snan?
+    </h3>
+    <p>
+      Shahi Snan, also known as the Royal Bath, is one of the most sacred
+      rituals of Kumbh Mela where Akharas and saints take ceremonial holy
+      dips in the river.
+    </p>
+  </div>
+
+  <div>
+    <h3 className="font-semibold text-lg">
+      When is the next Nashik Kumbh Mela?
+    </h3>
+    <p>
+      Nashik Kumbh Mela 2027 is expected to attract millions of pilgrims,
+      saints, and visitors from across India and the world.
+    </p>
+  </div>
+
+</div>
 
         <h2 className="text-2xl font-bold mb-4">Conclusion</h2>
         <p className="mb-6">
@@ -137,6 +346,12 @@ export default function ArticlePage() {
             </li>
             <li>
               ➜ <Link href="/about">About Nashik Kumbh Mela</Link>
+            </li>
+             <li>
+              ➜ <Link href="/blog/nashik-kumbh-mela-2027-dates">Nashik Kumbh Mela 2027 Dates</Link>
+            </li>
+             <li>
+              ➜ <Link href="/blog/akharas-in-kumbh-mela-guide-nashik-kumbh-mela-2027">Akharas Guide</Link>
             </li>
           </ul>
         </div>

@@ -99,19 +99,48 @@ export default function sitemap(): MetadataRoute.Sitemap {
   url: "https://kumbhnashikguide.com/privacy",
   lastModified: new Date(),
 },
-
 {
-  url: "https://kumbhnashikguide.com/blog/nashik-kumbh-mela-railway-travel-guide",
+  url: "https://kumbhnashikguide.com/editorial-policy",
   lastModified: new Date(),
 },
-
 {
-  url: "https://kumbhnashikguide.com/blog/panchavati-nashik-kumbh-mela-guide",
+  url: "https://kumbhnashikguide.com/blog/akharas-in-kumbh-mela-guide-nashik-kumbh-mela-2027",
   lastModified: new Date(),
 },
-
 {
-  url: "https://kumbhnashikguide.com/updates/nashik-pune-highway-widening-kumbh-2027",
+  url: "https://kumbhnashikguide.com/blog/kalaram-temple-nashik-guide-kumbh-mela-2027",
+  lastModified: new Date(),
+},
+{
+  url: "https://kumbhnashikguide.com/blog/kapaleshwar-temple-nashik-guide-kumbh-mela-2027",
+  lastModified: new Date(),
+},
+{
+  url: "https://kumbhnashikguide.com/blog/kushavarta-kund-guide-kumbh-mela-2027",
+  lastModified: new Date(),
+},
+{
+  url: "https://kumbhnashikguide.com/blog/naroshankar-temple-nashik-guide-kumbh-mela-2027",
+  lastModified: new Date(),
+},
+{
+  url: "https://kumbhnashikguide.com/blog/nashik-kumbhmela-2027-tarikh",
+  lastModified: new Date(),
+},
+{
+  url: "https://kumbhnashikguide.com/blog/nashik-kumbh-mela-2027-tithi",
+  lastModified: new Date(),
+},
+{
+  url: "https://kumbhnashikguide.com/blog/nashik-kumbh-mela-bus-travel-guide",
+  lastModified: new Date(),
+},
+{
+  url: "https://kumbhnashikguide.com/blog/shahi-snan-amrit-snan-guide-nashik-kumbh-mela-2027",
+  lastModified: new Date(),
+},
+{
+  url: "https://kumbhnashikguide.com/blog/sita-gufa-nashik-guide-kumbh-mela-2027",
   lastModified: new Date(),
 },
     {
