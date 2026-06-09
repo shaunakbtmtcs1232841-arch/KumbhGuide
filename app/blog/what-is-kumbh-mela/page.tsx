@@ -2,11 +2,12 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "What is Kumbh Mela and Why is it Celebrated? | Nashik Kumbh Guide",
+  title:
+"What is Kumbh Mela? History, Significance & Why It Is Celebrated | Nashik Kumbh Guide",
   description:
-    "Learn what Kumbh Mela is, its history, mythological origin, and why millions celebrate this sacred festival in Nashik. Complete guide for pilgrims and visitors.",
-  keywords:
-    "What is Kumbh Mela, Nashik Kumbh Mela, why Kumbh Mela is celebrated, Kumbh Mela history, Kumbh significance",
+"Learn what Kumbh Mela is, why it is celebrated, its history, spiritual significance, mythological origin, Shahi Snan, Amrit Snan, and the importance of Nashik Kumbh Mela 2027.",
+keywords:  
+"What is Kumbh Mela, Kumbh Mela, Kumbh Mela meaning, Kumbh Mela history, why Kumbh Mela is celebrated, importance of Kumbh Mela, significance of Kumbh Mela, Nashik Kumbh Mela, Nashik Kumbh Mela 2027, Kumbh Mela guide, Kumbh festival, Kumbh Mela information, Godavari River Kumbh Mela, Shahi Snan, Amrit Snan, Akharas, Naga Sadhus, Kumbh pilgrimage, Hindu pilgrimage festival, Kumbh Mela in Nashik",
 };
 
 export default function ArticlePage() {
@@ -71,6 +72,33 @@ export default function ArticlePage() {
           <li>Provides spiritual growth and inner peace</li>
         </ul>
 
+<h2 className="text-2xl font-bold mb-4">
+Meaning and Significance of Kumbh Mela
+</h2>
+
+<p className="mb-6">
+The word <strong>Kumbh</strong> means a sacred pot or pitcher, while
+<strong> Mela </strong> means gathering or fair. The term Kumbh Mela is
+derived from the mythological story of the Amrit Kalash, the pot of nectar
+that emerged during Samudra Manthan. According to Hindu beliefs, this nectar
+represented immortality and divine blessings.
+</p>
+
+<p className="mb-6">
+The significance of Kumbh Mela goes far beyond ritual bathing. It is regarded
+as a spiritual gathering where devotees seek purification, self-reflection,
+and a deeper connection with the divine. Millions of pilgrims travel from
+across India and around the world to participate in this sacred event,
+making it one of the largest peaceful gatherings on Earth.
+</p>
+
+<p className="mb-6">
+For many devotees, Kumbh Mela is an opportunity to perform religious rituals,
+listen to spiritual teachings, meet saints and ascetics, and strengthen their
+faith. The festival also serves as a living symbol of India's spiritual,
+cultural, and religious heritage.
+</p>
+
         <h2 className="text-2xl font-bold mb-4">Importance of Nashik Kumbh Mela</h2>
         <p className="mb-6">
           The Nashik-Trimbakeshwar Kumbh Mela is held on the banks of the
@@ -99,6 +127,43 @@ export default function ArticlePage() {
           <li>Every 144 years – Maha Kumbh</li>
         </ul>
 
+<h2 className="text-2xl font-bold mb-4">
+The Four Sacred Locations of Kumbh Mela
+</h2>
+
+<p className="mb-6">
+Kumbh Mela is celebrated at four sacred locations in India. Each location is
+associated with the legend of Amrit and has immense religious significance.
+The festival rotates between these cities according to specific astrological
+alignments.
+</p>
+
+<ul className="list-disc pl-6 mb-6 space-y-2">
+  <li>
+    <strong>Prayagraj</strong> – Located at the confluence of the Ganga,
+    Yamuna, and the mythical Saraswati rivers.
+  </li>
+
+  <li>
+    <strong>Haridwar</strong> – Situated on the banks of the holy Ganga River.
+  </li>
+
+  <li>
+    <strong>Ujjain</strong> – Celebrated on the banks of the sacred Shipra River.
+  </li>
+
+  <li>
+    <strong>Nashik-Trimbakeshwar</strong> – Associated with the Godavari River
+    and one of the most important pilgrimage destinations in Maharashtra.
+  </li>
+</ul>
+
+<p className="mb-6">
+Among these locations, Nashik Kumbh Mela holds a special place due to its
+connection with the Godavari River, Ramkund, Panchavati, Kushavarta Kund,
+and the Trimbakeshwar Jyotirlinga.
+</p>
+
         <h2 className="text-2xl font-bold mb-4">Major Rituals During Kumbh</h2>
         <p className="mb-6">
           The most important ritual is the holy bath known as Shahi Snan or
@@ -106,6 +171,31 @@ export default function ArticlePage() {
           the sacred river. Devotees also attend spiritual discourses, prayers,
           and cultural events throughout the festival.
         </p>
+
+<h2 className="text-2xl font-bold mb-4">
+Akharas, Naga Sadhus, and Shahi Snan
+</h2>
+
+<p className="mb-6">
+One of the most fascinating aspects of Kumbh Mela is the participation of
+Akharas and Naga Sadhus. Akharas are traditional monastic organizations that
+preserve spiritual teachings, religious practices, and ancient traditions.
+Their presence adds a unique spiritual dimension to the festival.
+</p>
+
+<p className="mb-6">
+Naga Sadhus are ascetic monks known for their strict spiritual discipline,
+renunciation, and devotion. They are among the most recognized figures of
+Kumbh Mela and lead ceremonial processions during important bathing days.
+</p>
+
+<p className="mb-6">
+The Shahi Snan, often referred to as the Royal Bath, is one of the most
+important rituals of Kumbh Mela. During this event, Akharas and Naga Sadhus
+participate in grand processions before taking a holy dip in the sacred river.
+In recent years, the term Amrit Snan has also gained prominence to emphasize
+the spiritual significance of this sacred bathing ritual.
+</p>
 
         <h2 className="text-2xl font-bold mb-4">Spiritual and Cultural Significance</h2>
         <p className="mb-6">
