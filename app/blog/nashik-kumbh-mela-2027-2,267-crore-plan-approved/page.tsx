@@ -3,12 +3,48 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title:
-    "Nashik Kumbh Mela 2027: ₹2,267 Crore Plan Approved",
-  description:
-    "Maharashtra has approved ₹2,267 crore for land acquisition, Sadhu Gram development, and infrastructure upgrades ahead of Nashik Kumbh Mela 2027.",
-};
+  title: "Nashik Kumbh Mela 2027: ₹2,267 Crore Plan Approved",
 
+  description:
+    "Discover key preparation plans, Sadhu Gram development, and important milestones ahead of the 2027 Simhastha Kumbh Mela.",
+
+  keywords: [
+    "Nashik Kumbh Mela",
+    "Nashik Kumbh Mela 2027",
+    "Kumbh Mela 2027",
+    "Simhastha Kumbh Mela",
+    "Nashik Kumbh Mela preparations",
+    "Sadhu Gram",
+    "Shahi Snan",
+    "Amrit Snan",
+    "Trimbakeshwar",
+    "Trimbakeshwar Kumbh Mela",
+    "Godavari River",
+    "Ramkund Nashik",
+    "Panchavati Nashik",
+    "Kumbh Mela Guide",
+    "Nashik pilgrimage",
+    "Maharashtra Kumbh Mela",
+    "Kumbh Mela dates 2027",
+    "Nashik religious tourism",
+    "Akharas",
+    "Hindu pilgrimage",
+    "Spiritual tourism Maharashtra",
+    "Nashik Ring Road",
+    "Ozar Airport",
+    "Royal Bath",
+    "Kumbh Mela infrastructure",
+    "Kumbh Mela news",
+    "Nashik Kumbh update",
+  ],
+
+  openGraph: {
+    title: "Nashik Kumbh Mela 2027: ₹2,267 Crore Plan Approved",
+    description:
+      "Discover key preparation plans, Sadhu Gram development, and important milestones ahead of the 2027 Simhastha Kumbh Mela.",
+    type: "article",
+  },
+};
 export const dynamic = "force-static";
 
 export default function NashikKumbhMela2027PlanApproved() {
