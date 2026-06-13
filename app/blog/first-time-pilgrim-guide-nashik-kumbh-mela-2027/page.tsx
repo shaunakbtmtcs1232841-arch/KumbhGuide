@@ -450,7 +450,7 @@ export default function Page() {
 
       <p className="mb-8">
         <Link
-          href="/blog/nashik-kumbh-mela-railway-travel-guide"
+          href="/blog/nashik-kumbh-mela-railway-guide"
           className="text-blue-600 underline"
         >
           Nashik Kumbh Mela Railway Travel Guide →
