@@ -143,6 +143,28 @@ export default function UpdatesPage() {
 
     </Link>
 
+    <Link href="/blog/nashik-kumbh-mela-2027-2,267-crore-plan-approved">
+
+      <div className="bg-white rounded-2xl shadow-lg p-7 border hover:shadow-2xl transition duration-300 hover:-translate-y-1 cursor-pointer h-full">
+
+        <p className="text-sm text-orange-600 font-semibold mb-3">
+          Infrastructure Update
+        </p>
+
+        <h3 className="text-2xl font-bold mb-4 leading-tight">
+Nashik Kumbh Mela 2027: ₹2,267 Crore Plan Approved        </h3>
+
+        <p className="text-gray-600 mb-6 leading-7">
+ajor land acquisition and infrastructure projects are now underway for the upcoming Nashik Kumbh Mela 2027.        </p>
+
+        <span className="text-orange-600 font-semibold">
+          Read Full Update →
+        </span>
+
+      </div>
+
+    </Link>
+
   </div>
 
 </div>

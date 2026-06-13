@@ -171,6 +171,17 @@ export default function BlogPage() {
             </p>
           </div>
 
+          <div className="py-5">
+            <Link
+              href="/blog/first-time-pilgrim-guide-nashik-kumbh-mela-2027"
+              className="text-lg font-semibold hover:text-orange-600"
+            >
+              First-Time Pilgrim Guide to Nashik Kumbh Mela 2027
+            </Link>
+            <p className="text-sm text-gray-600 mt-1">
+A complete beginner's guide to Nashik Kumbh Mela 2027 covering Amrit Snan dates, travel planning, accommodation, sacred temples, Godavari River ghats, pilgrimage tips, and everything first-time visitors need to know.            </p>
+          </div>
+
           {/* ARTICLE 6 */}
           <div className="py-5">
             <Link
@@ -184,18 +195,7 @@ export default function BlogPage() {
             </p>
           </div>
 
-          <div className="py-5">
-  <Link
-    href="/blog/nashik-kumbh-mela-2027-2,267-crore-plan-approved"
-    className="text-lg font-semibold hover:text-orange-600"
-  >
-    Nashik Kumbh Mela 2027: ₹2,267 Crore Plan Approved
-  </Link>
-
-  <p className="text-sm text-gray-600 mt-1">
-    Authorities have begun large-scale preparations to accommodate millions of pilgrims, saints, and visitors expected during the upcoming festival.
-  </p>
-</div>
+          
 
         </div>
 
