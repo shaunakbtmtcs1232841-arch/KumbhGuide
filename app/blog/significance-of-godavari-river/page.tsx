@@ -297,7 +297,7 @@ export default function GodavariSignificance() {
           <h3 className="font-semibold mb-3">Related Articles</h3>
           <ul className="space-y-2 text-orange-700 font-medium">
             <li>➜ <Link href="/blog/what-is-kumbh-mela">What is Kumbh Mela?</Link></li>
-            <li>➜ <Link href="blog/top-10-places-to-visit-nashik-kumbh-mela-2027">Best Places to Visit During Kumbh</Link></li>
+            <li>➜ <Link href="/blog/top-10-places-to-visit-nashik-kumbh-mela-2027">Best Place to Visit During Kumbh</Link></li>
             <li>➜ <Link href="/blog/nashik-kumbh-mela-2027-dates">Nashik Kumbh 2027 Dates</Link></li>
           </ul>
         </div>
