@@ -66,6 +66,31 @@ export default function GodavariSignificance() {
           The presence of the Trimbakeshwar Jyotirlinga its spiritual value.
         </p>
 
+{/* SAGE GAUTAMA STORY */}
+
+<h2 className="text-2xl font-bold mt-10 mb-4">
+  Sage Gautama and the Divine Origin of Godavari
+</h2>
+
+<p className="mb-6">
+  According to Hindu mythology, the Godavari River is closely connected with
+  Sage Gautama, one of the revered sages of ancient India. Gautama Rishi lived
+  near Brahmagiri Hills and was known for his devotion, wisdom, and charitable
+  nature.
+</p>
+
+<p className="mb-6">
+  Legend states that after an unfortunate incident involving a sacred cow,
+  Gautama sought forgiveness through intense penance to Lord Shiva. Pleased
+  with his devotion, Lord Shiva requested Goddess Ganga to descend to Earth and
+  purify the region. The sacred waters emerged from Brahmagiri Hills and became
+  known as the Godavari River.
+</p>
+
+<p className="mb-8">
+  Because of this divine origin, the Godavari is considered one of the holiest
+  rivers in Hinduism and attracts millions of pilgrims every year.
+</p>
         {/* Religious Importance */}
         <h2 className="text-2xl font-bold mt-10 mb-4">
           Religious Importance in Hinduism
@@ -90,6 +115,27 @@ export default function GodavariSignificance() {
           the Godavari, believing it washes away past sins and brings divine blessings.
         </p>
 
+<h2 className="text-2xl font-bold mt-10 mb-4">
+  Godavari River in Hindu Scriptures
+</h2>
+
+<p className="mb-6">
+  The Godavari River is mentioned in several Hindu scriptures, including the
+  Ramayana, Puranas, and various pilgrimage texts. These references emphasize
+  its role as a sacred river capable of granting spiritual merit and
+  purification.
+</p>
+
+<p className="mb-6">
+  Throughout history, saints, sages, and devotees have visited the banks of
+  the Godavari to perform rituals, meditate, and seek divine blessings.
+</p>
+
+<p className="mb-8">
+  Its association with important religious events and sacred locations has made
+  it one of India's most respected pilgrimage destinations.
+</p>
+
         {/* Why Called Ganga of the South */}
         <h2 className="text-2xl font-bold mt-10 mb-4">
           Why is Godavari Called the “Ganga of the South”?
@@ -107,6 +153,29 @@ export default function GodavariSignificance() {
           making the river a central element of this grand spiritual event.
         </p>
 
+<h2 className="text-2xl font-bold mt-10 mb-4">
+  Godavari River and Lord Rama
+</h2>
+
+<p className="mb-6">
+  Nashik occupies a special place in Hindu tradition because it is associated
+  with Lord Rama's exile period described in the Ramayana. Panchavati, located
+  on the banks of the Godavari River, is believed to be the place where Lord
+  Rama, Goddess Sita, and Lakshmana lived during their vanvas.
+</p>
+
+<p className="mb-6">
+  Many important events of the Ramayana are connected with this region,
+  including the episode involving Surpanakha and the abduction of Sita by
+  Ravana.
+</p>
+
+<p className="mb-8">
+  This connection further enhances the spiritual importance of the Godavari
+  River and makes Nashik one of the most sacred pilgrimage destinations in
+  India.
+</p>
+
         {/* Spiritual Beliefs */}
         <h2 className="text-2xl font-bold mt-10 mb-4">
           Spiritual Beliefs Associated with Godavari
@@ -119,6 +188,50 @@ export default function GodavariSignificance() {
           <li>The river is considered a divine mother who blesses devotees.</li>
         </ul>
 
+        <h2 className="text-2xl font-bold mt-10 mb-4">
+  Godavari River and Nashik Kumbh Mela
+</h2>
+
+<p className="mb-6">
+  The Godavari River plays the central role in the Nashik Kumbh Mela, one of
+  the four major Kumbh Melas celebrated in India. Millions of pilgrims gather
+  along the river banks to take part in sacred bathing rituals during
+  astrologically significant dates.
+</p>
+
+<p className="mb-6">
+  Devotees believe that taking a holy dip in the Godavari during Kumbh Mela
+  helps cleanse sins, remove negative karma, and bring spiritual growth. Major
+  bathing ceremonies are conducted at Ramkund and other ghats along the river.
+</p>
+
+<p className="mb-8">
+  The spiritual connection between the Godavari River and Kumbh Mela continues
+  to attract pilgrims from across India and around the world.
+</p>
+
+<h2 className="text-2xl font-bold mt-10 mb-4">
+  Important Ghats on the Godavari River in Nashik
+</h2>
+
+<ul className="list-disc pl-6 space-y-3 mb-8">
+  <li>
+    <strong>Ramkund</strong> – The most important bathing ghat associated with
+    Nashik Kumbh Mela.
+  </li>
+  <li>
+    <strong>Lakshman Kund</strong> – A sacred site connected with Lord
+    Lakshmana.
+  </li>
+  <li>
+    <strong>Kapila Sangam</strong> – An important confluence associated with
+    religious rituals.
+  </li>
+  <li>
+    <strong>Ahilya Kund</strong> – A historic bathing and ritual location.
+  </li>
+</ul>
+
         {/* Conclusion */}
         <h2 className="text-2xl font-bold mt-12 mb-4">
           Conclusion
@@ -130,6 +243,54 @@ export default function GodavariSignificance() {
           Its connection with Trimbakeshwar and Nashik Kumbh Mela
           makes it one of the holiest rivers in Hinduism.
         </p>
+
+        <h2 className="text-2xl font-bold mt-10 mb-4">
+  Frequently Asked Questions
+</h2>
+
+<div className="space-y-6 mb-10">
+
+  <div>
+    <h3 className="font-semibold">
+      Why is the Godavari River sacred?
+    </h3>
+    <p>
+      The Godavari is considered sacred because of its association with Sage
+      Gautama, Lord Shiva, Lord Rama, and major Hindu pilgrimage traditions.
+    </p>
+  </div>
+
+  <div>
+    <h3 className="font-semibold">
+      Why is Godavari called the Ganga of the South?
+    </h3>
+    <p>
+      It holds a similar religious status in southern India as the Ganga holds
+      in northern India.
+    </p>
+  </div>
+
+  <div>
+    <h3 className="font-semibold">
+      Where does the Godavari River originate?
+    </h3>
+    <p>
+      The river originates from Brahmagiri Hills near Trimbakeshwar in
+      Maharashtra.
+    </p>
+  </div>
+
+  <div>
+    <h3 className="font-semibold">
+      Why is Godavari important during Nashik Kumbh Mela?
+    </h3>
+    <p>
+      Pilgrims believe bathing in the Godavari during Kumbh Mela brings
+      spiritual purification and divine blessings.
+    </p>
+  </div>
+
+</div>
 
         {/* INTERNAL LINKS */}
         <div className="bg-orange-50 border border-orange-200 p-6 rounded-lg">
