@@ -77,7 +77,7 @@ export default function Page() {
       </p>
 
       <img
-        src="/images/kumbhn.jpg"
+        src="/images/kumbha.png"
         alt="Dos and Don'ts for Nashik Kumbh Mela 2027"
         className="w-full h-[260px] md:h-[420px] object-cover rounded-2xl mb-10"
       />
@@ -653,7 +653,7 @@ export default function Page() {
       {/* TRIMBAKESHWAR */}
 
       <img
-        src="/images/trimbakeshwar.jpg"
+        src="/images/trimbak.jpg"
         alt="Trimbakeshwar Temple during Kumbh Mela"
         className="w-full h-[260px] md:h-[400px] object-cover rounded-xl mb-6"
       />
