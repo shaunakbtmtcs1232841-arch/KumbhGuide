@@ -1,13 +1,63 @@
 import Link from "next/link";
+import { Metadata } from "next";
 
-export const metadata = {
+export const metadata: Metadata = {
   title:
-    "Dos and Don'ts for Nashik Kumbh Mela 2027 | Complete Pilgrim Safety & Travel Guide",
+    "Dos and Don'ts for Nashik Kumbh Mela 2027 | Complete Pilgrim Safety Guide",
+
   description:
-    "Complete Dos and Don'ts for Nashik Kumbh Mela 2027. Learn safety tips, Ramkund guidelines, Panchavati travel advice, Godavari River bathing rules, Trimbakeshwar pilgrimage preparation, Shahi Snan crowd management, and essential travel recommendations.",
+    "Complete Dos and Don'ts for Nashik Kumbh Mela 2027. Learn safety tips, Ramkund guidelines, Panchavati travel advice, Godavari River bathing rules, Trimbakeshwar pilgrimage preparation, and Shahi Snan crowd management.",
+
+  keywords: [
+    "Dos and Don'ts for Nashik Kumbh Mela 2027",
+    "Nashik Kumbh Mela Safety Tips",
+    "Kumbh Mela Guidelines",
+    "Ramkund Safety Guide",
+    "Panchavati Travel Tips",
+    "Godavari River Bathing Rules",
+    "Trimbakeshwar Pilgrimage Guide",
+    "Shahi Snan Safety",
+    "Amrit Snan Guidelines",
+    "First Time Pilgrim Guide",
+    "Women Pilgrim Safety",
+    "Senior Citizen Kumbh Guide",
+    "Nashik Travel Guide",
+    "Kumbh Mela 2027 Maharashtra",
+    "Kumbh Mela Preparation Checklist"
+  ],
+
   alternates: {
     canonical:
       "https://kumbhnashikguide.com/blog/dos-and-donts-nashik-kumbh-mela-2027",
+  },
+
+  openGraph: {
+    title:
+      "Dos and Don'ts for Nashik Kumbh Mela 2027",
+    description:
+      "Essential safety guidelines and travel advice for pilgrims attending Nashik Kumbh Mela 2027.",
+    url:
+      "https://kumbhnashikguide.com/blog/dos-and-donts-nashik-kumbh-mela-2027",
+    siteName: "Kumbh Nashik Guide",
+    locale: "en_US",
+    type: "article",
+    images: [
+      {
+        url: "/images/kumbhn.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Dos and Don'ts for Nashik Kumbh Mela 2027",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Dos and Don'ts for Nashik Kumbh Mela 2027",
+    description:
+      "Complete pilgrim safety guide for Nashik Kumbh Mela 2027.",
+    images: ["/images/kumbhn.jpg"],
   },
 };
 
