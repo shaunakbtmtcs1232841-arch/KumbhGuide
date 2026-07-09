@@ -18,6 +18,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: "https://kumbhnashikguide.com/ghats",
       lastModified: new Date(),
     },
+{
+      url: "https://kumbhnashikguide.com/blog/dos-and-donts-nashik-kumbh-mela-2027",
+      lastModified: new Date(),
+    },
     {
   url: "https://kumbhnashikguide.com/blog/panchavati-nashik-kumbh-mela-guide",
   lastModified: new Date(),
@@ -39,7 +43,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   lastModified: new Date(),
 },
 {
-  url: "https://kumbhnashikguide.com/blog/nashik-kumbh-mela-road-bus-travel-guide",
+  url: "https://kumbhnashikguide.com/blog/nashik-kumbh-mela-bus-travel-guide",
   lastModified: new Date(),
 },
     {
@@ -48,6 +52,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: "https://kumbhnashikguide.com/blog/what-is-kumbh-mela",
+      lastModified: new Date(),
+    },
+    {
+      url: "https://kumbhnashikguide.com/blog/women-pilgrim-guide-nashik-kumbh-mela-2027",
       lastModified: new Date(),
     },
     {
@@ -148,11 +156,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
     },
     {
+      url: "https://kumbhnashikguide.com/blog/family-guide-nashik-kumbh-mela-2027",
+      lastModified: new Date(),
+    },
+    {
       url: "https://kumbhnashikguide.com/blog/samudra-manthan-origin-kumbh",
+      lastModified: new Date(),
+    },
+     {
+      url: "https://kumbhnashikguide.com/blog/first-time-pilgrim-guide-nashik-kumbh-mela-2027",
       lastModified: new Date(),
     },
     {
       url: "https://kumbhnashikguide.com/blog/where-to-stay-nashik-kumbh-mela",
+      lastModified: new Date(),
+    },
+    {
+      url: "https://kumbhnashikguide.com/blog/nashik-kumbh-mela-2027-2,267-crore-plan-approved",
       lastModified: new Date(),
     },
     {
