@@ -93,85 +93,204 @@ answer:
 }
 ];
 
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqData.map((faq) => ({
+    "@type": "Question",
+    name: faq.question,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: faq.answer,
+    },
+  })),
+};
+
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+
+  name: "Kumbh Nashik Guide",
+
+  url: "https://kumbhnashikguide.com",
+
+  logo: "https://kumbhnashikguide.com/logo.png",
+
+  email: "kumbhnashikguide@gmail.com",
+
+  description:
+    "Kumbh Nashik Guide is an independent informational website dedicated to providing accurate and comprehensive information about Nashik Kumbh Mela 2027, Trimbakeshwar, Ramkund, Panchavati, temples, ghats, travel, accommodation, pilgrimage, and visitor planning.",
+
+  areaServed: "India",
+
+  knowsAbout: [
+    "Nashik Kumbh Mela",
+    "Trimbakeshwar Temple",
+    "Ramkund",
+    "Godavari River",
+    "Panchavati",
+    "Kumbh Mela",
+    "Pilgrimage",
+    "Religious Tourism",
+    "Maharashtra Tourism"
+  ],
+};
+
+
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+
+  name: "Kumbh Nashik Guide",
+
+  alternateName: "Nashik Kumbh Guide",
+
+  url: "https://kumbhnashikguide.com",
+
+  description:
+    "Complete guide to Nashik Kumbh Mela 2027 including temples, ghats, Ramkund, Trimbakeshwar, Panchavati, Godavari River, travel guides, accommodation, pilgrimage planning, rituals, safety tips, and official updates.",
+
+  inLanguage: "en-IN",
+
+  publisher: {
+    "@type": "Organization",
+    name: "Kumbh Nashik Guide",
+  },
+};
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify(websiteSchema),
+  }}
+/>
   return (
     <div className="relative bg-gradient-to-b from-orange-50 via-white to-red-50">
-      <script
+     <script
   type="application/ld+json"
-  dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }}
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify(faqSchema),
+  }}
 />
-      {/* Hero Section with Image Space */}
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify(organizationSchema),
+  }}
+/>
       <section className="relative overflow-hidden">
-        {/* Image Placeholder - Replace with actual Kumbh image */}
-        <div className="relative h-[60vh] sm:h-[70vh] lg:h-[80vh] flex items-center justify-center overflow-hidden">
+  <div className="relative h-[70vh] lg:h-[85vh] flex items-center justify-center">
 
-  {/* HERO IMAGE */}
-  <Image
-    src="/images/kumbha.png"
-    alt="Nashik Kumbh Melaa"
-    fill
-    priority
-    className="object-cover"
-  />
+    <Image
+      src="/images/kumbha.png"
+      alt="Devotees gathered at Nashik Kumbh Mela on the banks of the sacred Godavari River"
+      fill
+      priority
+      className="object-cover"
+    />
 
-  {/* DARK OVERLAY */}
-  <div className="absolute inset-0 bg-black/50"></div>
-          <div className="absolute inset-0 bg-black/40"></div>
+    <div className="absolute inset-0 bg-black/60"></div>
 
-          {/* Decorative elements */}
-          <div className="absolute inset-0 overflow-hidden">
-            <div className="absolute top-10 left-10 w-32 h-32 bg-orange-300/20 rounded-full blur-3xl"></div>
-            <div className="absolute bottom-20 right-20 w-40 h-40 bg-yellow-300/20 rounded-full blur-3xl"></div>
-          </div>
+    <div className="relative z-10 max-w-6xl mx-auto px-6 text-center">
 
-          <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
-            <div className="inline-flex items-center bg-white/95 backdrop-blur-sm px-5 py-2.5 rounded-full mb-6 shadow-2xl animate-in fade-in slide-in-from-bottom-4 duration-700">
-              <Sparkles className="h-5 w-5 text-orange-600 mr-2 animate-pulse" />
-              <span className="text-sm font-bold text-orange-600">Nashik-Trimbakeshwar Kumbh Mela 2026-2028</span>
-            </div>
+      <div className="inline-flex items-center rounded-full bg-white/90 px-5 py-2 mb-6 shadow-lg">
+        <Sparkles className="w-5 h-5 text-orange-600 mr-2" />
+        <span className="font-semibold text-orange-700">
+          Complete Pilgrimage Guide • Updated for Nashik Kumbh Mela 2027
+        </span>
+      </div>
 
-            <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-white mb-4 drop-shadow-2xl animate-in fade-in slide-in-from-bottom-4 duration-1000">
-              Welcome to Nashik Kumbh
-            </h1>
+      <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-white leading-tight mb-6">
+        Nashik Kumbh Mela 2027 Guide
+      </h1>
 
-            <p className="text-xl sm:text-2xl lg:text-3xl text-orange-100 mb-3 font-semibold animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-100">
-              नाशिक कुंभमेळा
-            </p>
+      <p className="text-xl md:text-2xl text-orange-100 font-medium mb-4">
+        नाशिक कुंभमेळा २०२७
+      </p>
 
-            <p className="text-base sm:text-lg lg:text-xl text-white/95 mb-8 max-w-3xl mx-auto leading-relaxed animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-200">
-              Your complete guide to the sacred pilgrimage on the banks of the holy Godavari River. Find all information, dates, temples, ghats, and travel details in one place.
-            </p>
+      <p className="max-w-4xl mx-auto text-lg md:text-xl text-gray-100 leading-9 mb-10">
+        Discover everything you need to know about <strong>Nashik Kumbh Mela 2027</strong>,
+        including <strong>Ramkund</strong>,
+        <strong> Trimbakeshwar Jyotirlinga</strong>,
+        <strong> Panchavati</strong>,
+        <strong> Godavari River</strong>,
+        Shahi Snan dates, Amrit Snan, temples, sacred ghats,
+        pilgrimage rituals, accommodation, transportation,
+        travel planning, safety tips, and the latest official updates.
+      </p>
 
-            <div className="flex flex-col sm:flex-row gap-3 justify-center animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-300">
-              <Button
-                size="lg"
-                className="bg-white text-orange-600 hover:bg-orange-50 text-base sm:text-lg px-8 py-6 shadow-2xl font-semibold"
-                onClick={() => document.getElementById('important-dates')?.scrollIntoView({ behavior: 'smooth' })}
-              >
-                <Calendar className="mr-2 h-5 w-5" />
-                Important Dates
-              </Button>
-              <Button
-                size="lg"
-                className="bg-orange-600/95 text-white border-2 border-white hover:bg-orange-700 text-base sm:text-lg px-8 py-6 shadow-2xl font-semibold"
-                onClick={() => document.getElementById('about-section')?.scrollIntoView({ behavior: 'smooth' })}
-              >
-                Learn More
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
-            </div>
+      <div className="flex flex-wrap justify-center gap-4">
 
-            {/* Scroll indicator */}
-            <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-              <ChevronDown className="h-8 w-8 text-white/80" />
-            </div>
-          </div>
+        <Button
+          size="lg"
+          className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-6 text-lg"
+          onClick={() =>
+            document
+              .getElementById("important-dates")
+              ?.scrollIntoView({ behavior: "smooth" })
+          }
+        >
+          <Calendar className="mr-2 h-5 w-5" />
+          Kumbh Dates 2027
+        </Button>
+
+        <Link href="/blog/first-time-pilgrim-guide-nashik-kumbh-mela-2027">
+          <Button
+            size="lg"
+            variant="outline"
+            className="border-white bg-white/10 text-white hover:bg-white hover:text-orange-700 px-8 py-6 text-lg"
+          >
+            Plan Your Visit
+          </Button>
+        </Link>
+
+      </div>
+
+      <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4">
+
+        <div className="rounded-xl bg-white/10 backdrop-blur-md p-4">
+          <p className="text-3xl font-bold text-white">50+</p>
+          <p className="text-orange-100 text-sm">
+            Detailed Guides
+          </p>
         </div>
-        
-      </section>
 
-      {/* Important Dates Section - Most Critical Information */}
+        <div className="rounded-xl bg-white/10 backdrop-blur-md p-4">
+          <p className="text-3xl font-bold text-white">2027</p>
+          <p className="text-orange-100 text-sm">
+            Latest Updates
+          </p>
+        </div>
+
+        <div className="rounded-xl bg-white/10 backdrop-blur-md p-4">
+          <p className="text-3xl font-bold text-white">
+            Ramkund
+          </p>
+          <p className="text-orange-100 text-sm">
+            Sacred Bathing Ghat
+          </p>
+        </div>
+
+        <div className="rounded-xl bg-white/10 backdrop-blur-md p-4">
+          <p className="text-3xl font-bold text-white">
+            Trimbakeshwar
+          </p>
+          <p className="text-orange-100 text-sm">
+            Jyotirlinga Temple
+          </p>
+        </div>
+
+      </div>
+
+      <p className="mt-8 text-sm text-gray-200">
+        Information is regularly updated using official announcements from the
+        Maharashtra Government and Nashik District Administration.
+      </p>
+
+    </div>
+  </div>
+</section>
+
       <section id="important-dates" className="py-12 sm:py-16 lg:py-20 bg-gradient-to-br from-orange-600 to-red-600 relative overflow-hidden">
-        {/* Decorative background */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-0 left-0 w-64 h-64 bg-white rounded-full blur-3xl"></div>
           <div className="absolute bottom-0 right-0 w-96 h-96 bg-yellow-300 rounded-full blur-3xl"></div>
@@ -202,7 +321,6 @@ answer:
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 p-4 sm:p-8">
-              {/* First Amrit Snan */}
               <Card className="border-2 border-orange-200 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
                 <CardContent className="p-5 sm:p-6">
                   <div className="flex items-center mb-3">
@@ -219,7 +337,6 @@ answer:
                 </CardContent>
               </Card>
 
-              {/* Second Amrit Snan */}
               <Card className="border-2 border-orange-200 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
                 <CardContent className="p-5 sm:p-6">
                   <div className="flex items-center mb-3">
@@ -236,7 +353,6 @@ answer:
                 </CardContent>
               </Card>
 
-              {/* Third Amrit Snan */}
               <Card className="border-2 border-orange-200 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
                 <CardContent className="p-5 sm:p-6">
                   <div className="flex items-center mb-3">
@@ -255,7 +371,6 @@ answer:
 
             </div>
 
-            {/* Complete Timeline Table */}
             <div className="px-4 sm:px-8 pb-6 sm:pb-8">
               <div className="bg-gradient-to-r from-orange-50 to-red-50 rounded-xl p-4 sm:p-6 border-2 border-orange-200">
                 <h4 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-6 text-center flex items-center justify-center">
@@ -383,7 +498,6 @@ answer:
         </div>
       </section>
 
-      {/* About Kumbh Section - Scrollable Information */}
       <section id="about-section" className="py-12 sm:py-16 lg:py-20 bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10 sm:mb-16">
@@ -395,13 +509,12 @@ answer:
             </p>
           </div>
 
-          {/* Image Space for Kumbh Photos */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 mb-12">
   <Card className="overflow-hidden shadow-xl">
     <div className="relative h-64 sm:h-80 bg-red-200">
       <Image
   src="/images/trimbakeshwar_fixed.jpg"
-  alt="Trimbakeshwar Jyotirlinga"
+alt="Trimbakeshwar Jyotirlinga Temple near Nashik, one of the twelve Jyotirlingas of Lord Shiva"
   fill
   className="object-cover"
 />
@@ -421,7 +534,7 @@ answer:
     <div className="relative h-64 sm:h-80">
       <Image
   src="/images/godavari_fixed.png"
-  alt="Godavari River Nashik"
+alt="Sacred Godavari River flowing through Nashik during the Kumbh Mela pilgrimage"
   fill
   className="object-cover"
 />
@@ -439,7 +552,6 @@ answer:
 
 
 
-          {/* Key Information Cards */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             <Card className="shadow-lg hover:shadow-xl transition-all duration-300">
               <CardContent className="p-6 sm:p-8">
@@ -478,7 +590,6 @@ answer:
             </Card>
           </div>
 
-          {/* Mythological Significance */}
           <Card className="mt-8 sm:mt-12 shadow-xl">
             <CardContent className="p-6 sm:p-10">
               <div className="flex items-center mb-6">
@@ -565,7 +676,6 @@ answer:
   </div>
 </section>
 
-      {/* ===== MUST VISIT PLACES SECTION ===== */}
 <section className="py-20 bg-white">
   <div className="max-w-6xl mx-auto px-6">
 
@@ -601,7 +711,6 @@ answer:
       ))}
     </div>
 
-    {/* image display */}
     <div className="rounded-2xl overflow-hidden shadow-xl border">
       <img
         src={active.img}
@@ -613,7 +722,6 @@ answer:
   </div>
 </section>
 
-{/* ===== EXPLORE NASHIK KUMBH MELA SECTION ===== */}
 
 <section className="py-16 sm:py-20 bg-gradient-to-b from-orange-50 to-white">
   <div className="max-w-7xl mx-auto px-4">
@@ -716,7 +824,6 @@ answer:
 
 
 
-      {/* Sacred Sites - Visual Guide */}
       <section className="py-12 sm:py-16 lg:py-20 bg-gradient-to-br from-orange-50 via-red-50 to-yellow-50">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10 sm:mb-16">
@@ -762,8 +869,7 @@ answer:
                   <div className="relative h-48 sm:h-56 overflow-hidden">
                     <img
                       src="/images/ramkund.jpg"
-                      alt="Holy Ghats of Nashik"
-                      className="w-full h-full object-cover"
+alt="Ramkund Ghat in Nashik where pilgrims perform holy bathing rituals during Kumbh Mela"                      className="w-full h-full object-cover"
                     />
                     <div className="absolute inset-0 bg-black/30" />
                   </div>
@@ -790,7 +896,7 @@ answer:
                   <div className="relative h-48 sm:h-56 overflow-hidden">
                     <img
                       src="/images/travel.jpg"
-                      alt="Travel Guide Nashik Kumbh"
+alt="Pilgrims travelling to Nashik Kumbh Mela by road, railway and air"
                       className="w-full h-full object-cover"
                     />
                     <div className="absolute inset-0 bg-black/30" />
@@ -846,7 +952,7 @@ answer:
                   <div className="relative h-48 sm:h-56 overflow-hidden">
                     <img
                       src="/images/update.jpg"
-                      alt="Latest Updates Nashik Kumbh"
+alt="Latest official updates and announcements for Nashik Kumbh Mela 2027"
                       className="w-full h-full object-cover"
                     />
                     <div className="absolute inset-0 bg-black/30" />
@@ -885,7 +991,6 @@ answer:
         </div>
       </section>
 
-      {/* About This Guide */}
       <section className="py-12 sm:py-16 lg:py-20 bg-white">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
           <Card className="shadow-2xl bg-gradient-to-br from-orange-50 to-white border-2 border-orange-200">
@@ -909,7 +1014,6 @@ answer:
         </div>
       </section>
 
-      {/* Quick Pilgrim Guide */}
 <section className="py-16 bg-gradient-to-br from-orange-50 to-white">
   <div className="max-w-6xl mx-auto px-6">
 
@@ -972,7 +1076,6 @@ answer:
 </section>
 
 
-{/* ===== LATEST KUMBH ARTICLES (SEO BOOST SECTION) ===== */}
 <section className="py-16 bg-gradient-to-b from-orange-50 to-white">
   <div className="max-w-6xl mx-auto px-6">
 
@@ -997,7 +1100,6 @@ answer:
         </div>
       </Link>
 
-      {/* ARTICLE 2 */}
       <Link href="/blog/nashik-kumbh-mela-2027-dates">
         <div className="bg-white shadow-lg rounded-xl p-6 hover:shadow-2xl transition duration-300 border hover:-translate-y-1 cursor-pointer">
           <h3 className="text-xl font-bold text-gray-900 mb-2">
@@ -1125,7 +1227,6 @@ answer:
   </div>
 </Link>
 
-       {/* 🔥 NEW ARTICLE (IMPORTANT) */}
   <Link href="/blog/nashik-kumbh-mela-2027-development-plan">
     <div className="bg-white shadow-lg rounded-xl p-6 hover:shadow-2xl transition duration-300 border hover:-translate-y-1 cursor-pointer">
       <h3 className="text-xl font-bold text-gray-900 mb-2">

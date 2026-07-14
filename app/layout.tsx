@@ -18,9 +18,7 @@ export const metadata: Metadata = {
   description:
     'Comprehensive guide to Nashik-Trimbakeshwar Kumbh Mela. Temples, ghats, travel guide, important dates and updates for pilgrims visiting Nashik Kumbh.',
 
-  alternates: {
-    canonical: '/',
-  },
+
 
   openGraph: {
     title: 'Nashik Kumbh Guide',

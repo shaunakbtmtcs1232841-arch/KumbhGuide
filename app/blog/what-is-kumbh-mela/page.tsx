@@ -3,15 +3,64 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
- title:
-"What is Kumbh Mela? History, Significance & Why It Is Celebrated | Nashik Kumbh Guide",
+  title:
+    "What is Kumbh Mela? History, Significance & Why It Is Celebrated | Nashik Kumbh Guide",
 
-description:
-"Learn what Kumbh Mela is, why it is celebrated, its history, mythological origin, spiritual significance, Shahi Snan, Amrit Snan, and the importance of Nashik Kumbh Mela 2027.",
+  description:
+    "Learn what Kumbh Mela is, why it is celebrated, its history, mythology, spiritual significance, Shahi Snan, Amrit Snan, Akharas, and everything about Nashik Kumbh Mela 2027.",
 
-keywords:
-"What is Kumbh Mela, Kumbh Mela, Kumbh Mela meaning, Kumbh Mela history, why Kumbh Mela is celebrated, importance of Kumbh Mela, significance of Kumbh Mela, Nashik Kumbh Mela, Nashik Kumbh Mela 2027, Kumbh Mela guide, Godavari River Kumbh Mela, Shahi Snan, Amrit Snan, Akharas, Naga Sadhus"
-}
+  keywords: [
+    "What is Kumbh Mela",
+    "Kumbh Mela",
+    "Kumbh Mela meaning",
+    "History of Kumbh Mela",
+    "Why is Kumbh Mela celebrated",
+    "Importance of Kumbh Mela",
+    "Nashik Kumbh Mela",
+    "Nashik Kumbh Mela 2027",
+    "Godavari River",
+    "Ramkund",
+    "Trimbakeshwar",
+    "Panchavati",
+    "Shahi Snan",
+    "Amrit Snan",
+    "Naga Sadhus",
+    "Akharas"
+  ],
+
+  alternates: {
+    canonical:
+      "https://kumbhnashikguide.com/blog/what-is-kumbh-mela",
+  },
+
+  openGraph: {
+    title:
+      "What is Kumbh Mela? History, Significance & Why It Is Celebrated",
+    description:
+      "Complete beginner's guide to Kumbh Mela and Nashik Kumbh Mela 2027.",
+    url:
+      "https://kumbhnashikguide.com/blog/what-is-kumbh-mela",
+    siteName: "Kumbh Nashik Guide",
+    type: "article",
+    images: [
+      {
+        url: "/images/godavari_fixed.png",
+        width: 1200,
+        height: 630,
+        alt: "What is Kumbh Mela",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "What is Kumbh Mela? Complete Guide",
+    description:
+      "History, significance, rituals, Shahi Snan, and Nashik Kumbh Mela.",
+    images: ["/images/godavari_fixed.png"],
+  },
+};
 export default function ArticlePage() {
   return (
     <div className="bg-white min-h-screen">
