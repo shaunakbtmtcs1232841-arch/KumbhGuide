@@ -296,6 +296,46 @@ const websiteSchema = {
           <div className="absolute bottom-0 right-0 w-96 h-96 bg-yellow-300 rounded-full blur-3xl"></div>
         </div>
 
+<section className="py-10 bg-orange-50 border-y border-orange-200">
+  <div className="max-w-7xl mx-auto px-4">
+
+    <h2 className="text-3xl font-bold text-center mb-3">
+      Popular Nashik Kumbh Mela Guides
+    </h2>
+
+    <p className="text-center text-gray-600 max-w-3xl mx-auto mb-8">
+      Start planning your pilgrimage with our most visited guides covering
+      Kumbh Mela dates, Ramkund, Trimbakeshwar Temple, Panchavati,
+      travel planning, accommodation, safety, and visitor tips.
+    </p>
+
+    <div className="grid md:grid-cols-3 gap-6">
+
+      <Link href="/blog/nashik-kumbh-mela-2027-dates" className="bg-white rounded-xl p-5 shadow hover:shadow-lg transition">
+        <h3 className="font-bold text-lg mb-2">📅 Nashik Kumbh Mela 2027 Dates</h3>
+        <p className="text-gray-600">
+          Check important bathing dates, Shahi Snan schedule and festival timeline.
+        </p>
+      </Link>
+
+      <Link href="/blog/what-is-kumbh-mela" className="bg-white rounded-xl p-5 shadow hover:shadow-lg transition">
+        <h3 className="font-bold text-lg mb-2">🕉️ What is Kumbh Mela?</h3>
+        <p className="text-gray-600">
+          Learn the history, mythology, significance and traditions of Kumbh Mela.
+        </p>
+      </Link>
+
+      <Link href="/blog/first-time-pilgrim-guide-nashik-kumbh-mela-2027" className="bg-white rounded-xl p-5 shadow hover:shadow-lg transition">
+        <h3 className="font-bold text-lg mb-2">🙏 First-Time Pilgrim Guide</h3>
+        <p className="text-gray-600">
+          Everything first-time visitors should know before arriving in Nashik.
+        </p>
+      </Link>
+
+    </div>
+
+  </div>
+</section>
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-8 sm:mb-12">
             <div className="inline-flex items-center bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full mb-4">
