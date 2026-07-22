@@ -1286,12 +1286,32 @@ alt="Latest official updates and announcements for Nashik Kumbh Mela 2027"
 
 
     </div>
+    
 <section className="max-w-6xl mx-auto px-4 py-16">
 
   <div className="bg-orange-50 border rounded-3xl p-8 md:p-12">
 
     <div className="max-w-3xl">
-
+<p className="mt-6 text-gray-700">
+  Explore our detailed guides on{" "}
+  <Link href="/blog/ramkund-nashik-guide-kumbh-mela" className="text-orange-600 font-semibold hover:underline">
+    Ramkund
+  </Link>
+  ,{" "}
+  <Link href="/blog/trimbakeshwar-temple-guide" className="text-orange-600 font-semibold hover:underline">
+    Trimbakeshwar Temple
+  </Link>
+  ,{" "}
+  <Link href="/blog/significance-of-godavari-river" className="text-orange-600 font-semibold hover:underline">
+    the Godavari River
+  </Link>
+  , and our{" "}
+  <Link href="/blog/nashik-kumbh-mela-2027-dates" className="text-orange-600 font-semibold ho
+  ver:underline">
+    Nashik Kumbh Mela 2027 Dates Guide
+  </Link>
+  
+</p>
       <p className="text-orange-600 font-semibold mb-3">
         Trusted Pilgrimage Information
       </p>
