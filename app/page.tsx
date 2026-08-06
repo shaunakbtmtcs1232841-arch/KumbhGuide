@@ -178,7 +178,7 @@ const websiteSchema = {
   }}
 />
       <section className="relative overflow-hidden">
-  <div className="relative h-[70vh] lg:h-[85vh] flex items-center justify-center">
+  <div className="relative min-h-[calc(100vh-5rem)] flex items-start justify-center py-10 lg:py-12">
 
     <Image
       src="/images/kumbha.png"
