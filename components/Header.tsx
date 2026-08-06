@@ -23,7 +23,7 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-white shadow-sm">
-      <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <nav className="mx-auto w-full max-w-[1500px] px-4 sm:px-6 lg:px-6">
         <div className="flex h-20 items-center justify-between">
           <Link href="/" className="flex items-center space-x-3">
             <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-gradient-to-br from-orange-500 to-red-600 shadow-lg">
@@ -77,7 +77,7 @@ export default function Header() {
             </div>
           </Link>
 
-          <div className="hidden md:flex md:items-center md:space-x-1">
+          <div className="hidden lg:flex lg:items-center lg:space-x-1">
             {navigation.map((item) => {
               const isActive = pathname === item.href;
               return (
@@ -95,10 +95,12 @@ export default function Header() {
               );
             })}
           </div>
-          <div
-  id="google_translate_element"
-  className="hidden md:block ml-4"
-></div>
+          <div className="hidden md:flex md:items-center ml-3 max-w-[130px] overflow-hidden">
+  <div
+    id="google_translate_element"
+    className="max-h-10 overflow-hidden"
+  />
+</div>
 
           <button
             type="button"
