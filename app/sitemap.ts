@@ -93,7 +93,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
   url: "https://kumbhnashikguide.com/contact",
   lastModified: new Date(),
 },
-
+{
+  url:"https://kumbhnashikguide.com/blog/nashik-kumbh-mela-authorities-committees",
+  lastModified: new Date(),
+},
 {
   url: "https://kumbhnashikguide.com/disclaimer",
   lastModified: new Date(),

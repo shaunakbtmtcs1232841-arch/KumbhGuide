@@ -253,7 +253,7 @@ export default function Page() {
         </p>
 
         <Image
-          src="/images/nashik-kumbh-mela-2027-budget-guide.webp"
+          src="/images/sadhugram.jpg"
           alt="Nashik Kumbh Mela 2027 government development projects including roads ghats Sadhugram and pilgrim infrastructure"
           width={1200}
           height={675}
@@ -470,7 +470,7 @@ export default function Page() {
         </p>
 
         <Image
-          src="/images/nashik-kumbh-road-infrastructure-2027.webp"
+          src="/images/nashik-punehw.png"
           alt="Road highway and transport infrastructure development for Nashik Kumbh Mela 2027"
           width={1200}
           height={675}
@@ -504,7 +504,7 @@ export default function Page() {
         </p>
 
         <Image
-          src="/images/sadhugram-nashik-kumbh-2027.webp"
+          src="/images/trimbak.jpg"
           alt="Sadhugram development and pilgrim infrastructure for Nashik Kumbh Mela 2027 in Tapovan"
           width={1200}
           height={675}
