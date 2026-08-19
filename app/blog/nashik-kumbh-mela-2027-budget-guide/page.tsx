@@ -630,7 +630,7 @@ export default function Page() {
         </p>
 
         <Image
-          src="/images/nashik-kumbh-security-crowd-management.webp"
+          src="/images/women-pilgrims-kumbh.jpg"
           alt="Security CCTV and crowd management infrastructure for Nashik Kumbh Mela 2027"
           width={1200}
           height={675}
