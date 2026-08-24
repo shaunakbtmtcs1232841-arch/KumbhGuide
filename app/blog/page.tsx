@@ -74,7 +74,7 @@ const articles = [
   },
   {
     href: "/blog/top-ghats-nashik",
-    image: "/images/godavari.png",
+    image: "/images/tapovan.jpg",
     title: "Top Ghats of Nashik",
     description:
       "Explore the most sacred bathing ghats of Nashik where millions of pilgrims take holy dips during the Kumbh Mela.",
