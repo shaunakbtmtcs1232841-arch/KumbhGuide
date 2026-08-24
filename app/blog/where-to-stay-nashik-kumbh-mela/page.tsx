@@ -166,14 +166,7 @@ export default function Page() {
   </Link>
 </li> 
 
-        <li>
-          <Link
-            href="/blog/best-places-to-visit-in-nashik-during-kumbh"
-            className="text-blue-600 underline"
-          >
-            Best Places to Visit in Nashik During Kumbh
-          </Link>
-        </li>
+       
       </ul>
 
     </div>

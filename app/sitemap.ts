@@ -18,6 +18,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: "https://kumbhnashikguide.com/ghats",
       lastModified: new Date(),
     },
+    {
+      url: "https://kumbhnashikguide.com/updates",
+      lastModified: new Date(),
+    },
 {
       url: "https://kumbhnashikguide.com/blog/dos-and-donts-nashik-kumbh-mela-2027",
       lastModified: new Date(),
@@ -105,7 +109,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
   url: "https://kumbhnashikguide.com/blog/trimbakeshwar-temple-guide-kumbh-mela-2027",
   lastModified: new Date(),
 },
-
+{
+  url: "https://kumbhnashikguide.com/blog/nashik-kumbh-mela-authorities-committees-mr",
+  lastModified: new Date(),
+},
 {
   url: "https://kumbhnashikguide.com/privacy",
   lastModified: new Date(),
