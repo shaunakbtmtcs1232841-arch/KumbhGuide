@@ -142,7 +142,7 @@ export default function Page() {
       </p>
 
       <img
-        src="/images/family-kumbh-guide.jpg"
+        src="/images/family-kumbh-guiide.jpg"
         alt="Family visiting Nashik Kumbh Mela 2027 at Ramkund and Godavari River"
         className="w-full h-[260px] md:h-[380px] object-cover rounded-xl mb-8"
       />

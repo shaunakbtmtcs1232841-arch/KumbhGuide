@@ -50,7 +50,6 @@ export default function AboutPage() {
       Why is Kumbh Mela Celebrated?
     </h2>
 
-```
 <p className="text-gray-600 leading-relaxed mb-6">
   Kumbh Mela is celebrated to commemorate the ancient Hindu legend of
   Samudra Manthan, the cosmic churning of the ocean. According to Hindu
@@ -65,7 +64,7 @@ export default function AboutPage() {
   Kumbh Mela to take a holy dip in sacred rivers, seek blessings from
   saints, and strengthen their spiritual connection.
 </p>
-```
+
 
   </div>
 </section>
@@ -248,7 +247,6 @@ export default function AboutPage() {
       Shahi Snan, Amrit Snan & Akharas
     </h2>
 
-```
 <p className="text-gray-600 leading-relaxed mb-6">
   One of the most important traditions of Kumbh Mela is the sacred bathing
   ritual known as Shahi Snan, often referred to as the Royal Bath. In
@@ -267,7 +265,7 @@ export default function AboutPage() {
   The presence of Akharas, saints, and Naga Sadhus makes Kumbh Mela a
   unique spiritual gathering unlike any other religious event in the world.
 </p>
-```
+
 
   </div>
 </section>
@@ -278,7 +276,7 @@ export default function AboutPage() {
       Nashik Kumbh Mela 2027
     </h2>
 
-```
+
 <p className="text-gray-600 leading-relaxed mb-6">
   Nashik Kumbh Mela 2027 is expected to attract millions of pilgrims,
   saints, devotees, and visitors from across India and around the world.
@@ -297,7 +295,6 @@ export default function AboutPage() {
   official announcements regarding dates, transportation, accommodation,
   crowd management, and pilgrimage facilities.
 </p>
-```
 
   </div>
 </section>

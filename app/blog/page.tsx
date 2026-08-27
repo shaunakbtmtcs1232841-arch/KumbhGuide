@@ -93,6 +93,20 @@ const articles = [
     description:
       "A complete beginner's guide to Nashik Kumbh Mela 2027 covering Amrit Snan dates, travel planning, accommodation, sacred temples, Godavari River ghats, pilgrimage tips, and everything first-time visitors need to know.",
   },
+   {
+    href: "/blog/dos-and-donts-nashik-kumbh-mela-2027",
+    image: "/images/family-kumbh-guide.jpg",
+    title: "Do's and Dont's ",
+    description:
+      "Essential safety guidelines and travel advice for pilgrims attending Nashik Kumbh Mela 2027.",  },
+   {
+    href: "/blog/shahi-snan-amrit-snan-guide-nashik-kumbh-mela-2027",
+    image: "/images/shahi-snan.jpg",
+    title:       "Shahi Snan (Amrit Snan) Guide for Nashik Kumbh Mela 2027",
+    description:
+      "Understand the meaning, history, significance, dates, Akharas, Naga Sadhus, and pilgrimage traditions of Shahi Snan and Amrit Snan during Nashik Kumbh Mela 2027.",
+  },
+  
   {
     href: "/blog/samudra-manthan-origin-kumbh",
     image: "/images/samudramanthan.jpg",
