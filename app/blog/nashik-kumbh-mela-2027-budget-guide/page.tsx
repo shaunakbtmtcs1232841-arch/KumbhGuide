@@ -4,13 +4,18 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "Nashik Kumbh Mela 2027 Budget: ₹22,425 Crore Development Plan & Projects",
+    "Nashik Kumbh Mela Budget 2027: ₹22,425.39 Crore Plan & Projects",
 
   description:
-    "Complete guide to the Nashik Kumbh Mela 2027 budget and ₹22,425.39 crore development plan, covering Sadhugram, roads, ghats, water supply, sanitation, security, transport and government infrastructure projects.",
+    "What is the Nashik Kumbh Mela 2027 budget? See the ₹22,425.39 crore development plan, Sadhugram, roads, ghats, water, sanitation, security, transport and major projects.",
 
   keywords: [
     "Nashik Kumbh Mela budget 2027",
+    "nashik kumbh mela budget",
+    "nashik kumbh mela budget 2027",
+    "kumbh mela nashik budget",
+    "kumbh mela budget nashik",
+    "budget of nashik kumbh mela",
     "Nashik Kumbh Mela 2027 budget",
     "Nashik Kumbh Mela budget",
     "Kumbh Mela Nashik budget",
@@ -44,9 +49,9 @@ export const metadata: Metadata = {
 
   openGraph: {
     title:
-      "Nashik Kumbh Mela 2027 Budget: ₹22,425 Crore Development Plan",
+      "Nashik Kumbh Mela Budget 2027: ₹22,425.39 Crore Development Plan",
     description:
-      "Understand the Nashik–Trimbakeshwar Kumbh Mela 2027 development plan, Sadhugram land acquisition, roads, ghats, sanitation, security, transport and other government projects.",
+      "Understand the Nashik Kumbh Mela 2027 budget, ₹22,425.39 crore development plan, Sadhugram land acquisition, roads, ghats, sanitation, security and transport projects.",
     url:
       "https://kumbhnashikguide.com/blog/nashik-kumbh-mela-2027-budget-guide",
     siteName: "Kumbh Nashik Guide",
@@ -67,7 +72,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Nashik Kumbh Mela 2027 Budget & ₹22,425 Crore Development Plan",
+      "Nashik Kumbh Mela Budget 2027 & ₹22,425.39 Crore Development Plan",
     description:
       "A detailed guide to government spending and infrastructure development for Nashik–Trimbakeshwar Simhastha Kumbh Mela 2027.",
     images: [
@@ -77,12 +82,14 @@ export const metadata: Metadata = {
 };
 
 const articleSchema = {
+  datePublished: "2026-07-27",
+  dateModified: "2026-08-28",
   "@context": "https://schema.org",
   "@type": "Article",
   headline:
     "Nashik Kumbh Mela 2027 Budget: ₹22,425 Crore Development Plan & Government Projects",
   description:
-    "Detailed guide to the Nashik Kumbh Mela 2027 development plan, government expenditure, Sadhugram, roads, ghats, water supply, sanitation, security and transport infrastructure.",
+    "Detailed guide to the Nashik Kumbh Mela budget 2027, government development plan, Sadhugram, roads, ghats, water supply, sanitation, security and transport infrastructure.",
   image:
     "https://kumbhnashikguide.com/images/nashik-kumbh-mela-2027-budget-guide.webp",
   author: {
@@ -235,11 +242,11 @@ export default function Page() {
         </p>
 
         <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
-          Nashik Kumbh Mela 2027 Budget: ₹22,425 Crore Development Plan,
+          Nashik Kumbh Mela Budget 2027: ₹22,425.39 Crore Development Plan,
           Government Projects & Infrastructure
         </h1>
 
-        <p className="text-lg text-gray-600 m0000000000000000000000000000000000000000000000000000000000000000000b-4">
+        <p className="text-lg text-gray-600 mb-4">
           The Nashik–Trimbakeshwar Simhastha Kumbh Mela 2027 is being
           supported by a large government development programme covering
           roads, water supply, sanitation, Sadhugram, ghats, transport,
@@ -248,7 +255,7 @@ export default function Page() {
         </p>
 
         <p className="text-sm text-gray-500 mb-8">
-          Updated: August 2026 • This guide is updated as new government
+          Updated: August 28, 2026 • This guide is updated as new government
           approvals and official project information become available.
         </p>
 
@@ -260,6 +267,22 @@ export default function Page() {
           priority
           className="w-full h-auto rounded-2xl object-cover mb-10"
         />
+
+        {/* ANSWER-FIRST SEO SUMMARY */}
+        <div className="bg-white border border-orange-200 rounded-2xl p-6 md:p-8 mb-10 shadow-sm">
+          <p className="text-sm font-semibold uppercase tracking-wide text-orange-600 mb-2">
+            Quick answer: Nashik Kumbh Mela budget 2027
+          </p>
+          <p className="text-xl md:text-2xl font-bold text-gray-900 mb-3">
+            The approved Nashik–Trimbakeshwar Simhastha Kumbh Mela 2027 development plan is ₹22,425.39 crore.
+          </p>
+          <p className="text-gray-700 mb-4">
+            This is a broad development plan covering roads, water supply, sanitation, ghats, Sadhugram, security, transport, electricity, digital infrastructure and other civic works. The separate ₹2,267 crore Sadhugram land-acquisition approval is one component of the wider preparations, not the total Kumbh budget.
+          </p>
+          <p className="text-sm text-gray-600">
+            For the latest official approvals, project status and government decisions, always check the Government of Maharashtra and Nashik–Trimbakeshwar Kumbh Mela Authority sources linked below.
+          </p>
+        </div>
 
         {/* IMPORTANT SUMMARY */}
 
@@ -423,6 +446,25 @@ export default function Page() {
           accommodation areas, electricity and long-term urban
           infrastructure all become part of Kumbh planning.
         </p>
+
+        {/* BUDGET CLUSTER LINKS */}
+        <div className="bg-gray-50 border border-gray-200 rounded-2xl p-6 md:p-8 mb-10">
+          <h2 className="text-2xl font-bold mb-4">Related Nashik Kumbh Mela 2027 Information</h2>
+          <div className="grid md:grid-cols-3 gap-4">
+            <Link href="/blog/nashik-kumbhmela-2027-tarikh" className="bg-white border rounded-xl p-4 hover:border-orange-500 hover:shadow-sm transition">
+              <h3 className="font-bold mb-1">Nashik Kumbh Mela 2027 Dates</h3>
+              <p className="text-sm text-gray-600">Important dates, bathing schedule and Kumbh timeline.</p>
+            </Link>
+            <Link href="/blog/nashik-kumbh-mela-authorities-committees" className="bg-white border rounded-xl p-4 hover:border-orange-500 hover:shadow-sm transition">
+              <h3 className="font-bold mb-1">Authorities & Committees</h3>
+              <p className="text-sm text-gray-600">Who plans, coordinates and manages Nashik Kumbh preparations.</p>
+            </Link>
+            <Link href="/blog/nashik-kumbh-mela-2027-development-plan" className="bg-white border rounded-xl p-4 hover:border-orange-500 hover:shadow-sm transition">
+              <h3 className="font-bold mb-1">Development Plan</h3>
+              <p className="text-sm text-gray-600">Explore the wider infrastructure and development programme.</p>
+            </Link>
+          </div>
+        </div>
 
         {/* PROJECT CATEGORIES */}
 
@@ -1150,6 +1192,17 @@ export default function Page() {
           </p>
 
           <ul className="list-disc pl-6 space-y-3">
+
+            <li>
+              <a
+                href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2289872&lang=1&reg=1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-orange-600 underline"
+              >
+                PIB / Ministry of Tourism: Maharashtra approves ₹22,425.39 crore Nashik–Trimbakeshwar Kumbh development plan
+              </a>
+            </li>
 
             <li>
               <a
