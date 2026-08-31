@@ -10,6 +10,12 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   metadataBase: new URL('https://kumbhnashikguide.com'),
 
+  icons: {
+  icon: '/icon.png',
+  shortcut: '/icon.png',
+  apple: '/icon.png',
+},
+
   other: {
   "google-adsense-account": "ca-pub-1617134626103059",
 },
