@@ -27,6 +27,7 @@ export const metadata: Metadata = {
     "akharas",
     "naga sadhus",
     "four kumbh locations",
+    "Kumbh Mela locations",
     "Nashik Kumbh Mela",
     "Nashik Kumbh Mela 2027",
   ],
@@ -90,7 +91,7 @@ export default function ArticlePage() {
 
           <p className="max-w-3xl mx-auto text-lg md:text-xl opacity-95">
             Understand what Kumbh Mela is, its history and mythology,
-            sacred bathing traditions, Akharas, four Kumbh locations,
+            sacred bathing traditions, Akharas, the four Kumbh locations,
             and the connection of Nashik with Kumbh Mela.
           </p>
 
@@ -125,29 +126,31 @@ export default function ArticlePage() {
         <section className="bg-orange-50 border border-orange-200 rounded-2xl p-6 mb-10">
 
           <h2 className="text-2xl font-bold mb-4 text-gray-900">
-            Kumbh Mela म्हणजे काय? थोडक्यात माहिती
+            What Is Kumbh Mela? Quick Answer
           </h2>
 
           <div className="space-y-3">
 
             <p>
-              <strong>Kumbh Mela</strong> हा हिंदू धर्मातील अत्यंत महत्त्वाचा
-              धार्मिक आणि आध्यात्मिक तीर्थमेळा आहे.
+              <strong>Kumbh Mela</strong> is one of the most important
+              religious and spiritual pilgrimages in Hindu tradition.
             </p>
 
             <p>
-              <strong>कुंभ</strong> म्हणजे पवित्र कलश किंवा घडा आणि
-              <strong> मेला </strong> म्हणजे मोठी धार्मिक सभा किंवा मेळावा.
+              The word <strong>Kumbh</strong> refers to a sacred pot or
+              pitcher, while <strong>Mela</strong> means a gathering or fair.
             </p>
 
             <p>
-              कुंभमेळ्याशी पवित्र नदीत स्नान, साधुसंतांचे दर्शन,
-              आध्यात्मिक प्रवचन आणि विविध धार्मिक परंपरा जोडलेल्या आहेत.
+              Kumbh Mela is associated with sacred river bathing,
+              religious ceremonies, spiritual teachings, saints,
+              ascetics and centuries-old pilgrimage traditions.
             </p>
 
             <p>
-              भारतातील चार प्रमुख ठिकाणे Kumbh Mela परंपरेशी संबंधित आहेत:
-              प्रयागराज, हरिद्वार, उज्जैन आणि नाशिक–त्र्यंबकेश्वर.
+              The four major locations associated with the Kumbh Mela
+              tradition are Prayagraj, Haridwar, Ujjain and
+              Nashik–Trimbakeshwar.
             </p>
 
           </div>
@@ -156,13 +159,13 @@ export default function ArticlePage() {
 
         {/* WHAT IS KUMBH */}
         <h2 className="text-3xl font-bold mb-5 text-gray-900">
-          What is Kumbh Mela? कुंभमेळा म्हणजे काय?
+          What Is Kumbh Mela?
         </h2>
 
         <p className="mb-6">
-          Kumbh Mela is one of the largest and most sacred religious
-          gatherings in the world. It is a Hindu pilgrimage where millions
-          of devotees gather at sacred river locations for religious rituals,
+          Kumbh Mela is one of the largest and most significant religious
+          gatherings in the world. It is a Hindu pilgrimage in which
+          devotees gather at sacred river locations for religious rituals,
           spiritual practices and holy bathing.
         </p>
 
@@ -174,17 +177,17 @@ export default function ArticlePage() {
         </p>
 
         <p className="mb-8">
-          The Nashik Kumbh Mela has a special connection with the
+          The Nashik Kumbh Mela has a special connection with the{" "}
           <Link
             href="/blog/significance-of-godavari-river"
             className="text-orange-600 font-semibold hover:underline"
           >
-            {" "}Godavari River
+            Godavari River
           </Link>
           , Ramkund, Panchavati and Trimbakeshwar.
         </p>
 
-        {/* IMAGE */}
+        {/* SAMUDRA MANTHAN IMAGE */}
         <div className="my-10">
           <Image
             src="/images/samudramanthan.jpg"
@@ -195,14 +198,14 @@ export default function ArticlePage() {
           />
 
           <p className="text-center text-sm text-gray-500 mt-3">
-            The traditional Samudra Manthan story is closely associated with
-            the mythology of Kumbh Mela.
+            The traditional Samudra Manthan story is closely associated
+            with the mythology of Kumbh Mela.
           </p>
         </div>
 
         {/* MEANING */}
         <h2 className="text-3xl font-bold mb-5 text-gray-900">
-          Kumbh Meaning: कुंभ शब्दाचा अर्थ काय?
+          Kumbh Meaning: What Does Kumbh Mean?
         </h2>
 
         <p className="mb-6">
@@ -214,27 +217,27 @@ export default function ArticlePage() {
 
         <p className="mb-8">
           For devotees, Kumbh represents faith, devotion, spiritual
-          purification and the search for a deeper connection with the divine.
-          The gathering also brings together different religious traditions,
-          saints, ascetics and pilgrims.
+          purification and the search for a deeper connection with the
+          divine. The gathering also brings together different religious
+          traditions, saints, ascetics and pilgrims.
         </p>
 
         {/* MYTHOLOGY */}
         <h2 className="text-3xl font-bold mb-5 text-gray-900">
-          Samudra Manthan आणि Kumbh Mela ची उत्पत्ती
+          Samudra Manthan and the Origin of Kumbh Mela
         </h2>
 
         <p className="mb-6">
-          The traditional mythological origin of Kumbh Mela is connected with
-          <strong> Samudra Manthan</strong>, the churning of the cosmic ocean.
-          According to the story, gods and demons churned the ocean in search
-          of Amrit, the nectar associated with immortality.
+          The traditional mythological origin of Kumbh Mela is connected
+          with <strong>Samudra Manthan</strong>, the churning of the cosmic
+          ocean. According to the story, gods and demons churned the ocean
+          in search of Amrit, the nectar associated with immortality.
         </p>
 
         <p className="mb-6">
-          When the pot containing Amrit appeared, a struggle followed between
-          the gods and demons. According to the traditional belief, drops of
-          the nectar fell at four sacred locations.
+          When the pot containing Amrit appeared, a struggle followed
+          between the gods and demons. According to the traditional belief,
+          drops of the nectar fell at four sacred locations.
         </p>
 
         <p className="mb-8">
@@ -245,22 +248,34 @@ export default function ArticlePage() {
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-10">
 
           <h3 className="text-xl font-bold mb-4">
-            Samudra Manthan आणि Kumbh यांचा संबंध
+            How Samudra Manthan Is Connected to Kumbh
           </h3>
 
           <ul className="list-disc pl-6 space-y-2">
-            <li>समुद्रमंथनाची पारंपरिक पौराणिक कथा</li>
-            <li>अमृत कलशाचे प्रकट होणे</li>
-            <li>देव आणि दानव यांच्यातील संघर्ष</li>
-            <li>चार पवित्र स्थळांशी जोडलेली अमृताची आख्यायिका</li>
-            <li>कुंभमेळ्याच्या धार्मिक परंपरेशी निर्माण झालेला संबंध</li>
+            <li>
+              The traditional story of the churning of the cosmic ocean
+            </li>
+            <li>
+              The appearance of the Amrit Kalash
+            </li>
+            <li>
+              The struggle between the gods and demons
+            </li>
+            <li>
+              The traditional belief connecting Amrit with four sacred
+              locations
+            </li>
+            <li>
+              The mythology associated with the religious traditions of Kumbh
+              Mela
+            </li>
           </ul>
 
         </div>
 
         {/* WHY CELEBRATED */}
         <h2 className="text-3xl font-bold mb-5 text-gray-900">
-          Why is Kumbh Mela Celebrated?
+          Why Is Kumbh Mela Celebrated?
         </h2>
 
         <p className="mb-6">
@@ -270,11 +285,26 @@ export default function ArticlePage() {
         </p>
 
         <ul className="list-disc pl-6 mb-8 space-y-3">
-          <li>पवित्र नदीत स्नान करण्यासाठी</li>
-          <li>आध्यात्मिक शुद्धीकरणासाठी</li>
-          <li>साधुसंतांचे दर्शन आणि आशीर्वाद घेण्यासाठी</li>
-          <li>धार्मिक प्रवचन आणि आध्यात्मिक शिकवणी ऐकण्यासाठी</li>
-          <li>श्रद्धा आणि धार्मिक परंपरांशी जोडले जाण्यासाठी</li>
+          <li>
+            To participate in sacred bathing rituals
+          </li>
+
+          <li>
+            As an expression of spiritual devotion and purification
+          </li>
+
+          <li>
+            To meet saints and spiritual teachers
+          </li>
+
+          <li>
+            To listen to religious teachings and spiritual discourses
+          </li>
+
+          <li>
+            To participate in long-standing religious and pilgrimage
+            traditions
+          </li>
         </ul>
 
         {/* FOUR LOCATIONS */}
@@ -283,9 +313,9 @@ export default function ArticlePage() {
         </h2>
 
         <p className="mb-8">
-          Kumbh Mela is associated with four major sacred locations in India.
-          Each location has its own river, pilgrimage traditions and religious
-          significance.
+          Kumbh Mela is associated with four major sacred locations in
+          India. Each location has its own river, pilgrimage traditions
+          and religious significance.
         </p>
 
         {/* LOCATION CARDS */}
@@ -293,47 +323,51 @@ export default function ArticlePage() {
 
           <div className="border border-gray-200 rounded-xl p-6 shadow-sm">
             <h3 className="text-xl font-bold mb-2">
-              प्रयागराज
+              Prayagraj
             </h3>
+
             <p>
-              Associated with the confluence of the Ganga, Yamuna and the
-              traditionally revered Saraswati.
+              Prayagraj is associated with the confluence of the Ganga,
+              Yamuna and the traditionally revered Saraswati.
             </p>
           </div>
 
           <div className="border border-gray-200 rounded-xl p-6 shadow-sm">
             <h3 className="text-xl font-bold mb-2">
-              हरिद्वार
+              Haridwar
             </h3>
+
             <p>
-              Located on the banks of the sacred Ganga River and known as
-              an important Hindu pilgrimage centre.
+              Haridwar is located on the banks of the sacred Ganga River
+              and is an important Hindu pilgrimage centre.
             </p>
           </div>
 
           <div className="border border-gray-200 rounded-xl p-6 shadow-sm">
             <h3 className="text-xl font-bold mb-2">
-              उज्जैन
+              Ujjain
             </h3>
+
             <p>
-              The Kumbh tradition here is associated with the sacred
-              Shipra River and the religious heritage of Ujjain.
+              The Kumbh tradition in Ujjain is associated with the sacred
+              Shipra River and the religious heritage of the city.
             </p>
           </div>
 
           <div className="border border-orange-200 bg-orange-50 rounded-xl p-6 shadow-sm">
             <h3 className="text-xl font-bold mb-2">
-              नाशिक–त्र्यंबकेश्वर
+              Nashik–Trimbakeshwar
             </h3>
+
             <p>
-              Associated with the Godavari River, Ramkund, Panchavati
-              and Trimbakeshwar Jyotirlinga.
+              Nashik–Trimbakeshwar is associated with the Godavari River,
+              Ramkund, Panchavati and Trimbakeshwar Jyotirlinga.
             </p>
           </div>
 
         </div>
 
-        {/* IMAGE */}
+        {/* FOUR LOCATIONS IMAGE */}
         <div className="my-10">
           <Image
             src="/images/kumbhn.png"
@@ -366,15 +400,15 @@ export default function ArticlePage() {
             <thead>
               <tr className="bg-orange-50">
                 <th className="border border-gray-300 px-4 py-3 text-left">
-                  प्रकार
+                  Type
                 </th>
 
                 <th className="border border-gray-300 px-4 py-3 text-left">
-                  सामान्य अर्थ
+                  Meaning
                 </th>
 
                 <th className="border border-gray-300 px-4 py-3 text-left">
-                  महत्त्व
+                  Significance
                 </th>
               </tr>
             </thead>
@@ -387,11 +421,11 @@ export default function ArticlePage() {
                 </td>
 
                 <td className="border border-gray-300 px-4 py-3">
-                  पूर्ण कुंभ
+                  Full Kumbh
                 </td>
 
                 <td className="border border-gray-300 px-4 py-3">
-                  प्रमुख Kumbh Mela cycle
+                  A major Kumbh Mela cycle
                 </td>
               </tr>
 
@@ -401,11 +435,11 @@ export default function ArticlePage() {
                 </td>
 
                 <td className="border border-gray-300 px-4 py-3">
-                  अर्ध कुंभ
+                  Half Kumbh
                 </td>
 
                 <td className="border border-gray-300 px-4 py-3">
-                  संबंधित सहा वर्षांच्या चक्राशी जोडलेला मेळा
+                  A gathering associated with the six-year cycle
                 </td>
               </tr>
 
@@ -415,11 +449,11 @@ export default function ArticlePage() {
                 </td>
 
                 <td className="border border-gray-300 px-4 py-3">
-                  महाकुंभ
+                  Great Kumbh
                 </td>
 
                 <td className="border border-gray-300 px-4 py-3">
-                  अत्यंत विशेष धार्मिक आयोजन
+                  A particularly significant religious gathering
                 </td>
               </tr>
 
@@ -431,13 +465,14 @@ export default function ArticlePage() {
 
         {/* SNAN */}
         <h2 className="text-3xl font-bold mb-5 text-gray-900">
-          Kumbh Mela Snan: Amrit Snan आणि Shahi Snan म्हणजे काय?
+          Kumbh Mela Snan: What Are Amrit Snan and Shahi Snan?
         </h2>
 
         <p className="mb-6">
-          Sacred bathing is one of the most important traditions associated
-          with Kumbh Mela. Devotees gather at sacred rivers to participate
-          in religious bathing according to important festival dates.
+          Sacred bathing, known as Snan, is one of the most important
+          traditions associated with Kumbh Mela. Devotees gather at sacred
+          rivers to participate in religious bathing according to important
+          festival dates.
         </p>
 
         <p className="mb-8">
@@ -446,7 +481,7 @@ export default function ArticlePage() {
           participate in grand processions on significant bathing occasions.
         </p>
 
-        {/* IMAGE */}
+        {/* SNAN IMAGE */}
         <div className="my-10">
 
           <Image
@@ -485,6 +520,7 @@ export default function ArticlePage() {
           important part of major bathing occasions.
         </p>
 
+        {/* AKHARA IMAGE */}
         <div className="my-10">
 
           <Image
@@ -523,7 +559,7 @@ export default function ArticlePage() {
         <section className="bg-orange-50 border border-orange-200 rounded-2xl p-7 my-10">
 
           <h2 className="text-3xl font-bold mb-5 text-gray-900">
-            Why is Nashik Important for Kumbh Mela?
+            Why Is Nashik Important for Kumbh Mela?
           </h2>
 
           <p className="mb-6">
@@ -564,12 +600,12 @@ export default function ArticlePage() {
             href="/blog/nashik-kumbhmela-2027-tarikh"
             className="inline-block bg-orange-600 text-white px-5 py-3 rounded-lg font-semibold hover:bg-orange-700"
           >
-            नाशिक कुंभमेळा 2027 च्या तारखा पाहा →
+            View Nashik Kumbh Mela 2027 Dates →
           </Link>
 
         </section>
 
-        {/* NASHIK RELATED IMAGE */}
+        {/* NASHIK IMAGE */}
         <div className="my-10">
 
           <Image
@@ -581,7 +617,8 @@ export default function ArticlePage() {
           />
 
           <p className="text-center text-sm text-gray-500 mt-3">
-            The Godavari River is central to the religious identity of Nashik Kumbh.
+            The Godavari River is central to the religious identity of
+            Nashik Kumbh.
           </p>
 
         </div>
@@ -611,10 +648,11 @@ export default function ArticlePage() {
             className="border rounded-xl p-5 hover:border-orange-400 hover:shadow-md transition"
           >
             <h3 className="font-bold text-lg mb-2">
-              नाशिक कुंभमेळा 2027 तारखा
+              Nashik Kumbh Mela 2027 Dates
             </h3>
+
             <p className="text-sm text-gray-600">
-              प्रमुख स्नान आणि महत्त्वाच्या तारखांची माहिती.
+              Important bathing dates and major dates for Nashik Kumbh Mela.
             </p>
           </Link>
 
@@ -625,8 +663,10 @@ export default function ArticlePage() {
             <h3 className="font-bold text-lg mb-2">
               Nashik Kumbh Mela 2027 Budget Guide
             </h3>
+
             <p className="text-sm text-gray-600">
-              कुंभमेळ्याशी संबंधित बजेट आणि खर्चाची माहिती.
+              Information about the planned budget and expenditure related
+              to Nashik Kumbh Mela.
             </p>
           </Link>
 
@@ -637,8 +677,10 @@ export default function ArticlePage() {
             <h3 className="font-bold text-lg mb-2">
               Nashik Kumbh Authorities & Committees
             </h3>
+
             <p className="text-sm text-gray-600">
-              कुंभमेळ्याच्या प्रशासनाची आणि समित्यांची माहिती.
+              Learn about the authorities and committees involved in
+              Nashik Kumbh Mela planning and administration.
             </p>
           </Link>
 
@@ -649,8 +691,10 @@ export default function ArticlePage() {
             <h3 className="font-bold text-lg mb-2">
               Nashik Kumbh Development Plan
             </h3>
+
             <p className="text-sm text-gray-600">
-              नाशिक कुंभमेळ्यासाठी सुरू असलेल्या विकासकामांची माहिती.
+              Explore development projects and infrastructure planning
+              associated with Nashik Kumbh Mela.
             </p>
           </Link>
 
@@ -803,7 +847,7 @@ export default function ArticlePage() {
                 href="/blog/nashik-kumbhmela-2027-tarikh"
                 className="hover:underline"
               >
-                नाशिक कुंभमेळा 2027 तारीख आणि वेळापत्रक
+                Nashik Kumbh Mela 2027 Dates and Schedule
               </Link>
             </li>
 
@@ -848,8 +892,8 @@ export default function ArticlePage() {
 
         <p className="mb-6">
           Kumbh Mela is much more than a large religious gathering.
-          It brings together pilgrimage, sacred bathing, spiritual traditions,
-          saints, Akharas and centuries-old religious beliefs.
+          It brings together pilgrimage, sacred bathing, spiritual
+          traditions, saints, Akharas and centuries-old religious beliefs.
         </p>
 
         <p className="mb-6">
