@@ -22,6 +22,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: "https://kumbhnashikguide.com/updates",
       lastModified: new Date(),
     },
+    {
+      url: "https://kumbhnashikguide.com/blog/what-is-kumbh-mela-mr",
+      lastModified: new Date(),
+    },
 {
       url: "https://kumbhnashikguide.com/blog/dos-and-donts-nashik-kumbh-mela-2027",
       lastModified: new Date(),

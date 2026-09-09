@@ -72,7 +72,7 @@ const guides = [
       "Train routes, station details, booking tips, and railway information for pilgrims.",
   },
   {
-    href: "/blog/nashik-kumbh-mela-road-bus-travel-guide",
+    href: "/blog/nashik-kumbh-mela-bus-travel-guide",
     image: "/images/bus.jpg",
     title: "Road & Bus Travel Guide",
     description:
