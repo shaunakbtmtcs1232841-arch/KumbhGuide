@@ -138,11 +138,11 @@ export default function Page() {
       <p className="text-gray-600 mb-6">
         Complete guide for families visiting Nashik Kumbh Mela 2027 including
         children, senior citizens, accommodation, food, safety, Amrit Snan,
-        travel planning, temples, packing checklist and practical pilgrimage tips.
+        travel planning, temples, packing checklist and practical pilgrimage tips.  
       </p>
 
       <img
-        src="/images/family-kumbh-guiide.jpg"
+        src="/images/family-kumbh-guide.jpg"
         alt="Family visiting Nashik Kumbh Mela 2027 at Ramkund and Godavari River"
         className="w-full h-[260px] md:h-[380px] object-cover rounded-xl mb-8"
       />
