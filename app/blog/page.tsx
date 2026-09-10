@@ -174,7 +174,7 @@ const articles = [
 
   {
     href: "/blog/first-time-pilgrim-guide-nashik-kumbh-mela-2027",
-    image: "/images/family-kumbh-guide.jpg",
+    image: "/images/trimbakk.png",
     title: "First-Time Pilgrim Guide to Nashik Kumbh Mela 2027",
     description:
       "A complete beginner's guide to Nashik Kumbh Mela 2027 covering Amrit Snan dates, travel planning, accommodation, sacred temples, Godavari River ghats, pilgrimage tips, and everything first-time visitors need to know.",
@@ -182,7 +182,7 @@ const articles = [
 
   {
     href: "/blog/dos-and-donts-nashik-kumbh-mela-2027",
-    image: "/images/family-kumbh-guide.jpg",
+    image: "/images/kumbhn.png",
     title: "Do's and Dont's",
     description:
       "Essential safety guidelines and travel advice for pilgrims attending Nashik Kumbh Mela 2027.",
@@ -334,7 +334,7 @@ const articles = [
 
   {
     href: "/blog/women-pilgrim-guide-nashik-kumbh-mela-2027",
-    image: "/images/women-pilgrim-kumbh.jpg",
+    image: "/images/women-pilgrims-kumbh.jpg",
     title: "Women Pilgrim Guide to Nashik Kumbh Mela 2027",
     description:
       "A practical guide for women pilgrims covering travel planning, accommodation, safety, crowds, bathing areas, and essential Kumbh travel tips.",
