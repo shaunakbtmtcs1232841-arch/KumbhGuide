@@ -117,7 +117,7 @@ const articles = [
 
   {
     href: "/blog/top-10-places-to-visit-nashik-kumbh-mela-2027",
-    image: "/images/pandavleni.jpg",
+    image: "/images/kapalesh.png",
     title: "10 Best Places to Visit in Nashik During Kumbh Mela",
     description:
       "Explore Ramkund, Trimbakeshwar, Panchavati and other sacred places every pilgrim must visit.",
@@ -230,7 +230,7 @@ const articles = [
 
   {
     href: "/blog/kapaleshwar-temple-nashik-guide-kumbh-mela-2027",
-    image: "/images/panchavati.jpg",
+    image: "/images/kapaleshwar.jpg",
     title: "Kapaleshwar Temple Nashik Guide for Kumbh Mela 2027",
     description:
       "Discover Kapaleshwar Temple near Ramkund, its spiritual significance, location, nearby pilgrimage sites, and travel information.",
@@ -246,18 +246,10 @@ const articles = [
 
   {
     href: "/blog/naroshankar-temple-nashik-guide-kumbh-mela-2027",
-    image: "/images/panchavati.jpg",
+    image: "/images/naroshankar.jpg",
     title: "Naroshankar Temple Nashik Guide for Kumbh Mela 2027",
     description:
       "Explore Naroshankar Temple, its architecture, religious significance, location near the Godavari River, and useful visitor information.",
-  },
-
-  {
-    href: "/blog/nashik-kumbh-mela-2027-2,267-crore-plan-approved",
-    image: "/images/cm.avif",
-    title: "Nashik Kumbh Mela 2027: ₹2,267 Crore Plan",
-    description:
-      "Learn about the ₹2,267 crore plan related to Sadhugram land acquisition and its importance for Nashik Kumbh Mela 2027.",
   },
 
   {
@@ -270,7 +262,7 @@ const articles = [
 
   {
     href: "/blog/nashik-kumbh-mela-2027-budget-guide-mr",
-    image: "/images/development-plan.jpg",
+    image: "/images/devemr.jpg",
     title: "नाशिक कुंभमेळा 2027 बजेट आणि विकास आराखडा",
     description:
       "नाशिक कुंभमेळा 2027 साठी मंजूर बजेट, प्रमुख विकासकामे, पायाभूत सुविधा आणि शासनाच्या नियोजनाची माहिती.",
@@ -278,7 +270,7 @@ const articles = [
 
   {
     href: "/blog/nashik-kumbh-mela-2027-development-plan",
-    image: "/images/development-plan.jpg",
+    image: "/images/deve-plan.jpg",
     title: "Nashik Kumbh Mela 2027 Development Plan",
     description:
       "Explore the major infrastructure and development projects planned for Nashik and Trimbakeshwar ahead of Kumbh Mela 2027.",
@@ -294,7 +286,7 @@ const articles = [
 
   {
     href: "/blog/nashik-kumbh-mela-authorities-committees",
-    image: "/images/development-plan.jpg",
+    image: "/images/cm.avif",
     title: "Nashik Kumbh Mela 2027 Authorities & Committees",
     description:
       "Learn about NTKMA, Kumbh Mela authorities, committees, government departments, and the administrative structure responsible for Kumbh preparations.",
@@ -326,7 +318,7 @@ const articles = [
 
   {
     href: "/blog/sita-gufa-nashik-guide-kumbh-mela-2027",
-    image: "/images/panchavati.jpg",
+    image: "/images/sitagufa.jpg",
     title: "Sita Gufa Nashik Guide for Kumbh Mela 2027",
     description:
       "Explore Sita Gufa in Panchavati, its Ramayana connection, religious significance, nearby attractions, and useful visitor information.",
@@ -342,7 +334,7 @@ const articles = [
 
   {
     href: "/blog/women-pilgrim-guide-nashik-kumbh-mela-2027",
-    image: "/images/family-kumbh-guide.jpg",
+    image: "/images/women-pilgrim-kumbh.jpg",
     title: "Women Pilgrim Guide to Nashik Kumbh Mela 2027",
     description:
       "A practical guide for women pilgrims covering travel planning, accommodation, safety, crowds, bathing areas, and essential Kumbh travel tips.",
