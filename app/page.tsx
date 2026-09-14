@@ -124,15 +124,57 @@ const organizationSchema = {
   areaServed: "India",
 
   knowsAbout: [
-    "Nashik Kumbh Mela",
-    "Trimbakeshwar Temple",
-    "Ramkund",
-    "Godavari River",
-    "Panchavati",
-    "Kumbh Mela",
-    "Pilgrimage",
-    "Religious Tourism",
-    "Maharashtra Tourism"
+   
+  "Nashik Kumbh Mela 2027",
+  "Nashik Kumbh Mela",
+  "Nashik Kumbh 2027",
+  "Nashik Kumbh Mela guide",
+  "Nashik Kumbh Mela 2027 guide",
+  "Simhastha Kumbh Mela 2027",
+
+  // Dates & Snan
+  "Nashik Kumbh Mela 2027 dates",
+  "Nashik Kumbh Mela 2027 schedule",
+  "Nashik Kumbh Mela 2027 Snan dates",
+  "Nashik Kumbh Mela Amrit Snan",
+  "Nashik Kumbh Mela Shahi Snan",
+
+  // Travel & pilgrimage
+  "Nashik Kumbh Mela travel guide",
+  "how to reach Nashik Kumbh Mela",
+  "Nashik Kumbh Mela accommodation",
+  "Nashik Kumbh Mela places to visit",
+  "Nashik Kumbh Mela pilgrim guide",
+
+  // Sacred places
+  "Nashik Kumbh Mela ghats",
+  "Ramkund Nashik Kumbh",
+  "Trimbakeshwar Kumbh Mela 2027",
+  "Kushavarta Kund",
+  "Nashik temples Kumbh Mela",
+  "Godavari River Nashik Kumbh",
+
+  // Kumbh information
+  "What is Kumbh Mela",
+  "Kumbh Mela history",
+  "Kumbh Mela significance",
+  "Samudra Manthan Kumbh Mela",
+  "Akharas in Kumbh Mela",
+  "Naga Sadhus Nashik Kumbh",
+
+  // Development & current information
+  "Nashik Kumbh Mela budget",
+  "Nashik Kumbh Mela 2027 budget",
+  "Nashik Kumbh Mela development plan",
+  "Nashik Kumbh Mela infrastructure",
+  "Nashik Kumbh Mela latest updates",
+
+  // Marathi
+  "नाशिक कुंभमेळा 2027",
+  "नाशिक कुंभमेळा 2027 तारीख",
+  "नाशिक कुंभमेळा 2027 माहिती",
+  "नाशिक कुंभमेळा 2027 बजेट"
+
   ],
 };
 
