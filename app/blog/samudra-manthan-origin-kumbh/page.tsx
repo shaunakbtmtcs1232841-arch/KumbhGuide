@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     title:
       "Samudra Manthan: Why Did It Happen & How It Connects to Kumbh Mela?",
     description:
-      "Understand the Samudra Manthan story, the Amrit Kumbh and its traditional connection with Kumbh Mela and Nashik.",
+      "Understand the Samudra Manthan story, Amrit Kumbh and its traditional connection with Kumbh Mela and Nashik.",
     url: "https://kumbhnashikguide.com/blog/samudra-manthan-origin-kumbh",
     siteName: "Kumbh Nashik Guide",
     type: "article",
@@ -136,7 +136,7 @@ export default function SamudraManthan() {
         name: "Why did Samudra Manthan happen?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "According to Hindu mythology, the Devas sought Amrit, the nectar of immortality, after losing their strength. Lord Vishnu advised them to work with the Asuras to churn the cosmic ocean and obtain the nectar.",
+          text: "According to Hindu mythology, the Devas sought Amrit, the nectar of immortality, after losing their strength. Lord Vishnu advised the Devas to work with the Asuras to churn the cosmic ocean and obtain the nectar.",
         },
       },
       {
@@ -176,6 +176,8 @@ export default function SamudraManthan() {
 
   return (
     <div className="min-h-screen bg-white text-gray-800">
+      {/* SCHEMAS */}
+
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -198,6 +200,7 @@ export default function SamudraManthan() {
       />
 
       {/* HERO */}
+
       <section className="bg-gradient-to-r from-orange-600 via-orange-700 to-red-700 px-6 py-16 text-center text-white">
         <div className="mx-auto max-w-5xl">
           <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-orange-100">
@@ -218,6 +221,7 @@ export default function SamudraManthan() {
       </section>
 
       {/* BREADCRUMBS */}
+
       <nav
         aria-label="Breadcrumb"
         className="mx-auto max-w-4xl px-6 pt-6 text-sm text-gray-500"
@@ -225,20 +229,25 @@ export default function SamudraManthan() {
         <Link href="/" className="hover:text-orange-600">
           Home
         </Link>
+
         <span className="mx-2">/</span>
+
         <Link href="/blog" className="hover:text-orange-600">
           Blog
         </Link>
+
         <span className="mx-2">/</span>
+
         <span>Samudra Manthan</span>
       </nav>
 
       <main className="mx-auto max-w-4xl px-6 py-10">
         {/* HERO IMAGE */}
-        <div className="relative mb-10 h-[260px] w-full overflow-hidden rounded-2xl shadow-md md:h-[430px]">
+
+        <div className="relative mb-10 h-[270px] w-full overflow-hidden rounded-2xl shadow-md md:h-[440px]">
           <Image
             src="/images/samudramanthan.jpg"
-            alt="Samudra Manthan mythological story and Amrit Kumbh"
+            alt="Samudra Manthan churning of the cosmic ocean"
             fill
             priority
             className="object-cover"
@@ -247,17 +256,19 @@ export default function SamudraManthan() {
         </div>
 
         {/* DIRECT ANSWER */}
+
         <section className="mb-10 rounded-2xl border border-orange-200 bg-orange-50 p-6 md:p-8">
           <h2 className="mb-4 text-2xl font-bold text-gray-900">
             Why Did Samudra Manthan Happen?
           </h2>
 
           <p className="text-lg leading-8">
-            According to Hindu mythology, <strong>Samudra Manthan</strong>{" "}
-            happened because the Devas needed <strong>Amrit</strong>, the
-            nectar of immortality, after losing their strength. Lord Vishnu
-            advised the Devas to work with the Asuras and churn the cosmic
-            ocean to obtain the nectar and other divine treasures.
+            According to Hindu mythology,{" "}
+            <strong>Samudra Manthan</strong> happened because the Devas sought{" "}
+            <strong>Amrit</strong>, the nectar of immortality, after losing
+            their strength. Lord Vishnu advised the Devas to work with the
+            Asuras and churn the cosmic ocean to obtain the nectar and other
+            divine treasures.
           </p>
 
           <p className="mt-4 leading-7">
@@ -269,14 +280,15 @@ export default function SamudraManthan() {
           </p>
         </section>
 
-        {/* INTRODUCTION */}
+        {/* WHAT IS SAMUDRA MANTHAN */}
+
         <section>
           <h2 className="mb-4 mt-10 text-3xl font-bold text-gray-900">
             What Is Samudra Manthan?
           </h2>
 
           <p className="mb-6 leading-8">
-            <strong>Samudra Manthan</strong>, also called the{" "}
+            <strong>Samudra Manthan</strong>, also known as the{" "}
             <strong>Churning of the Ocean</strong>, is a major story in Hindu
             mythology. It describes the Devas and Asuras working together to
             churn the cosmic ocean in search of Amrit and other extraordinary
@@ -284,13 +296,14 @@ export default function SamudraManthan() {
           </p>
 
           <p className="mb-8 leading-8">
-            The story explains a struggle between opposing forces, the
+            The story describes a struggle between opposing forces, the
             emergence of divine treasures and the eventual appearance of
             Dhanvantari carrying the Amrit Kumbh.
           </p>
         </section>
 
-        {/* WHY */}
+        {/* WHY IT HAPPENED */}
+
         <section>
           <h2 className="mb-4 mt-12 text-3xl font-bold text-gray-900">
             Why Did the Devas and Asuras Perform Samudra Manthan?
@@ -304,14 +317,15 @@ export default function SamudraManthan() {
 
           <p className="mb-6 leading-8">
             Vishnu advised them to churn the ocean of milk and obtain Amrit.
-            Because the task was too difficult for the Devas alone, they made
-            an agreement with the Asuras to participate in the churning.
+            Because the task was extremely difficult, the Devas made an
+            agreement with the Asuras to participate in the churning.
           </p>
 
           <div className="my-8 rounded-xl border-l-4 border-orange-500 bg-gray-50 p-6">
             <p className="font-semibold text-gray-900">
               In simple terms:
             </p>
+
             <p className="mt-2 leading-7">
               The main purpose of Samudra Manthan was to obtain{" "}
               <strong>Amrit, the nectar of immortality</strong>, along with
@@ -320,11 +334,12 @@ export default function SamudraManthan() {
           </div>
         </section>
 
-        {/* IMAGE 2 */}
-        <div className="relative my-10 h-[250px] w-full overflow-hidden rounded-2xl shadow-md md:h-[360px]">
+        {/* CHURNING IMAGE */}
+
+        <div className="relative my-10 h-[250px] w-full overflow-hidden rounded-2xl shadow-md md:h-[380px]">
           <Image
-            src="/images/samudramanthan.jpg"
-            alt="Samudra Manthan churning of the cosmic ocean"
+            src="/images/samudramanthan-churning.jpg"
+            alt="Devas and Asuras performing Samudra Manthan with Mount Mandara and Vasuki"
             fill
             className="object-cover"
             sizes="(max-width: 768px) 100vw, 900px"
@@ -332,6 +347,7 @@ export default function SamudraManthan() {
         </div>
 
         {/* CHURNING PROCESS */}
+
         <section>
           <h2 className="mb-4 mt-12 text-3xl font-bold text-gray-900">
             How Was the Cosmic Ocean Churned?
@@ -349,6 +365,7 @@ export default function SamudraManthan() {
                 <h3 className="font-bold text-orange-700">
                   Mount Mandara
                 </h3>
+
                 <p className="mt-2 text-sm leading-6">
                   Used as the churning rod.
                 </p>
@@ -356,6 +373,7 @@ export default function SamudraManthan() {
 
               <div className="border-b p-5 md:border-b-0 md:border-r">
                 <h3 className="font-bold text-orange-700">Vasuki</h3>
+
                 <p className="mt-2 text-sm leading-6">
                   Used as the serpent rope around the mountain.
                 </p>
@@ -365,6 +383,7 @@ export default function SamudraManthan() {
                 <h3 className="font-bold text-orange-700">
                   Lord Vishnu
                 </h3>
+
                 <p className="mt-2 text-sm leading-6">
                   Traditionally described as taking the Kurma, or tortoise,
                   form to support the mountain.
@@ -381,15 +400,28 @@ export default function SamudraManthan() {
           </p>
         </section>
 
+        {/* HALAHALA IMAGE */}
+
+        <div className="relative my-10 h-[250px] w-full overflow-hidden rounded-2xl shadow-md md:h-[380px]">
+          <Image
+            src="/images/halahala-shiva.jpg"
+            alt="Lord Shiva and the Halahala poison from Samudra Manthan"
+            fill
+            className="object-cover"
+            sizes="(max-width: 768px) 100vw, 900px"
+          />
+        </div>
+
         {/* HALAHALA */}
+
         <section>
           <h2 className="mb-4 mt-12 text-3xl font-bold text-gray-900">
             Halahala Poison and Lord Shiva
           </h2>
 
           <p className="mb-6 leading-8">
-            One of the first major dangers to emerge from the churning was the
-            deadly poison known as <strong>Halahala</strong>.
+            One of the major dangers described in the Samudra Manthan story was
+            the deadly poison known as <strong>Halahala</strong>.
           </p>
 
           <p className="mb-8 leading-8">
@@ -400,6 +432,7 @@ export default function SamudraManthan() {
         </section>
 
         {/* DIVINE TREASURES */}
+
         <section>
           <h2 className="mb-4 mt-12 text-3xl font-bold text-gray-900">
             What Came Out of Samudra Manthan?
@@ -407,33 +440,51 @@ export default function SamudraManthan() {
 
           <p className="mb-6 leading-8">
             Hindu traditions describe numerous divine treasures and beings
-            emerging from the cosmic ocean. Different textual traditions
-            describe the list somewhat differently.
+            emerging from the cosmic ocean. The exact lists can vary between
+            textual traditions.
           </p>
 
           <ul className="mb-8 grid gap-3 sm:grid-cols-2">
             <li className="rounded-lg bg-orange-50 p-4">
               Goddess Lakshmi
             </li>
+
             <li className="rounded-lg bg-orange-50 p-4">
               Dhanvantari
             </li>
+
             <li className="rounded-lg bg-orange-50 p-4">
               Amrit
             </li>
+
             <li className="rounded-lg bg-orange-50 p-4">
               Halahala poison
             </li>
+
             <li className="rounded-lg bg-orange-50 p-4">
               The Moon
             </li>
+
             <li className="rounded-lg bg-orange-50 p-4">
               Other divine treasures
             </li>
           </ul>
         </section>
 
+        {/* DHANVANTARI IMAGE */}
+
+        <div className="relative my-10 h-[260px] w-full overflow-hidden rounded-2xl shadow-md md:h-[390px]">
+          <Image
+            src="/images/dhanvantari-amrit-kumbh.jpg"
+            alt="Dhanvantari emerging with the Amrit Kumbh"
+            fill
+            className="object-cover"
+            sizes="(max-width: 768px) 100vw, 900px"
+          />
+        </div>
+
         {/* AMRIT */}
+
         <section>
           <h2 className="mb-4 mt-12 text-3xl font-bold text-gray-900">
             Dhanvantari and the Amrit Kumbh
@@ -453,25 +504,20 @@ export default function SamudraManthan() {
           </p>
         </section>
 
-        {/* IMAGE 3 */}
-        <div className="my-10 rounded-2xl bg-orange-50 p-6 text-center">
-          <div className="relative mx-auto h-[260px] max-w-3xl overflow-hidden rounded-xl shadow-md md:h-[380px]">
-            <Image
-              src="/images/samudramanthan.jpg"
-              alt="Traditional depiction of Amrit Kumbh from Samudra Manthan"
-              fill
-              className="object-cover"
-              sizes="(max-width: 768px) 100vw, 800px"
-            />
-          </div>
+        {/* KUMBH CONNECTION IMAGE */}
 
-          <p className="mt-4 text-sm text-gray-600">
-            The Amrit Kumbh is central to the traditional mythological
-            explanation of Kumbh Mela.
-          </p>
+        <div className="relative my-10 h-[260px] w-full overflow-hidden rounded-2xl shadow-md md:h-[390px]">
+          <Image
+            src="/images/kumbh-mela-amrit-connection.jpg"
+            alt="Kumbh Mela and its traditional connection with the Amrit Kumbh"
+            fill
+            className="object-cover"
+            sizes="(max-width: 768px) 100vw, 900px"
+          />
         </div>
 
         {/* KUMBH CONNECTION */}
+
         <section>
           <h2 className="mb-4 mt-12 text-3xl font-bold text-gray-900">
             How Is Samudra Manthan Connected to Kumbh Mela?
@@ -480,37 +526,32 @@ export default function SamudraManthan() {
           <p className="mb-6 leading-8">
             According to Hindu tradition, during the struggle over the Amrit
             Kumbh, drops of the nectar are associated with four sacred places:
-            <strong> Prayagraj, Haridwar, Nashik-Trimbakeshwar and Ujjain</strong>.
+            <strong>
+              {" "}
+              Prayagraj, Haridwar, Nashik-Trimbakeshwar and Ujjain
+            </strong>
+            .
           </p>
 
           <p className="mb-6 leading-8">
             This mythology forms an important part of the traditional
-            explanation of the <strong>origin of Kumbh Mela</strong>. Official
-            Nashik District material also describes the mythological
-            significance of Kumbh through the story of Samudra Manthan.{" "}
-            <a
-              href="https://nashik.gov.in/en/tourism/culture-heritage/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-semibold text-orange-600 hover:underline"
-            >
-              Nashik District Government — Culture & Heritage
-            </a>
+            explanation of the <strong>origin of Kumbh Mela</strong>.
           </p>
 
           <p className="mb-8 leading-8">
-            For Nashik, this tradition is closely associated with the{" "}
+            For Nashik, the tradition is closely associated with the{" "}
             <Link
               href="/blog/significance-of-godavari-river"
               className="font-semibold text-orange-600 hover:underline"
             >
               Godavari River
             </Link>{" "}
-            and the sacred sites of Nashik and Trimbakeshwar.
+            and the sacred pilgrimage sites of Nashik and Trimbakeshwar.
           </p>
         </section>
 
         {/* FOUR PLACES */}
+
         <section>
           <h2 className="mb-4 mt-12 text-3xl font-bold text-gray-900">
             The Four Traditional Kumbh Mela Locations
@@ -521,9 +562,9 @@ export default function SamudraManthan() {
               <h3 className="text-lg font-bold text-orange-700">
                 Prayagraj
               </h3>
+
               <p className="mt-2 text-sm leading-6">
-                Associated with the sacred confluence of the Ganga, Yamuna and
-                Saraswati traditions.
+                One of the four traditional Kumbh Mela locations.
               </p>
             </div>
 
@@ -531,9 +572,10 @@ export default function SamudraManthan() {
               <h3 className="text-lg font-bold text-orange-700">
                 Haridwar
               </h3>
+
               <p className="mt-2 text-sm leading-6">
-                Associated with the Ganga and one of the four traditional
-                Kumbh locations.
+                One of the four traditional Kumbh Mela locations associated
+                with the Ganga.
               </p>
             </div>
 
@@ -541,6 +583,7 @@ export default function SamudraManthan() {
               <h3 className="text-lg font-bold text-orange-700">
                 Nashik-Trimbakeshwar
               </h3>
+
               <p className="mt-2 text-sm leading-6">
                 Associated with the Godavari and the Simhastha Kumbh tradition.
               </p>
@@ -550,6 +593,7 @@ export default function SamudraManthan() {
               <h3 className="text-lg font-bold text-orange-700">
                 Ujjain
               </h3>
+
               <p className="mt-2 text-sm leading-6">
                 Associated with the Shipra River and Simhastha tradition.
               </p>
@@ -558,6 +602,7 @@ export default function SamudraManthan() {
         </section>
 
         {/* NASHIK */}
+
         <section>
           <h2 className="mb-4 mt-12 text-3xl font-bold text-gray-900">
             Why Is Nashik Important in the Kumbh Mela Tradition?
@@ -565,43 +610,33 @@ export default function SamudraManthan() {
 
           <p className="mb-6 leading-8">
             Nashik and Trimbakeshwar form one of the four traditional Kumbh
-            locations. The Nashik-Trimbakeshwar event is commonly known as
-            <strong> Simhastha Kumbh</strong>.
+            locations. The Nashik-Trimbakeshwar event is commonly known as{" "}
+            <strong>Simhastha Kumbh</strong>.
           </p>
 
           <p className="mb-6 leading-8">
-            Nashik District's official tourism information connects the Kumbh
-            tradition with the Samudra Manthan mythology and describes the
-            importance of the Godavari in the Nashik Kumbh tradition.{" "}
-            <a
-              href="https://nashik.gov.in/en/tourism/culture-heritage/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-semibold text-orange-600 hover:underline"
-            >
-              Official Nashik District information
-            </a>
+            The sacred Godavari, Ramkund, Trimbakeshwar and other pilgrimage
+            sites contribute to Nashik's religious importance during Kumbh
+            Mela.
           </p>
 
           <p className="mb-8 leading-8">
-            The upcoming <strong>Nashik Kumbh Mela 2027</strong> is being
-            planned and coordinated by the Nashik-Trimbakeshwar Kumbh Mela
-            Authority. The Government of Maharashtra has approved a
-            comprehensive ₹22,425.39 crore development plan for the
-            Nashik-Trimbakeshwar Simhastha Kumbh Mela.{" "}
-            <a
-              href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2289872&lang=1&reg=1"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-semibold text-orange-600 hover:underline"
-            >
-              PIB — Government of India
-            </a>
+            The upcoming{" "}
+            <strong>Nashik Kumbh Mela 2027</strong> is being planned and
+            coordinated by the Nashik-Trimbakeshwar Kumbh Mela Authority.
           </p>
+
+          <Link
+            href="/blog/nashik-kumbh-mela-2027-development-plan"
+            className="inline-block rounded-lg bg-orange-600 px-5 py-3 font-semibold text-white hover:bg-orange-700"
+          >
+            Explore Nashik Kumbh 2027 Development Plan →
+          </Link>
         </section>
 
-        {/* INTERNAL LINK CARDS */}
-        <section className="my-12">
+        {/* INTERNAL LINKS */}
+
+        <section className="my-14">
           <h2 className="mb-6 text-3xl font-bold text-gray-900">
             Explore Kumbh Mela
           </h2>
@@ -614,6 +649,7 @@ export default function SamudraManthan() {
               <h3 className="font-bold text-orange-700">
                 What Is Kumbh Mela?
               </h3>
+
               <p className="mt-2 text-sm leading-6 text-gray-700">
                 Understand the meaning, tradition and significance of Kumbh
                 Mela.
@@ -627,6 +663,7 @@ export default function SamudraManthan() {
               <h3 className="font-bold text-orange-700">
                 Shahi Snan & Amrit Snan
               </h3>
+
               <p className="mt-2 text-sm leading-6 text-gray-700">
                 Learn about the important bathing traditions associated with
                 Kumbh Mela.
@@ -640,6 +677,7 @@ export default function SamudraManthan() {
               <h3 className="font-bold text-orange-700">
                 Significance of Godavari River
               </h3>
+
               <p className="mt-2 text-sm leading-6 text-gray-700">
                 Explore why the Godavari is central to Nashik's pilgrimage
                 tradition.
@@ -653,6 +691,7 @@ export default function SamudraManthan() {
               <h3 className="font-bold text-orange-700">
                 Nashik Kumbh Mela 2027 Dates
               </h3>
+
               <p className="mt-2 text-sm leading-6 text-gray-700">
                 Check the latest information about the Nashik-Trimbakeshwar
                 Kumbh schedule.
@@ -666,27 +705,29 @@ export default function SamudraManthan() {
               <h3 className="font-bold text-orange-700">
                 Akharas in Kumbh Mela
               </h3>
+
               <p className="mt-2 text-sm leading-6 text-gray-700">
                 Learn about Akharas and their role during Kumbh Mela.
               </p>
             </Link>
 
             <Link
-              href="/blog/nashik-kumbh-mela-2027-development-plan"
+              href="/blog/nashik-kumbh-mela-2027-budget-guide"
               className="rounded-xl border border-orange-200 bg-orange-50 p-5 transition hover:shadow-md"
             >
               <h3 className="font-bold text-orange-700">
-                Nashik Kumbh 2027 Development Plan
+                Nashik Kumbh Mela 2027 Budget
               </h3>
+
               <p className="mt-2 text-sm leading-6 text-gray-700">
-                Explore the infrastructure and development planning for the
-                upcoming Kumbh.
+                Explore the approved development plan and major projects.
               </p>
             </Link>
           </div>
         </section>
 
         {/* SPIRITUAL SIGNIFICANCE */}
+
         <section>
           <h2 className="mb-4 mt-12 text-3xl font-bold text-gray-900">
             Spiritual Significance of Samudra Manthan
@@ -708,16 +749,18 @@ export default function SamudraManthan() {
         </section>
 
         {/* FAQ */}
+
         <section className="mt-14">
           <h2 className="mb-6 text-3xl font-bold text-gray-900">
             Frequently Asked Questions
           </h2>
 
-          <div className="space-y-5">
+          <div className="space-y-6">
             <div>
               <h3 className="text-xl font-bold">
                 Why did Samudra Manthan happen?
               </h3>
+
               <p className="mt-2 leading-7">
                 According to Hindu mythology, the Devas sought Amrit, the
                 nectar of immortality, after losing their strength. They worked
@@ -727,12 +770,26 @@ export default function SamudraManthan() {
 
             <div>
               <h3 className="text-xl font-bold">
+                What is Samudra Manthan?
+              </h3>
+
+              <p className="mt-2 leading-7">
+                Samudra Manthan is the Hindu mythological account of the
+                churning of the cosmic ocean by the Devas and Asuras to obtain
+                Amrit and other divine treasures.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold">
                 What is the connection between Samudra Manthan and Kumbh Mela?
               </h3>
+
               <p className="mt-2 leading-7">
                 Hindu tradition connects the Amrit Kumbh from the Samudra
-                Manthan story with four sacred locations associated with Kumbh
-                Mela: Prayagraj, Haridwar, Nashik-Trimbakeshwar and Ujjain.
+                Manthan story with four sacred locations traditionally
+                associated with Kumbh Mela: Prayagraj, Haridwar,
+                Nashik-Trimbakeshwar and Ujjain.
               </p>
             </div>
 
@@ -740,10 +797,11 @@ export default function SamudraManthan() {
               <h3 className="text-xl font-bold">
                 Why is Nashik associated with Kumbh Mela?
               </h3>
+
               <p className="mt-2 leading-7">
                 Nashik-Trimbakeshwar is one of the four traditional Kumbh
-                locations. The Nashik tradition is closely connected with the
-                sacred Godavari and the mythology surrounding Kumbh.
+                locations and is closely associated with the sacred Godavari
+                River and the Simhastha tradition.
               </p>
             </div>
 
@@ -751,6 +809,7 @@ export default function SamudraManthan() {
               <h3 className="text-xl font-bold">
                 What is the Amrit Kumbh?
               </h3>
+
               <p className="mt-2 leading-7">
                 Amrit Kumbh means the pitcher containing Amrit, the nectar of
                 immortality, in the Samudra Manthan story.
@@ -761,6 +820,7 @@ export default function SamudraManthan() {
               <h3 className="text-xl font-bold">
                 Is Samudra Manthan the historical origin of Kumbh Mela?
               </h3>
+
               <p className="mt-2 leading-7">
                 Samudra Manthan is the traditional mythological explanation
                 associated with Kumbh Mela. It should be understood as part of
@@ -772,21 +832,24 @@ export default function SamudraManthan() {
         </section>
 
         {/* INFORMATION NOTE */}
+
         <section className="mt-14 rounded-xl border border-gray-200 bg-gray-50 p-6">
           <h2 className="mb-3 text-lg font-bold text-gray-900">
             Information Note
           </h2>
 
           <p className="text-sm leading-7 text-gray-600">
-            This article presents Samudra Manthan and the origin of Kumbh Mela
-            from the perspective of Hindu mythology and traditional religious
-            accounts. Mythological narratives can vary across Hindu texts and
-            traditions. Information about the contemporary Nashik Kumbh Mela
-            is presented separately using government and other public sources.
+            This article presents Samudra Manthan and the traditional origin
+            story of Kumbh Mela from the perspective of Hindu mythology and
+            religious traditions. Details of mythological narratives can vary
+            across Hindu texts and traditions. Contemporary information about
+            Nashik Kumbh Mela 2027 is presented separately using government and
+            other public sources.
           </p>
         </section>
 
         {/* FINAL CTA */}
+
         <section className="mt-12 rounded-2xl bg-gradient-to-r from-orange-600 to-red-600 p-8 text-center text-white">
           <h2 className="text-2xl font-bold">
             Planning for Nashik Kumbh Mela 2027?
