@@ -36,11 +36,19 @@ export const metadata: Metadata = {
     "नाशिक कुंभमेळा निधी",
   ],
 
-  alternates: {
-    canonical:
-      "https://kumbhnashikguide.com/blog/nashik-kumbh-mela-2027-budget-guide-mr",
-  },
+ alternates: {
+  canonical:
+    "https://kumbhnashikguide.com/blog/nashik-kumbh-mela-2027-budget-guide-mr",
 
+  languages: {
+    "en-IN":
+      "https://kumbhnashikguide.com/blog/nashik-kumbh-mela-2027-budget-guide",
+    "mr-IN":
+      "https://kumbhnashikguide.com/blog/nashik-kumbh-mela-2027-budget-guide-mr",
+    "x-default":
+      "https://kumbhnashikguide.com/blog/nashik-kumbh-mela-2027-budget-guide",
+  },
+},
   openGraph: {
     title:
       "नाशिक कुंभमेळा 2027 बजेट: ₹22,425.39 कोटींचा विकास आराखडा",
@@ -76,10 +84,14 @@ export const metadata: Metadata = {
 };
 
 const articleSchema = {
-  datePublished: "2026-07-27",
-  dateModified: "2026-08-28",
   "@context": "https://schema.org",
   "@type": "Article",
+
+  inLanguage: "mr-IN",
+
+  datePublished: "2026-07-27",
+  dateModified: "2026-09-27",
+
   headline:
     "नाशिक कुंभमेळा 2027 बजेट: ₹22,425.39 कोटींचा विकास आराखडा व सरकारी प्रकल्प",
   description:

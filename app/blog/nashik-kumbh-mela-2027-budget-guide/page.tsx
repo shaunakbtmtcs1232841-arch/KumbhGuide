@@ -42,10 +42,19 @@ export const metadata: Metadata = {
     "NTKMA",
   ],
 
-  alternates: {
-    canonical:
+ alternates: {
+  canonical:
+    "https://kumbhnashikguide.com/blog/nashik-kumbh-mela-2027-budget-guide",
+
+  languages: {
+    "en-IN":
+      "https://kumbhnashikguide.com/blog/nashik-kumbh-mela-2027-budget-guide",
+    "mr-IN":
+      "https://kumbhnashikguide.com/blog/nashik-kumbh-mela-2027-budget-guide-mr",
+    "x-default":
       "https://kumbhnashikguide.com/blog/nashik-kumbh-mela-2027-budget-guide",
   },
+},
 
   openGraph: {
     title:
