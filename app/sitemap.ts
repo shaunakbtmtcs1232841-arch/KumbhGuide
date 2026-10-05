@@ -36,10 +36,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: "https://kumbhnashikguide.com/updates",
       lastModified,
     },
-    {
-      url: "https://kumbhnashikguide.com/horoscope",
-      lastModified,
-    },
+    
 
     // ==========================================
     // INFORMATION / LEGAL
