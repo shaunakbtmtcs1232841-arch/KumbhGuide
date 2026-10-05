@@ -3,6 +3,10 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Top Ghats of Nashik for Holy Bath | Nashik Kumbh Guide",
+  alternates: {
+  canonical:
+    "https://kumbhnashikguide.com/blog/top-ghats-nashik",
+},
   description:
     "Discover the most sacred ghats of Nashik including Ramkund, Kushavarta Kund and other holy bathing places during Kumbh Mela.",
 };

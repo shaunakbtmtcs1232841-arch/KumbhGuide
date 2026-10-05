@@ -8,6 +8,11 @@ export const metadata: Metadata = {
   description:
     "Discover key preparation plans, Sadhu Gram development, and important milestones ahead of the 2027 Simhastha Kumbh Mela.",
 
+    alternates: {
+  canonical:
+    "https://kumbhnashikguide.com/blog/nashik-kumbh-mela-2027-2,267-crore-plan-approved",
+},
+
   keywords: [
     "Nashik Kumbh Mela",
     "Nashik Kumbh Mela 2027",

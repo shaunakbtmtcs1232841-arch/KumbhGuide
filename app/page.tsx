@@ -121,6 +121,10 @@ const organizationSchema = {
   description:
     "Kumbh Nashik Guide is an independent informational website dedicated to providing accurate and comprehensive information about Nashik Kumbh Mela 2027, Trimbakeshwar, Ramkund, Panchavati, temples, ghats, travel, accommodation, pilgrimage, and visitor planning.",
 
+    alternates: {
+  canonical: "https://kumbhnashikguide.com/",
+},
+
   areaServed: "India",
 
   knowsAbout: [
@@ -1312,7 +1316,7 @@ alt="Latest official updates and announcements for Nashik Kumbh Mela 2027"
   <Link href="/blog/nashik-kumbh-mela-2027-development-plan">
     <div className="bg-white shadow-lg rounded-xl p-6 hover:shadow-2xl transition duration-300 border hover:-translate-y-1 cursor-pointer">
       <h3 className="text-xl font-bold text-gray-900 mb-2">
-        ₹25,000 Crore Development Plan for Nashik Kumbh Mela 2027
+      ₹22,425.39 Crore Development Plan for Nashik Kumbh Mela 2027
       </h3>
       <p className="text-gray-600 text-sm mb-3">
         Full breakdown of government budget, roads, railway, airport upgrades and infrastructure projects.

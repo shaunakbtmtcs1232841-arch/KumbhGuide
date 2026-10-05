@@ -1,3 +1,12 @@
+
+export const metadata = {
+  title: "Disclaimer | Nashik Kumbh Guide",
+  alternates: {
+  canonical: "https://kumbhnashikguide.com/disclaimer",
+},
+description: "Disclaimers related to the site .",
+};
+
 export default function DisclaimerPage() {
   return (
     <div className="min-h-screen bg-orange-50 py-16 px-6">

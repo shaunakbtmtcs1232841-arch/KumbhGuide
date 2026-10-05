@@ -3,6 +3,10 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Significance of Godavari River in Hinduism | Sacred River of Nashik Kumbh",
+  alternates: {
+  canonical:
+    "https://kumbhnashikguide.com/blog/significance-of-godavari-river",
+},
   description:
     "Discover the spiritual significance of the Godavari River in Hinduism, its connection with Nashik Kumbh Mela, Ramkund, and Trimbakeshwar Jyotirlinga.",
 };

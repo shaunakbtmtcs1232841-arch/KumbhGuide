@@ -2,7 +2,10 @@ import { Mail, MapPin } from "lucide-react";
 
 export const metadata = {
   title: "Contact Us | Nashik Kumbh Guide",
-  description: "Contact Nashik Kumbh Guide for questions, suggestions or updates.",
+  alternates: {
+  canonical: "https://kumbhnashikguide.com/contact",
+},
+description: "Contact Nashik Kumbh Guide for questions, suggestions or updates.",
 };
 
 export default function ContactPage() {

@@ -1,6 +1,10 @@
 export const metadata = {
   title: "Editorial Policy | Nashik Kumbh Guide",
-  description:
+  
+  alternates: {
+  canonical: "https://kumbhnashikguide.com/editorial-policy",
+},
+description:
     "Learn about the editorial standards, content creation process, fact-checking practices, and update policies followed by Nashik Kumbh Guide.",
 };
 

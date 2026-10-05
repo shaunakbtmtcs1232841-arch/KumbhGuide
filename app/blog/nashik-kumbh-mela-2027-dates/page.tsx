@@ -5,7 +5,12 @@ export const metadata: Metadata = {
   title: "Nashik Kumbh Mela 2027 Dates & Full Schedule | Official Snan Dates",
   description:
     "Complete list of Nashik Kumbh Mela 2027 dates including Amrit Snan, major bathing days, and important religious events from 2026 to 2028.",
-  keywords:
+  
+    alternates: {
+  canonical:
+    "https://kumbhnashikguide.com/blog/nashik-kumbh-mela-2027-dates",
+},
+    keywords:
     "Nashik Kumbh Mela 2027 dates, Kumbh snan dates Nashik, Amrit Snan 2027, Nashik Kumbh schedule, Kumbh Mela bathing dates",
 };
 

@@ -5,6 +5,9 @@ import { Button } from '@/components/ui/button';
 
 export const metadata = {
   title: 'Sacred Temples in Nashik | Nashik Kumbh Guide',
+  alternates: {
+  canonical: "https://kumbhnashikguide.com/temples",
+},
   description: 'Explore sacred temples in Nashik including Trimbakeshwar Jyotirlinga, Kalaram Temple, and other significant shrines.',
 };
 
