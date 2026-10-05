@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Nashik Kumbh Mela 2027 Development Plan: ₹25,000 Crore Projects Explained",
+  title: "Nashik Kumbh Mela 2027 Development Plan: ₹22,425.39 Crore Projects Explained",
   description:
     "Latest updates on Nashik Kumbh Mela 2027 development plan including budget, roads, ghats, railway, airport and infrastructure improvements.",
   alternates: {
@@ -14,12 +14,11 @@ export default function Page() {
     <div className="max-w-4xl mx-auto px-4 py-10 leading-7">
 
       <h1 className="text-3xl md:text-4xl font-bold mb-4">
-        Nashik Kumbh Mela 2027 Development Plan: ₹25,000 Crore Projects Explained
+        Nashik Kumbh Mela 2027 Development Plan: ₹22,425.39 Crore Projects Explained
       </h1>
 
       <p className="text-gray-600 mb-6">
-        The Maharashtra government has approved a massive development plan for Nashik Kumbh Mela 2027. With an investment of over ₹25,000 crore, the city is set to undergo major infrastructure upgrades to handle millions of visitors.
-      </p>
+The approved ₹22,425.39 crore comprehensive development plan covers infrastructure and supporting arrangements for the Nashik–Trimbakeshwar Simhastha Kumbh Mela 2027.      </p>
 
       <img
         src="/images/ramkund.jpg"
@@ -38,11 +37,11 @@ export default function Page() {
 
       {/* TOTAL PLAN */}
       <h2 className="text-2xl font-semibold mb-4">
-        ₹25,000 Crore Development Plan Overview
+₹22,425.39 Crore Development Plan Overview
       </h2>
 
       <ul className="list-disc pl-6 mb-8">
-        <li>Total development budget crosses ₹25,000 crore</li>
+        <li>Comprehensive development plan totals ₹22,425.39 crore</li>
         <li>Focus on roads, transport, safety, and infrastructure</li>
         <li>Massive upgrades to handle large crowds efficiently</li>
       </ul>

@@ -15,7 +15,7 @@ const latestUpdates = [
     image: "/images/development-plan.jpg",
     category: "Infrastructure Update",
     title:
-      "Nashik Kumbh Mela 2027 Development Plan: ₹25,000 Crore Projects Explained",
+      "Nashik Kumbh Mela 2027 Development Plan: ₹22,425.39 Crore Projects Explained",
     description:
       "Major infrastructure upgrades including roads, railway stations, airport development, ghats, sanitation systems, and transportation improvements are planned ahead of Nashik Kumbh Mela 2027.",
   },
