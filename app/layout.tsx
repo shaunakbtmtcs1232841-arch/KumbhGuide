@@ -11,35 +11,40 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://kumbhnashikguide.com'),
 
   icons: {
-  icon: [
-    { url: '/icon.ico', type: 'image/x-icon' },
-    { url: '/icon.png', type: 'image/png' },
-  ],
-  shortcut: '/favicon.ico',
-  apple: '/icon.png',
-},
+    icon: [
+      { url: '/icon.ico', type: 'image/x-icon' },
+      { url: '/icon.png', type: 'image/png' },
+    ],
+    shortcut: '/favicon.ico',
+    apple: '/icon.png',
+  },
 
   other: {
-  "google-adsense-account": "ca-pub-1617134626103059",
-},
+    'google-adsense-account': 'ca-pub-1617134626103059',
+  },
 
-  title: 'Nashik Kumbh Guide | Official Information & Travel Guide',
+  title: 'Nashik Kumbh Guide | Dates, Travel, Places & Updates',
+
   description:
-    'Comprehensive guide to Nashik-Trimbakeshwar Kumbh Mela. Temples, ghats, travel guide, important dates and updates for pilgrims visiting Nashik Kumbh.',
+    'Independent guide to Nashik-Trimbakeshwar Kumbh Mela 2027 covering important dates, Snan, temples, ghats, travel, budget, development projects and latest updates.',
 
-
+  robots: {
+    index: true,
+    follow: true,
+  },
 
   openGraph: {
-    title: 'Nashik Kumbh Guide',
+    title: 'Nashik Kumbh Guide | Dates, Travel, Places & Updates',
     description:
-      'Complete Nashik Kumbh Mela travel and information guide for pilgrims.',
+      'Independent guide to Nashik Kumbh Mela 2027 covering dates, Snan, travel, temples, ghats, budget, development projects and latest updates.',
     url: 'https://kumbhnashikguide.com',
     siteName: 'Nashik Kumbh Guide',
     images: [
       {
-        url: 'https://kumbhnashikguide.com/og-image.jpg', 
+        url: 'https://kumbhnashikguide.com/og-image.jpg',
         width: 1200,
         height: 630,
+        alt: 'Nashik Kumbh Mela 2027 Guide',
       },
     ],
     locale: 'en_IN',
@@ -48,13 +53,12 @@ export const metadata: Metadata = {
 
   twitter: {
     card: 'summary_large_image',
-    title: 'Nashik Kumbh Guide',
+    title: 'Nashik Kumbh Guide | Dates, Travel, Places & Updates',
     description:
-      'Official travel and info guide for Nashik Kumbh Mela pilgrims.',
+      'Independent guide to Nashik Kumbh Mela 2027 covering dates, travel, temples, ghats, budget and latest updates.',
     images: ['https://kumbhnashikguide.com/og-image.jpg'],
   },
 };
-
 
 export default function RootLayout({
   children,
