@@ -244,6 +244,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified,
     },
     {
+      url: "https://kumbhnashikguide.com/updates/birsa-munda-portrait-151000-diyas-ramkund-nashik",
+      lastModified,
+    },
+    {
       url: "https://kumbhnashikguide.com/updates/nashik-pune-highway-widening-kumbh-2027",
       lastModified,
     },
