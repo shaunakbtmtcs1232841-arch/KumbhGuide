@@ -29,6 +29,13 @@ const latestUpdates = [
       "Nashik Municipal Corporation is accelerating sewage treatment, pumping stations, sanitation systems, and river cleanup infrastructure projects ahead of Kumbh Mela 2027.",
   },
   {
+    href: "/updates/birsa-munda-portrait-151000-diyas-ramkund-nashik",
+    image: "/images/birsa-munda-ramkund.jpg",
+    title: " Diya artwork at Ramkund Ground near Goda Ghat in Nashik ",
+    description:
+      "Tribute to Bhagwan Birsa Munda on his 151st birth anniversary.....",
+  },
+  {
     href: "/updates/nashik-pune-highway-widening-kumbh-2027",
     image: "/images/nashik-pune-highway.jpg",
     category: "Infrastructure & Traffic Update",
@@ -85,13 +92,7 @@ const guides = [
     description:
       "Explore accommodation options, hotels, camps, and important stay tips.",
   },
-  {
-    href: "/updates/birsa-munda-portrait-151000-diyas-ramkund-nashik",
-    image: "/images/birsa-munda-ramkund.jpg",
-    title: " Diya artwork at Ramkund Ground near Goda Ghat in Nashik ",
-    description:
-      "Tribute to Bhagwan Birsa Munda on his 151st birth anniversary.....",
-  },
+  
   {
     href: "/blog/nashik-kumbh-mela-2027-dates",
     image: "/images/kumbh-dates.jpg",
