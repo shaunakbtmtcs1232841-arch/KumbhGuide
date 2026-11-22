@@ -86,6 +86,13 @@ const guides = [
       "Explore accommodation options, hotels, camps, and important stay tips.",
   },
   {
+    href: "/updates/birsa-munda-portrait-151000-diyas-ramkund-nashik",
+    image: "/images/birsa-munda-ramkund.jpg",
+    title: " Diya artwork at Ramkund Ground near Goda Ghat in Nashik ",
+    description:
+      "Tribute to Bhagwan Birsa Munda on his 151st birth anniversary.....",
+  },
+  {
     href: "/blog/nashik-kumbh-mela-2027-dates",
     image: "/images/kumbh-dates.jpg",
     title: "Nashik Kumbh Mela 2027 Dates",
