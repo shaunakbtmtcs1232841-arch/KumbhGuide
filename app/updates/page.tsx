@@ -213,7 +213,21 @@ export default function AncientShivaTempleDiscoveryPage() {
             Ancient Shiva Temple Remains Discovered Near Ramkund, Nashik
             During Kumbh Preparations
           </h1>
-
+          <figure className="mb-8">
+  <div className="relative aspect-video w-full overflow-hidden rounded-xl">
+    <Image
+      src="/images/ramkund-ancient-shiva-temple.jpg"
+      alt="Ancient Shiva temple remains discovered near Ramkund, Nashik"
+      fill
+      priority
+      sizes="(max-width: 768px) 100vw, 896px"
+      className="object-cover"
+    />
+  </div>
+  <figcaption className="mt-2 text-center text-sm text-gray-500">
+    Ancient Shiva temple remains reportedly discovered near Ramkund, Nashik.
+  </figcaption>
+</figure>
           <p className="mb-5 text-lg leading-relaxed text-gray-600">
             Excavation work in the Ramkund area has reportedly uncovered
             remains of an old Shiva temple opposite Dutondya Maruti.
