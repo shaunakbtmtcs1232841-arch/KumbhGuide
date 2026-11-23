@@ -10,6 +10,15 @@ export const metadata = {
 };
 
 const latestUpdates = [
+   {
+    href: "/updates/ancient-shiva-temple-discovered-ramkund-nashik-simhastha",
+    image: "/images/ramkund-ancient-shiva-temple.jpg",
+    category: "Latest Updates",
+    title:
+      "Ancient Shiva temple remains discovered near Dutondya Maruti at Ramkund",
+    description:
+      "remains of an old Shiva temple were found underground during excavation work near Dutondya Maruti in the Ramkund area of Nashik.",
+  },
   {
     href: "/blog/nashik-kumbh-mela-2027-development-plan",
     image: "/images/development-plan.jpg",

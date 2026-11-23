@@ -248,6 +248,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified,
     },
     {
+      url: "https://kumbhnashikguide.com/updates/ancient-shiva-temple-discovered-ramkund-nashik-simhastha",
+      lastModified,
+    },
+    {
       url: "https://kumbhnashikguide.com/updates/nashik-pune-highway-widening-kumbh-2027",
       lastModified,
     },
